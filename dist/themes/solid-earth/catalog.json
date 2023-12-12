@@ -1,0 +1,58 @@
+{
+  "type": "Catalog",
+  "id": "solid-earth",
+  "stac_version": "1.0.0",
+  "description": "Solid Earth refers to the crust, mantle and core. Because these parts of our world are completely hidden from view, understanding what is going on deep below our feet can only be done by using indirect measurements.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4DHydro's Open Science Catalog"
+    },
+    {
+      "rel": "preview",
+      "href": "./EO_Solid_Earth.webp",
+      "type": "image/webp",
+      "title": "Image",
+      "proj:epsg": null,
+      "proj:shape": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "type": "text/html",
+      "title": "Website"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/geoframe-soil-moisture-content-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe soil moisture content for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    }
+  ],
+  "updated": "2023-12-12T17:19:46.542996Z",
+  "keywords": [],
+  "title": "Solid Earth"
+}

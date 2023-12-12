@@ -1,0 +1,64 @@
+{
+  "type": "Collection",
+  "id": "geoframe-total-evapotranspiration-flux-for-po-river",
+  "stac_version": "1.0.0",
+  "description": "Geoframe total evapotranspiration flux for Po River",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4DHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./geoframe-gauge-et-po-30sec-daily-20151001-20180930/collection.json",
+      "type": "application/json",
+      "title": "Geoframe total evapotranspiration flux for Po River"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "Geoframe total evapotranspiration flux for Po River",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration"
+  ],
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:region": "Po",
+  "created": "2023-10-30T00:00:00Z",
+  "start_datetime": "2015-10-01T00:00:00Z",
+  "end_datetime": "2018-09-30T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-10-01T00:00:00Z",
+          "2018-09-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
