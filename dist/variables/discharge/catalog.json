@@ -1,0 +1,180 @@
+{
+  "type": "Catalog",
+  "id": "discharge",
+  "stac_version": "1.0.0",
+  "description": "Deltares will leverage on Global Water Watch\nand related ESA Surface2Storage project. Within these projects high-resolution EO data is used to quantify\nsurface water extent, level and volume, by combining data from sensors that can capture these types of dy-\nnamics (e.g., Sentinel-2 for surface water extent, ICESat-2 for water levels), enhanced by in-situ measurements\nwhen available. The combination with hydrological models enables a detailed assessment of reservoir inflow\nand outflow, which in the case of large reservoirs is a critical component of the downstream flow regime. This\ndata can additionally be used for calibration and/or validation of the models, which is also the case for the\nriver levels and discharge data that are also part of this task. In-situ measurements of this kind will be collected\nfor all study areas and supported by EO datasets",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4DHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://4dhydro.eu/wp-content/uploads/2023/08/proposal_4dhydro.pdf",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-0-0275-degree-discharge-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree discharge (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./geoframe-discharge-flux-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe discharge flux for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-discharge-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes discharge (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-discharge-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes discharge (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../evapotranspiration/tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./tsmp-0-11-degree-discharge-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree discharge (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-discharge-era-5-for-europe/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-discharge-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-discharge-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-discharge-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Tugela"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2024-03-26T13:37:29.910824Z",
+  "keywords": [],
+  "title": "discharge"
+}

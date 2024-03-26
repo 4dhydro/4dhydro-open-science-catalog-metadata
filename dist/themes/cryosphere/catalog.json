@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "cryosphere",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4DHydro's Open Science Catalog"
+    },
+    {
+      "rel": "preview",
+      "href": "./EO_Cryosphere.webp",
+      "type": "image/webp",
+      "title": "Image",
+      "proj:epsg": null,
+      "proj:shape": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "type": "text/html",
+      "title": "Website"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    }
+  ],
+  "updated": "2024-03-26T13:37:29.894824Z",
+  "keywords": [],
+  "title": "Cryosphere"
+}
