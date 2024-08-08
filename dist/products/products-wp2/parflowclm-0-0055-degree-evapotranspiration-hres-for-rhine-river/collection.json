@@ -1,0 +1,812 @@
+{
+  "type": "Collection",
+  "id": "parflowclm-0-0055-degree-evapotranspiration-hres-for-rhine-river",
+  "stac_version": "1.0.0",
+  "description": "PARFLOWCLM 0.0055 degree evapotranspiration (HRES) for Rhine River",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130102-20130131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-01-02 - 2013-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130201-20130228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-02-01 - 2013-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130301-20130331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-03-01 - 2013-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130401-20130430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-04-01 - 2013-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130501-20130531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-05-01 - 2013-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130601-20130630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-06-01 - 2013-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130701-20130731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-07-01 - 2013-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130801-20130831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-08-01 - 2013-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20130901-20130930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-09-01 - 2013-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20131001-20131031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-10-01 - 2013-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20131101-20131130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-11-01 - 2013-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20131201-20131231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2013-12-01 - 2013-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140102-20140131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-01-02 - 2014-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140201-20140228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-02-01 - 2014-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140301-20140331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-03-01 - 2014-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140401-20140430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-04-01 - 2014-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140501-20140531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-05-01 - 2014-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140601-20140630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-06-01 - 2014-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140701-20140731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-07-01 - 2014-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140801-20140831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-08-01 - 2014-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20140901-20140930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-09-01 - 2014-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20141001-20141031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-10-01 - 2014-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20141101-20141130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-11-01 - 2014-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20141201-20141231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2014-12-01 - 2014-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150102-20150131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-01-02 - 2015-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150201-20150228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-02-01 - 2015-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150301-20150331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-03-01 - 2015-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150401-20150430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-04-01 - 2015-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150501-20150531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-05-01 - 2015-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150601-20150630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-06-01 - 2015-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150701-20150731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-07-01 - 2015-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150801-20150831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-08-01 - 2015-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20150901-20150930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-09-01 - 2015-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20151001-20151031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-10-01 - 2015-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20151101-20151130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-11-01 - 2015-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20151201-20151231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2015-12-01 - 2015-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160102-20160131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-01-02 - 2016-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160201-20160229/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-02-01 - 2016-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160301-20160331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-03-01 - 2016-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160401-20160430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-04-01 - 2016-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160501-20160531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-05-01 - 2016-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160601-20160630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-06-01 - 2016-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160701-20160731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-07-01 - 2016-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160801-20160831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-08-01 - 2016-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20160901-20160930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-09-01 - 2016-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20161001-20161031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-10-01 - 2016-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20161101-20161130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-11-01 - 2016-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20161201-20161231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2016-12-01 - 2016-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170102-20170131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-01-02 - 2017-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170201-20170228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-02-01 - 2017-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170301-20170331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-03-01 - 2017-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170401-20170430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-04-01 - 2017-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170501-20170531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-05-01 - 2017-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170601-20170630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-06-01 - 2017-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170701-20170731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-07-01 - 2017-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170801-20170831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-08-01 - 2017-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20170901-20170930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-09-01 - 2017-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20171001-20171031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-10-01 - 2017-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20171101-20171130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-11-01 - 2017-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20171201-20171231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2017-12-01 - 2017-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180102-20180131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-01-02 - 2018-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180201-20180228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-02-01 - 2018-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180301-20180331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-03-01 - 2018-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180401-20180430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-04-01 - 2018-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180501-20180531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-05-01 - 2018-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180601-20180630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-06-01 - 2018-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180701-20180731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-07-01 - 2018-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180801-20180831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-08-01 - 2018-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20180901-20180930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-09-01 - 2018-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20181001-20181031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-10-01 - 2018-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20181101-20181130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-11-01 - 2018-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20181201-20181231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2018-12-01 - 2018-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190102-20190131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-01-02 - 2019-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190201-20190228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-02-01 - 2019-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190301-20190331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-03-01 - 2019-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190401-20190430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-04-01 - 2019-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190501-20190531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-05-01 - 2019-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190601-20190630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-06-01 - 2019-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190701-20190731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-07-01 - 2019-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190801-20190831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-08-01 - 2019-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20190901-20190930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-09-01 - 2019-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20191001-20191031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-10-01 - 2019-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20191101-20191130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-11-01 - 2019-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20191201-20191231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2019-12-01 - 2019-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200102-20200131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-01-02 - 2020-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200201-20200229/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-02-01 - 2020-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200301-20200331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-03-01 - 2020-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200401-20200430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-04-01 - 2020-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200501-20200531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-05-01 - 2020-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200601-20200630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-06-01 - 2020-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200701-20200731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-07-01 - 2020-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200801-20200831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-08-01 - 2020-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20200901-20200930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-09-01 - 2020-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20201001-20201031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-10-01 - 2020-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20201101-20201130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-11-01 - 2020-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20201201-20201231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2020-12-01 - 2020-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210102-20210131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-01-02 - 2021-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210201-20210228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-02-01 - 2021-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210301-20210331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-03-01 - 2021-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210401-20210430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-04-01 - 2021-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210501-20210531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-05-01 - 2021-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210601-20210630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-06-01 - 2021-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210701-20210731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-07-01 - 2021-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210801-20210831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-08-01 - 2021-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20210901-20210930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-09-01 - 2021-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20211001-20211031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-10-01 - 2021-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20211101-20211130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-11-01 - 2021-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20211201-20211231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2021-12-01 - 2021-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220102-20220131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-01-02 - 2022-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220201-20220228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-02-01 - 2022-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220301-20220331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-03-01 - 2022-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220401-20220430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-04-01 - 2022-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220501-20220531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-05-01 - 2022-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220601-20220630/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-06-01 - 2022-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220701-20220731/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-07-01 - 2022-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220801-20220831/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-08-01 - 2022-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20220901-20220930/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-09-01 - 2022-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20221001-20221031/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-10-01 - 2022-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20221101-20221130/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-11-01 - 2022-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20221201-20221231/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2022-12-01 - 2022-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20230102-20230131/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2023-01-02 - 2023-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20230201-20230228/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2023-02-01 - 2023-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20230301-20230331/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2023-03-01 - 2023-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20230401-20230430/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2023-04-01 - 2023-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20230501-20230531/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2023-05-01 - 2023-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-hres-et-rhine-0p0055deg-daily-20230601-20230601/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration for Rhine River (2023-06-01 - 2023-06-01)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP2 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "PARFLOWCLM 0.0055 degree evapotranspiration (HRES) for Rhine River",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "rhine",
+  "created": "2023-10-18T00:00:00Z",
+  "start_datetime": "2013-01-02T00:00:00Z",
+  "end_datetime": "2023-05-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        3.0,
+        46.0,
+        12.0,
+        53.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-01-02T00:00:00Z",
+          "2023-05-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

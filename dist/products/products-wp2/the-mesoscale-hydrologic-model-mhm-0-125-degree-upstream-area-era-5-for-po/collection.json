@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-era-5-for-po",
+  "stac_version": "1.0.0",
+  "description": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (ERA-5) for Po",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-era5-uparea-po-0p125deg/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (ERA-5) for Po"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP2 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (ERA-5) for Po",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "upstream area"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "Po",
+  "created": "2023-08-24T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
