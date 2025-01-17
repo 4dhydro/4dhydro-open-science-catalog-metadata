@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "tetis-era5-tugela-0p0625deg",
+  "stac_version": "1.0.0",
+  "description": "tetis_era5_tugela_0p0625deg",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-mask-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "Catchement mask for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-uparea-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "Upstream catchment area for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-q-tugela-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Discharge flux for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-sm-tugela-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Volumetric soil moisture content for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-tws-tugela-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Total water storage content for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-et-tugela-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Total evapotranspiration flux for Tugela River from Tetis model"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP2 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "tetis_era5_tugela_0p0625deg",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask",
+    "upstream area",
+    "discharge",
+    "soil moisture",
+    "total water storage",
+    "evapotranspiration"
+  ],
+  "osc:themes": [
+    "Oceans",
+    "land",
+    "Solid Earth",
+    "Atmosphere"
+  ],
+  "osc:region": "Tugela",
+  "created": "2023-04-09T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2020-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        28.0,
+        -30.0,
+        32.0,
+        -27.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

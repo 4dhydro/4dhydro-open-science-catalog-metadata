@@ -1,0 +1,2432 @@
+{
+  "type": "Collection",
+  "id": "wflow-sbm-30-arc-seconds-discharge-era-5-for-rhine",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900101-19900131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-01-01 - 1990-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900201-19900228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-02-01 - 1990-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900301-19900331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-03-01 - 1990-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900401-19900430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-04-01 - 1990-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900501-19900531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-05-01 - 1990-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900601-19900630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-06-01 - 1990-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900701-19900731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-07-01 - 1990-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900801-19900831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-08-01 - 1990-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19900901-19900930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-09-01 - 1990-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19901001-19901031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-10-01 - 1990-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19901101-19901130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-11-01 - 1990-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19901201-19901231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1990-12-01 - 1990-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910101-19910131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-01-01 - 1991-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910201-19910228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-02-01 - 1991-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910301-19910331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-03-01 - 1991-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910401-19910430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-04-01 - 1991-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910501-19910531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-05-01 - 1991-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910601-19910630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-06-01 - 1991-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910701-19910731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-07-01 - 1991-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910801-19910831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-08-01 - 1991-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19910901-19910930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-09-01 - 1991-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19911001-19911031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-10-01 - 1991-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19911101-19911130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-11-01 - 1991-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19911201-19911231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1991-12-01 - 1991-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920101-19920131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-01-01 - 1992-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920201-19920229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-02-01 - 1992-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920301-19920331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-03-01 - 1992-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920401-19920430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-04-01 - 1992-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920501-19920531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-05-01 - 1992-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920601-19920630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-06-01 - 1992-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920701-19920731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-07-01 - 1992-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920801-19920831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-08-01 - 1992-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19920901-19920930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-09-01 - 1992-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19921001-19921031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-10-01 - 1992-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19921101-19921130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-11-01 - 1992-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19921201-19921231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1992-12-01 - 1992-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930101-19930131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-01-01 - 1993-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930201-19930228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-02-01 - 1993-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930301-19930331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-03-01 - 1993-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930401-19930430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-04-01 - 1993-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930501-19930531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-05-01 - 1993-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930601-19930630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-06-01 - 1993-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930701-19930731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-07-01 - 1993-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930801-19930831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-08-01 - 1993-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19930901-19930930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-09-01 - 1993-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19931001-19931031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-10-01 - 1993-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19931101-19931130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-11-01 - 1993-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19931201-19931231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1993-12-01 - 1993-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940101-19940131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-01-01 - 1994-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940201-19940228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-02-01 - 1994-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940301-19940331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-03-01 - 1994-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940401-19940430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-04-01 - 1994-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940501-19940531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-05-01 - 1994-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940601-19940630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-06-01 - 1994-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940701-19940731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-07-01 - 1994-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940801-19940831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-08-01 - 1994-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19940901-19940930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-09-01 - 1994-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19941001-19941031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-10-01 - 1994-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19941101-19941130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-11-01 - 1994-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19941201-19941231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1994-12-01 - 1994-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950101-19950131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-01-01 - 1995-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950201-19950228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-02-01 - 1995-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950301-19950331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-03-01 - 1995-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950401-19950430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-04-01 - 1995-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950501-19950531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-05-01 - 1995-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950601-19950630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-06-01 - 1995-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950701-19950731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-07-01 - 1995-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950801-19950831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-08-01 - 1995-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19950901-19950930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-09-01 - 1995-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19951001-19951031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-10-01 - 1995-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19951101-19951130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-11-01 - 1995-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19951201-19951231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1995-12-01 - 1995-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960101-19960131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-01-01 - 1996-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960201-19960229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-02-01 - 1996-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960301-19960331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-03-01 - 1996-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960401-19960430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-04-01 - 1996-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960501-19960531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-05-01 - 1996-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960601-19960630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-06-01 - 1996-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960701-19960731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-07-01 - 1996-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960801-19960831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-08-01 - 1996-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19960901-19960930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-09-01 - 1996-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19961001-19961031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-10-01 - 1996-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19961101-19961130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-11-01 - 1996-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19961201-19961231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1996-12-01 - 1996-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970101-19970131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-01-01 - 1997-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970201-19970228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-02-01 - 1997-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970301-19970331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-03-01 - 1997-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970401-19970430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-04-01 - 1997-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970501-19970531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-05-01 - 1997-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970601-19970630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-06-01 - 1997-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970701-19970731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-07-01 - 1997-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970801-19970831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-08-01 - 1997-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19970901-19970930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-09-01 - 1997-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19971001-19971031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-10-01 - 1997-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19971101-19971130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-11-01 - 1997-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19971201-19971231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1997-12-01 - 1997-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980101-19980131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-01-01 - 1998-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980201-19980228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-02-01 - 1998-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980301-19980331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-03-01 - 1998-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980401-19980430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-04-01 - 1998-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980501-19980531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-05-01 - 1998-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980601-19980630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-06-01 - 1998-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980701-19980731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-07-01 - 1998-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980801-19980831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-08-01 - 1998-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19980901-19980930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-09-01 - 1998-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19981001-19981031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-10-01 - 1998-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19981101-19981130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-11-01 - 1998-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19981201-19981231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1998-12-01 - 1998-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990101-19990131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-01-01 - 1999-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990201-19990228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-02-01 - 1999-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990301-19990331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-03-01 - 1999-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990401-19990430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-04-01 - 1999-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990501-19990531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-05-01 - 1999-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990601-19990630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-06-01 - 1999-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990701-19990731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-07-01 - 1999-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990801-19990831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-08-01 - 1999-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19990901-19990930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-09-01 - 1999-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19991001-19991031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-10-01 - 1999-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19991101-19991130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-11-01 - 1999-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-19991201-19991231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (1999-12-01 - 1999-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000101-20000131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-01-01 - 2000-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000201-20000229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-02-01 - 2000-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000301-20000331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-03-01 - 2000-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000401-20000430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-04-01 - 2000-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000501-20000531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-05-01 - 2000-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000601-20000630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-06-01 - 2000-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000701-20000731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-07-01 - 2000-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000801-20000831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-08-01 - 2000-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20000901-20000930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-09-01 - 2000-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20001001-20001031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-10-01 - 2000-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20001101-20001130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-11-01 - 2000-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20001201-20001231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2000-12-01 - 2000-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010101-20010131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-01-01 - 2001-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010201-20010228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-02-01 - 2001-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010301-20010331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-03-01 - 2001-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010401-20010430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-04-01 - 2001-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010501-20010531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-05-01 - 2001-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010601-20010630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-06-01 - 2001-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010701-20010731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-07-01 - 2001-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010801-20010831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-08-01 - 2001-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20010901-20010930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-09-01 - 2001-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20011001-20011031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-10-01 - 2001-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20011101-20011130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-11-01 - 2001-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20011201-20011231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2001-12-01 - 2001-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020101-20020131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-01-01 - 2002-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020201-20020228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-02-01 - 2002-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020301-20020331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-03-01 - 2002-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020401-20020430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-04-01 - 2002-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020501-20020531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-05-01 - 2002-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020601-20020630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-06-01 - 2002-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020701-20020731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-07-01 - 2002-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020801-20020831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-08-01 - 2002-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20020901-20020930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-09-01 - 2002-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20021001-20021031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-10-01 - 2002-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20021101-20021130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-11-01 - 2002-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20021201-20021231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2002-12-01 - 2002-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030101-20030131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-01-01 - 2003-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030201-20030228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-02-01 - 2003-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030301-20030331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-03-01 - 2003-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030401-20030430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-04-01 - 2003-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030501-20030531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-05-01 - 2003-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030601-20030630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-06-01 - 2003-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030701-20030731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-07-01 - 2003-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030801-20030831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-08-01 - 2003-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20030901-20030930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-09-01 - 2003-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20031001-20031031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-10-01 - 2003-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20031101-20031130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-11-01 - 2003-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20031201-20031231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2003-12-01 - 2003-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040101-20040131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-01-01 - 2004-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040201-20040229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-02-01 - 2004-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040301-20040331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-03-01 - 2004-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040401-20040430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-04-01 - 2004-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040501-20040531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-05-01 - 2004-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040601-20040630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-06-01 - 2004-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040701-20040731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-07-01 - 2004-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040801-20040831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-08-01 - 2004-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20040901-20040930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-09-01 - 2004-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20041001-20041031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-10-01 - 2004-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20041101-20041130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-11-01 - 2004-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20041201-20041231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2004-12-01 - 2004-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050101-20050131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-01-01 - 2005-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050201-20050228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-02-01 - 2005-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050301-20050331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-03-01 - 2005-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050401-20050430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-04-01 - 2005-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050501-20050531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-05-01 - 2005-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050601-20050630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-06-01 - 2005-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050701-20050731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-07-01 - 2005-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050801-20050831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-08-01 - 2005-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20050901-20050930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-09-01 - 2005-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20051001-20051031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-10-01 - 2005-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20051101-20051130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-11-01 - 2005-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20051201-20051231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2005-12-01 - 2005-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060101-20060131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-01-01 - 2006-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060201-20060228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-02-01 - 2006-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060301-20060331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-03-01 - 2006-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060401-20060430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-04-01 - 2006-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060501-20060531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-05-01 - 2006-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060601-20060630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-06-01 - 2006-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060701-20060731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-07-01 - 2006-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060801-20060831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-08-01 - 2006-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20060901-20060930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-09-01 - 2006-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20061001-20061031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-10-01 - 2006-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20061101-20061130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-11-01 - 2006-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20061201-20061231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2006-12-01 - 2006-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070101-20070131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-01-01 - 2007-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070201-20070228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-02-01 - 2007-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070301-20070331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-03-01 - 2007-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070401-20070430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-04-01 - 2007-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070501-20070531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-05-01 - 2007-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070601-20070630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-06-01 - 2007-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070701-20070731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-07-01 - 2007-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070801-20070831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-08-01 - 2007-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20070901-20070930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-09-01 - 2007-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20071001-20071031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-10-01 - 2007-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20071101-20071130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-11-01 - 2007-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20071201-20071231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2007-12-01 - 2007-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080101-20080131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-01-01 - 2008-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080201-20080229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-02-01 - 2008-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080301-20080331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-03-01 - 2008-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080401-20080430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-04-01 - 2008-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080501-20080531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-05-01 - 2008-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080601-20080630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-06-01 - 2008-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080701-20080731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-07-01 - 2008-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080801-20080831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-08-01 - 2008-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20080901-20080930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-09-01 - 2008-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20081001-20081031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-10-01 - 2008-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20081101-20081130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-11-01 - 2008-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20081201-20081231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2008-12-01 - 2008-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090101-20090131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-01-01 - 2009-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090201-20090228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-02-01 - 2009-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090301-20090331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-03-01 - 2009-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090401-20090430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-04-01 - 2009-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090501-20090531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-05-01 - 2009-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090601-20090630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-06-01 - 2009-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090701-20090731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-07-01 - 2009-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090801-20090831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-08-01 - 2009-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20090901-20090930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-09-01 - 2009-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20091001-20091031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-10-01 - 2009-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20091101-20091130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-11-01 - 2009-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20091201-20091231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2009-12-01 - 2009-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100101-20100131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-01-01 - 2010-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100201-20100228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-02-01 - 2010-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100301-20100331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-03-01 - 2010-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100401-20100430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-04-01 - 2010-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100501-20100531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-05-01 - 2010-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100601-20100630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-06-01 - 2010-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100701-20100731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-07-01 - 2010-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100801-20100831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-08-01 - 2010-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20100901-20100930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-09-01 - 2010-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20101001-20101031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-10-01 - 2010-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20101101-20101130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-11-01 - 2010-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20101201-20101231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2010-12-01 - 2010-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110101-20110131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-01-01 - 2011-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110201-20110228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-02-01 - 2011-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110301-20110331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-03-01 - 2011-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110401-20110430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-04-01 - 2011-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110501-20110531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-05-01 - 2011-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110601-20110630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-06-01 - 2011-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110701-20110731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-07-01 - 2011-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110801-20110831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-08-01 - 2011-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20110901-20110930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-09-01 - 2011-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20111001-20111031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-10-01 - 2011-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20111101-20111130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-11-01 - 2011-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20111201-20111231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2011-12-01 - 2011-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120101-20120131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-01-01 - 2012-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120201-20120229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-02-01 - 2012-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120301-20120331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-03-01 - 2012-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120401-20120430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-04-01 - 2012-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120501-20120531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-05-01 - 2012-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120601-20120630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-06-01 - 2012-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120701-20120731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-07-01 - 2012-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120801-20120831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-08-01 - 2012-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20120901-20120930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-09-01 - 2012-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20121001-20121031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-10-01 - 2012-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20121101-20121130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-11-01 - 2012-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20121201-20121231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2012-12-01 - 2012-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130101-20130131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-01-01 - 2013-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130201-20130228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-02-01 - 2013-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130301-20130331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-03-01 - 2013-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130401-20130430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-04-01 - 2013-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130501-20130531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-05-01 - 2013-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130601-20130630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-06-01 - 2013-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130701-20130731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-07-01 - 2013-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130801-20130831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-08-01 - 2013-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20130901-20130930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-09-01 - 2013-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20131001-20131031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-10-01 - 2013-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20131101-20131130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-11-01 - 2013-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20131201-20131231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2013-12-01 - 2013-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140101-20140131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-01-01 - 2014-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140201-20140228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-02-01 - 2014-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140301-20140331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-03-01 - 2014-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140401-20140430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-04-01 - 2014-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140501-20140531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-05-01 - 2014-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140601-20140630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-06-01 - 2014-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140701-20140731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-07-01 - 2014-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140801-20140831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-08-01 - 2014-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20140901-20140930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-09-01 - 2014-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20141001-20141031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-10-01 - 2014-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20141101-20141130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-11-01 - 2014-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20141201-20141231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2014-12-01 - 2014-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150101-20150131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-01-01 - 2015-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150201-20150228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-02-01 - 2015-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150301-20150331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-03-01 - 2015-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150401-20150430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-04-01 - 2015-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150501-20150531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-05-01 - 2015-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150601-20150630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-06-01 - 2015-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150701-20150731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-07-01 - 2015-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150801-20150831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-08-01 - 2015-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20150901-20150930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-09-01 - 2015-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20151001-20151031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-10-01 - 2015-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20151101-20151130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-11-01 - 2015-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20151201-20151231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2015-12-01 - 2015-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160101-20160131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-01-01 - 2016-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160201-20160229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-02-01 - 2016-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160301-20160331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-03-01 - 2016-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160401-20160430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-04-01 - 2016-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160501-20160531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-05-01 - 2016-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160601-20160630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-06-01 - 2016-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160701-20160731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-07-01 - 2016-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160801-20160831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-08-01 - 2016-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20160901-20160930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-09-01 - 2016-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20161001-20161031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-10-01 - 2016-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20161101-20161130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-11-01 - 2016-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20161201-20161231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2016-12-01 - 2016-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170101-20170131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-01-01 - 2017-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170201-20170228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-02-01 - 2017-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170301-20170331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-03-01 - 2017-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170401-20170430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-04-01 - 2017-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170501-20170531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-05-01 - 2017-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170601-20170630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-06-01 - 2017-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170701-20170731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-07-01 - 2017-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170801-20170831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-08-01 - 2017-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20170901-20170930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-09-01 - 2017-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20171001-20171031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-10-01 - 2017-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20171101-20171130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-11-01 - 2017-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20171201-20171231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2017-12-01 - 2017-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180101-20180131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-01-01 - 2018-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180201-20180228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-02-01 - 2018-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180301-20180331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-03-01 - 2018-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180401-20180430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-04-01 - 2018-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180501-20180531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-05-01 - 2018-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180601-20180630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-06-01 - 2018-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180701-20180731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-07-01 - 2018-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180801-20180831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-08-01 - 2018-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20180901-20180930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-09-01 - 2018-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20181001-20181031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-10-01 - 2018-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20181101-20181130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-11-01 - 2018-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20181201-20181231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2018-12-01 - 2018-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190101-20190131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-01-01 - 2019-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190201-20190228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-02-01 - 2019-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190301-20190331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-03-01 - 2019-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190401-20190430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-04-01 - 2019-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190501-20190531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-05-01 - 2019-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190601-20190630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-06-01 - 2019-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190701-20190731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-07-01 - 2019-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190801-20190831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-08-01 - 2019-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20190901-20190930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-09-01 - 2019-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20191001-20191031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-10-01 - 2019-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20191101-20191130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-11-01 - 2019-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20191201-20191231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2019-12-01 - 2019-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200101-20200131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-01-01 - 2020-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200201-20200229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-02-01 - 2020-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200301-20200331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-03-01 - 2020-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200401-20200430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-04-01 - 2020-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200501-20200531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-05-01 - 2020-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200601-20200630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-06-01 - 2020-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200701-20200731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-07-01 - 2020-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200801-20200831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-08-01 - 2020-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20200901-20200930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-09-01 - 2020-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20201001-20201031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-10-01 - 2020-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20201101-20201130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-11-01 - 2020-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20201201-20201231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2020-12-01 - 2020-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210101-20210131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-01-01 - 2021-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210201-20210228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-02-01 - 2021-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210301-20210331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-03-01 - 2021-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210401-20210430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-04-01 - 2021-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210501-20210531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-05-01 - 2021-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210601-20210630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-06-01 - 2021-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210701-20210731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-07-01 - 2021-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210801-20210831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-08-01 - 2021-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20210901-20210930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-09-01 - 2021-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20211001-20211031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-10-01 - 2021-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20211101-20211130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-11-01 - 2021-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20211201-20211231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2021-12-01 - 2021-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220101-20220131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-01-01 - 2022-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220201-20220228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-02-01 - 2022-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220301-20220331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-03-01 - 2022-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220401-20220430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-04-01 - 2022-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220501-20220531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-05-01 - 2022-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220601-20220630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-06-01 - 2022-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220701-20220731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-07-01 - 2022-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220801-20220831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-08-01 - 2022-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20220901-20220930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-09-01 - 2022-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20221001-20221031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-10-01 - 2022-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20221101-20221130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-11-01 - 2022-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-rhine-30sec-daily-20221201-20221231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine (2022-12-01 - 2022-12-31)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP2 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "rhine",
+  "created": "2023-10-23T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        3.0,
+        46.0,
+        13.0,
+        53.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
