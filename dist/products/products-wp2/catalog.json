@@ -1,0 +1,34 @@
+{
+  "type": "Catalog",
+  "id": "products-wp2",
+  "stac_version": "1.0.0",
+  "description": "This catalog contains the reference datasets generated under Work Package 2 (WP2) of the 4DHydro project.\nWP2 focuses on creating a standardized, high-resolution Land Surface Models (LSM) and Hydrological Models (HM) dataset.\nThe products include key terrestrial essential climate variables (tECVs) such as soil moisture, precipitation, evapotranspiration, and more.\nThese datasets support the integration of Earth Observation (EO) data and LSM/HM modeling to advance the understanding of the hydrological cycle and improve water resource management.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-30-arc-seconds-discharge-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-30-arc-seconds-evapotranspiration-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds evapotranspiration (ERA-5) for Po"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    }
+  ],
+  "updated": "2025-06-12T14:49:38.100604Z",
+  "title": "WP2 Products"
+}

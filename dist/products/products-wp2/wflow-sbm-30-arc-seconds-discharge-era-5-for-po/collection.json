@@ -1,0 +1,488 @@
+{
+  "type": "Collection",
+  "id": "wflow-sbm-30-arc-seconds-discharge-era-5-for-po",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900101-19900131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-01-01 - 1990-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900201-19900228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-02-01 - 1990-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900301-19900331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-03-01 - 1990-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900401-19900430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-04-01 - 1990-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900501-19900531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-05-01 - 1990-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900601-19900630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-06-01 - 1990-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900701-19900731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-07-01 - 1990-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900801-19900831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-08-01 - 1990-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19900901-19900930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-09-01 - 1990-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19901001-19901031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-10-01 - 1990-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19901101-19901130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-11-01 - 1990-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19901201-19901231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1990-12-01 - 1990-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910101-19910131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-01-01 - 1991-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910201-19910228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-02-01 - 1991-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910301-19910331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-03-01 - 1991-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910401-19910430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-04-01 - 1991-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910501-19910531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-05-01 - 1991-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910601-19910630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-06-01 - 1991-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910701-19910731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-07-01 - 1991-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910801-19910831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-08-01 - 1991-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19910901-19910930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-09-01 - 1991-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19911001-19911031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-10-01 - 1991-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19911101-19911130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-11-01 - 1991-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19911201-19911231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1991-12-01 - 1991-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920101-19920131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-01-01 - 1992-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920201-19920229-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-02-01 - 1992-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920301-19920331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-03-01 - 1992-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920401-19920430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-04-01 - 1992-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920501-19920531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-05-01 - 1992-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920601-19920630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-06-01 - 1992-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920701-19920731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-07-01 - 1992-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920801-19920831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-08-01 - 1992-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19920901-19920930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-09-01 - 1992-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19921001-19921031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-10-01 - 1992-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19921101-19921130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-11-01 - 1992-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19921201-19921231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1992-12-01 - 1992-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930101-19930131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-01-01 - 1993-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930201-19930228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-02-01 - 1993-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930301-19930331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-03-01 - 1993-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930401-19930430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-04-01 - 1993-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930501-19930531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-05-01 - 1993-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930601-19930630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-06-01 - 1993-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930701-19930731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-07-01 - 1993-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930801-19930831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-08-01 - 1993-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19930901-19930930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-09-01 - 1993-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19931001-19931031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-10-01 - 1993-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19931101-19931130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-11-01 - 1993-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19931201-19931231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1993-12-01 - 1993-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940101-19940131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-01-01 - 1994-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940201-19940228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-02-01 - 1994-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940301-19940331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-03-01 - 1994-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940401-19940430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-04-01 - 1994-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940501-19940531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-05-01 - 1994-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940601-19940630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-06-01 - 1994-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940701-19940731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-07-01 - 1994-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940801-19940831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-08-01 - 1994-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19940901-19940930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-09-01 - 1994-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19941001-19941031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-10-01 - 1994-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19941101-19941130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-11-01 - 1994-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19941201-19941231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1994-12-01 - 1994-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950101-19950131-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-01-01 - 1995-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950201-19950228-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-02-01 - 1995-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950301-19950331-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-03-01 - 1995-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950401-19950430-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-04-01 - 1995-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950501-19950531-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-05-01 - 1995-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950601-19950630-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-06-01 - 1995-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950701-19950731-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-07-01 - 1995-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950801-19950831-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-08-01 - 1995-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19950901-19950930-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-09-01 - 1995-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19951001-19951031-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-10-01 - 1995-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19951101-19951130-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-11-01 - 1995-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-q-po-30sec-daily-19951201-19951231-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po (1995-12-01 - 1995-12-31)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP2 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "po",
+  "created": "2023-10-23T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "1995-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "1995-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,293 @@
+{
+  "type": "Collection",
+  "id": "4dhydro",
+  "stac_version": "1.0.0",
+  "description": "The overarching objective of 4DHydro is to foster collaborations between the Earth Observation (EO) water cycle community developing novel high-resolution EO data products, and the land surface and hydrological modelling community (LSM/HM) engaged in advancing hyperresolution modelling of the hydrological cycle at regional and continental scales. By involving several European institutions 4DHydro will assess and improve data sets of EO as well as synchronize EO products and LSM/HM models in order to improve predictions of the hydrological system",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://4dhydro.eu",
+      "title": "Website"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/4dhydro-precipitation-product-era5-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/4dhydro-precipitation-product-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/climate-hazards-group-infrared-precipitation/collection.json",
+      "type": "application/json",
+      "title": "Climate Hazards Group InfraRed precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/ensembles-daily-gridded-observational-dataset-for-precipitation/collection.json",
+      "type": "application/json",
+      "title": "ENSEMBLES daily gridded observational dataset for precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/european-meteorological-observations-1-arcmin/collection.json",
+      "type": "application/json",
+      "title": "European Meteorological Observations -1 arcmin"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/global-satellite-mapping-of-precipitation/collection.json",
+      "type": "application/json",
+      "title": "Global Satellite Mapping of precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/metop/h-safprecipitation-from-ascat/collection.json",
+      "type": "application/json",
+      "title": "H SAFPrecipitation from ASCAT"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/holaps-et/collection.json",
+      "type": "application/json",
+      "title": "HOLAPS ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/aqua/modis-aqua-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-AQUA ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/terra/modis-terra-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-TERRA ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/precipitation-estimation-from-remotely-sensed-information-using-artificial-neural-networks-cloud-classification-system/collection.json",
+      "type": "application/json",
+      "title": "precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks  Cloud Classification System"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/spanish-automatic-system-of-hydrologic-information/collection.json",
+      "type": "application/json",
+      "title": "Spanish Automatic System of Hydrologic Information"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-30-arc-seconds-discharge-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-30-arc-seconds-evapotranspiration-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds evapotranspiration (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/pcr-globwb-3-arc-minutes-discharge-chirps-for-tugela-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes discharge (CHIRPS) for Tugela in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/pcr-globwb-3-arc-minutes-evapotranspiration-chirps-for-tugela-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (CHIRPS) for Tugela in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/pcr-globwb-3-arc-minutes-soil-moisture-chirps-for-tugela-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (CHIRPS) for Tugela in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/pcr-globwb-3-arc-minutes-total-water-storage-chirps-for-tugela-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes total water storage (CHIRPS) for Tugela in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/pcr-globwb-30-arc-seconds-discharge-chirps-for-tugela-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (CHIRPS) for Tugela in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/pcr-globwb-30-arc-seconds-evapotranspiration-chirps-for-tugela-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (CHIRPS) for Tugela in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/pcr-globwb-30-arc-seconds-soil-moisture-chirps-for-tugela-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (CHIRPS) for Tugela in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/pcr-globwb-30-arc-seconds-soil-moisture-emo-1k-for-rhine-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (EMO-1k) for Rhine in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/pcr-globwb-30-arc-seconds-total-water-storage-chirps-for-tugela-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (CHIRPS) for Tugela in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-4-arc-minutes-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-2-arc-minutes-total-water-storage-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes total water storage (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-30-arc-seconds-discharge-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds discharge (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-4-arc-minutes-total-water-storage-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes total water storage (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:name": "Hyper-resolution Earth observations and land-surface modeling for a better understanding of the water cycle",
+  "osc:status": "ongoing",
+  "osc:type": "Project",
+  "contacts": [
+    {
+      "name": "Luis Samaniego",
+      "role": "Scientific Coordinator",
+      "emails": [
+        {
+          "value": "luis.samaniego@ufz.de"
+        }
+      ]
+    },
+    {
+      "name": "Helmholtz - Zentrum Fuer Umweltforschung GmbH - UFZ"
+    },
+    {
+      "name": "National Research Council of Italy-IRPI"
+    },
+    {
+      "name": "CSGROUP"
+    },
+    {
+      "name": "CzechGlobe"
+    },
+    {
+      "name": "Deltares"
+    },
+    {
+      "name": "Forschungszentrum Juelich GmbH"
+    },
+    {
+      "name": "Vienna University of Technology"
+    },
+    {
+      "name": "UK Centre for Ecology & Hydrology (UKCEH)"
+    },
+    {
+      "name": "University of Trento"
+    },
+    {
+      "name": "Universitat Polit\u00e8cnica de Val\u00e8ncia"
+    },
+    {
+      "name": "Utrecht University"
+    }
+  ],
+  "start_datetime": "2023-06-26T00:00:00Z",
+  "end_datetime": "2024-12-12T00:00:00Z",
+  "updated": "2025-06-12T14:49:27.727383Z",
+  "title": "4dHydro",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -24.433594,
+          -36.315125,
+          41.132813,
+          70.377854
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-06-26T00:00:00Z",
+          "2024-12-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

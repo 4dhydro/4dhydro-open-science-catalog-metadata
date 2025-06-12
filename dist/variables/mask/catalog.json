@@ -1,0 +1,42 @@
+{
+  "type": "Catalog",
+  "id": "mask",
+  "stac_version": "1.0.0",
+  "description": "CSGROUP has been in charge producing surface water masks at 10m resolution using either Sentinel 1 radar images, Sentinel 2 optical images or a combination of both. On Sentinel\n2 images clouds can be masked or removed using the MAJA algorithm [52, 53]. Single masks (at observation\ntime) or monthly mean water masks (to reduced uncertainty) can be produced by this chain. In 4DHydro ,\nCSGROUP \u2013 France proposes to produce dynamic water masks for the four study regions. These masks will\nbe computed using the Surfwater toolchain and eventually using other dedicated tools used by the French scientific community. In that case, CSGROUP \u2013 France will merge the products and whenever it is possible\nproduce the corresponding uncertainty maps. Moreover, CSGROUP \u2013 France will also gather existing open\ndatasets of dynamic surface water masks, such as The Landsat Collection 2 (C2) Level-3 Dynamic Surface Water\nExtent (DSWE) or dynamic water masks produced by our partners.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://4dhydro.eu/wp-content/uploads/2023/08/proposal_4dhydro.pdf",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Oceans"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-06-12T14:49:27.775384Z",
+  "keywords": [],
+  "title": "mask"
+}
