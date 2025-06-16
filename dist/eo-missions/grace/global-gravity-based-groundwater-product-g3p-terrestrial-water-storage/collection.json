@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "global-gravity-based-groundwater-product-g3p-terrestrial-water-storage",
+  "stac_version": "1.0.0",
+  "description": "Global Gravity-based Groundwater Product (G3P) Terrestrial Water Storage",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp1/global-gravity-based-groundwater-product-g3p-terrestrial-water-storage/g3p-tws/collection.json",
+      "type": "application/json",
+      "title": "Global Gravity-based Groundwater Product (G3P) Terrestrial Water Storage v1.11"
+    },
+    {
+      "rel": "related",
+      "href": "../../../projects/g3p/collection.json",
+      "type": "application/json",
+      "title": "Project: G3P"
+    },
+    {
+      "rel": "related",
+      "href": "../../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: land"
+    },
+    {
+      "rel": "related",
+      "href": "../../../variables/total-water-storage/catalog.json",
+      "type": "application/json",
+      "title": "Variable: total water storage "
+    },
+    {
+      "rel": "related",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: GRACE"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GRACE"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "collection",
+  "osc:missions": [
+    "GRACE"
+  ],
+  "osc:project": "G3P",
+  "osc:variables": [
+    "total water storage"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "global",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2002-01-04T00:00:00Z",
+  "end_datetime": "2022-01-12T00:00:00Z",
+  "updated": "2025-06-16T07:44:46.281085Z",
+  "title": "Global Gravity-based Groundwater Product (G3P) Terrestrial Water Storage",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-01-04T00:00:00Z",
+          "2022-01-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

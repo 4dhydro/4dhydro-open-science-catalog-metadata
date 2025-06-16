@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-emo-q-rhine-30sec-daily-exp10-20180401-20180430-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm (exp10): 30 arc-seconds discharge output (forced using EMO) for the Rhine region between 2018-04-01 and 2018-04-30",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/c4e053ad-0d80-43d2-9d10-e61a55b91246/1/wflowsbm_emo_q_rhine_30sec_daily_exp10_20180401_20180430.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/c4e053ad-0d80-43d2-9d10-e61a55b91246"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/discharge/wflow-sbm-exp10-30-arc-seconds-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds discharge (EMO) for Rhine "
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:region": "Rhine",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-03-29T00:00:00Z",
+  "start_datetime": "2018-01-04T00:00:00Z",
+  "end_datetime": "2018-04-30T00:00:00Z",
+  "sci:doi": "10.4121/c4e053ad-0d80-43d2-9d10-e61a55b91246",
+  "updated": "2025-06-16T09:58:11.422854Z",
+  "title": "wflow_sbm (exp10) 30 arc-seconds discharge (EMO) for Rhine (2018-04-01 - 2018-04-30)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.0,
+          46.0,
+          13.0,
+          53.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-04T00:00:00Z",
+          "2018-04-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_emo_q_rhine_30sec_daily_exp10_20180401_20180430.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/c4e053ad-0d80-43d2-9d10-e61a55b91246/1/wflowsbm_emo_q_rhine_30sec_daily_exp10_20180401_20180430.nc"
+    }
+  }
+}

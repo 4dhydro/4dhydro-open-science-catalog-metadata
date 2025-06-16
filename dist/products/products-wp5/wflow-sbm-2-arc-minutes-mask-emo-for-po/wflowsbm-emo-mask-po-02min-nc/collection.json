@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-emo-mask-po-02min-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm: 2 arc-minutes mask output (forced using EMO) for the Po region",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/1abe4de8-ecef-48c0-bbde-c599357c4102/1/wflowsbm_emo_mask_po_02min.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/1abe4de8-ecef-48c0-bbde-c599357c4102"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/mask/wflow-sbm-2-arc-minutes-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes mask (EMO) for Po"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask"
+  ],
+  "osc:region": "Po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "2 arc-minutes",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-03-29T00:00:00Z",
+  "sci:doi": "10.4121/1abe4de8-ecef-48c0-bbde-c599357c4102",
+  "updated": "2025-06-16T09:35:50.795156Z",
+  "title": "wflow_sbm 2 arc-minutes mask (EMO) for Po",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          12.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_emo_mask_po_02min.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/1abe4de8-ecef-48c0-bbde-c599357c4102/1/wflowsbm_emo_mask_po_02min.nc"
+    }
+  }
+}

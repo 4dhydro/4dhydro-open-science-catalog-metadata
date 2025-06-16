@@ -1,0 +1,303 @@
+{
+  "type": "Collection",
+  "id": "tetis-mergedera5gpmsm2a-po-7p5sec-exp30",
+  "stac_version": "1.0.0",
+  "description": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp30",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-et-po-7p5sec-daily-exp30-20070101-20081231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (MERGEDERA5GPMSM2A) for Po river (2007-01-01 - 2008-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-et-po-7p5sec-daily-exp30-20090101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (MERGEDERA5GPMSM2A) for Po river (2009-01-01 - 2010-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-et-po-7p5sec-daily-exp30-20110101-20121231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (MERGEDERA5GPMSM2A) for Po river (2011-01-01 - 2012-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-et-po-7p5sec-daily-exp30-20130101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (MERGEDERA5GPMSM2A) for Po river (2013-01-01 - 2014-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-et-po-7p5sec-daily-exp30-20150101-20161231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (MERGEDERA5GPMSM2A) for Po river (2015-01-01 - 2016-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-et-po-7p5sec-daily-exp30-20170101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (MERGEDERA5GPMSM2A) for Po river (2017-01-01 - 2018-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-et-po-7p5sec-daily-exp30-20190101-20201231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (MERGEDERA5GPMSM2A) for Po river (2019-01-01 - 2020-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-et-po-7p5sec-daily-exp30-20210101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (MERGEDERA5GPMSM2A) for Po river (2021-01-01 - 2022-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp30-20070101-20081231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2007-01-01 - 2008-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp30-20090101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2009-01-01 - 2010-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp30-20110101-20121231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2011-01-01 - 2012-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp30-20130101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2013-01-01 - 2014-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp30-20150101-20161231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2015-01-01 - 2016-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp30-20170101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2017-01-01 - 2018-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp30-20190101-20201231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2019-01-01 - 2020-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp30-20210101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2021-01-01 - 2022-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-sm-po-7p5sec-daily-exp30-20070101-20081231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (MERGEDERA5GPMSM2A) for Po river (2007-01-01 - 2008-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-sm-po-7p5sec-daily-exp30-20090101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (MERGEDERA5GPMSM2A) for Po river (2009-01-01 - 2010-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-sm-po-7p5sec-daily-exp30-20110101-20121231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (MERGEDERA5GPMSM2A) for Po river (2011-01-01 - 2012-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-sm-po-7p5sec-daily-exp30-20130101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (MERGEDERA5GPMSM2A) for Po river (2013-01-01 - 2014-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-sm-po-7p5sec-daily-exp30-20150101-20161231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (MERGEDERA5GPMSM2A) for Po river (2015-01-01 - 2016-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-sm-po-7p5sec-daily-exp30-20170101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (MERGEDERA5GPMSM2A) for Po river (2017-01-01 - 2018-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-sm-po-7p5sec-daily-exp30-20190101-20201231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (MERGEDERA5GPMSM2A) for Po river (2019-01-01 - 2020-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-sm-po-7p5sec-daily-exp30-20210101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (MERGEDERA5GPMSM2A) for Po river (2021-01-01 - 2022-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-swe-po-7p5sec-daily-exp30-20070101-20081231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (MERGEDERA5GPMSM2A) for Po river (2007-01-01 - 2008-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-swe-po-7p5sec-daily-exp30-20090101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (MERGEDERA5GPMSM2A) for Po river (2009-01-01 - 2010-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-swe-po-7p5sec-daily-exp30-20110101-20121231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (MERGEDERA5GPMSM2A) for Po river (2011-01-01 - 2012-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-swe-po-7p5sec-daily-exp30-20130101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (MERGEDERA5GPMSM2A) for Po river (2013-01-01 - 2014-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-swe-po-7p5sec-daily-exp30-20150101-20161231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (MERGEDERA5GPMSM2A) for Po river (2015-01-01 - 2016-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-swe-po-7p5sec-daily-exp30-20170101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (MERGEDERA5GPMSM2A) for Po river (2017-01-01 - 2018-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-swe-po-7p5sec-daily-exp30-20190101-20201231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (MERGEDERA5GPMSM2A) for Po river (2019-01-01 - 2020-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-swe-po-7p5sec-daily-exp30-20210101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (MERGEDERA5GPMSM2A) for Po river (2021-01-01 - 2022-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20070101-20081231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2007-01-01 - 2008-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20090101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2009-01-01 - 2010-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20110101-20121231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2011-01-01 - 2012-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20130101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2013-01-01 - 2014-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20150101-20161231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2015-01-01 - 2016-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20170101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2017-01-01 - 2018-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20190101-20201231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2019-01-01 - 2020-12-31) in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20210101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2021-01-01 - 2022-12-31) in experiment 30"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp30",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration",
+    "discharge",
+    "soil moisture",
+    "snow",
+    "total water storage"
+  ],
+  "osc:themes": [
+    "Atmosphere",
+    "land",
+    "Solid Earth",
+    "Cryosphere"
+  ],
+  "osc:region": "po",
+  "created": "2024-12-16T00:00:00Z",
+  "start_datetime": "2007-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

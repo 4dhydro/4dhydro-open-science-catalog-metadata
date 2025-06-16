@@ -1,0 +1,89 @@
+{
+  "type": "Collection",
+  "id": "emo-1-2008",
+  "stac_version": "1.0.0",
+  "description": "EMO (European Meteorological Observations) is a European high-spatial and temporal resolution (daily) data set . EMO is provided within the Copernicus Emergency Management Service and includes several variables. Among the released variables the product provides total precipitation. The insitu observations are quality checked and then interpolated through SPHEREMAP and Yamamoto methods. Further information on the methods used can be found in the below scientific publication of the dataset. EMO is currently available in two spatial resolutions: EMO-5 provides grids with a spatial resolution of 5kmx5km and covers the time period from 1990 to 2019. EMO-1 provides grids with a spatial resolution of 1arcminx1arcmin (approx. 1.5km) and covers the time period from 1990-2022. EMO-1 was adopted in this project.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/meteorological_forcings/EMO-1arcmin/pr/EMO-1arcmin-pr_2008.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/doi%3A10.2905/0BD84BE4-CEC8-4180-97A6-8B3ADAAC4D26"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/precipitation/european-meteorological-observations-1-arcmin/collection.json",
+      "type": "application/json",
+      "title": "European Meteorological Observations -1 arcmin"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:region": "Europe",
+  "osc:category": "hr reference",
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "1 arcmin",
+  "osc:temporal_resolution": "d",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2008-01-01T00:00:00Z",
+  "end_datetime": "2008-12-31T00:00:00Z",
+  "sci:doi": "doi:10.2905/0BD84BE4-CEC8-4180-97A6-8B3ADAAC4D26",
+  "updated": "2025-06-16T07:44:43.652052Z",
+  "title": "European Meteorological Observations -1 arcmin -2008",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -25.24,
+          22.76,
+          50.24,
+          72.24
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2008-01-01T00:00:00Z",
+          "2008-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "CNR-IRPI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "EMO-1 2008": {
+      "href": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/meteorological_forcings/EMO-1arcmin/pr/EMO-1arcmin-pr_2008.nc"
+    }
+  }
+}

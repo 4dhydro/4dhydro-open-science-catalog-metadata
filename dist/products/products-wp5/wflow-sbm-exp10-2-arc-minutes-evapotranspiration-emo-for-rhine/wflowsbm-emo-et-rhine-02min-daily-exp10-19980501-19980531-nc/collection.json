@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-emo-et-rhine-02min-daily-exp10-19980501-19980531-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm (exp10): 2 arc-minutes evapotranspiration output (forced using EMO) for the Rhine region between 1998-05-01 and 1998-05-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/c4e053ad-0d80-43d2-9d10-e61a55b91246/1/wflowsbm_emo_et_rhine_02min_daily_exp10_19980501_19980531.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/c4e053ad-0d80-43d2-9d10-e61a55b91246"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/evapotranspiration/wflow-sbm-exp10-2-arc-minutes-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes evapotranspiration (EMO) for Rhine "
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration"
+  ],
+  "osc:region": "Rhine",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "2 arc-minutes",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-03-29T00:00:00Z",
+  "start_datetime": "1998-01-05T00:00:00Z",
+  "end_datetime": "1998-05-31T00:00:00Z",
+  "sci:doi": "10.4121/c4e053ad-0d80-43d2-9d10-e61a55b91246",
+  "updated": "2025-06-16T09:43:48.839153Z",
+  "title": "wflow_sbm (exp10) 2 arc-minutes evapotranspiration (EMO) for Rhine (1998-05-01 - 1998-05-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.0,
+          46.0,
+          12.0,
+          53.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1998-01-05T00:00:00Z",
+          "1998-05-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_emo_et_rhine_02min_daily_exp10_19980501_19980531.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/c4e053ad-0d80-43d2-9d10-e61a55b91246/1/wflowsbm_emo_et_rhine_02min_daily_exp10_19980501_19980531.nc"
+    }
+  }
+}

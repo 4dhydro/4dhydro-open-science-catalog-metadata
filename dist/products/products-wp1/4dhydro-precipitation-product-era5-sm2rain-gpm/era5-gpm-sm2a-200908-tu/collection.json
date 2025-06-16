@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "era5-gpm-sm2a-200908-tu",
+  "stac_version": "1.0.0",
+  "description": "The product is characterized by the integration of ERA5-Land reanalysis precipitation product",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://cnrirpi.s3.sbg.io.cloud.ovh.net/cnrirpi_mergedera5gpmsm2a_p_tugela_0p0083deg_daily_20090801_20090831.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../eo-missions/gpm/4dhydro-precipitation-product-era5-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+SM2RAIN+GPM"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:missions": [
+    "METOP",
+    "GPM"
+  ],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:region": "tugela",
+  "osc:category": "HR",
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "1 km",
+  "osc:temporal_resolution": "d",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2009-08-01T00:00:00Z",
+  "end_datetime": "2009-08-31T00:00:00Z",
+  "updated": "2025-06-16T07:44:14.773687Z",
+  "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200908 for tugela",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -30.0,
+          32.0,
+          -27.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-08-01T00:00:00Z",
+          "2009-08-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "CNR-IRPI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "ERA5+GPM+SM2A-200908 TU": {
+      "href": "https://cnrirpi.s3.sbg.io.cloud.ovh.net/cnrirpi_mergedera5gpmsm2a_p_tugela_0p0083deg_daily_20090801_20090831.nc"
+    }
+  }
+}

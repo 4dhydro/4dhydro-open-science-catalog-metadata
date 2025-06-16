@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "tsmp-erai-et-europe-0p11deg-daily-20050101-20051231",
+  "stac_version": "1.0.0",
+  "description": "TSMP 0.11 degree evapotranspiration output for the Europe region between 2005-01-01 and 2005-12-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://datapub.fz-juelich.de/slts/4DHydro/data_tsmp_europe//tsmp_erai_et_europe_0p11deg_daily_20050101_20051231.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/HPSCTerrSys/TSMP",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/slts/4DHydro/"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/evapotranspiration/tsmp-0-11-degree-evapotranspiration-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree evapotranspiration (ERAI) for Europe"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration"
+  ],
+  "osc:region": "europe",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "0.11 degree",
+  "osc:temporal_resolution": "daily",
+  "created": "2023-10-18T00:00:00Z",
+  "start_datetime": "2005-01-01T00:00:00Z",
+  "end_datetime": "2005-12-31T00:00:00Z",
+  "sci:doi": "slts/4DHydro/",
+  "updated": "2025-06-16T07:51:32.267261Z",
+  "title": "TSMP 0.11 degree evapotranspiration for Europe (2005-01-01 - 2005-12-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.0,
+          33.0,
+          41.0,
+          73.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2005-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "FZJ",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "tsmp_erai_et_europe_0p11deg_daily_20050101_20051231": {
+      "href": "https://datapub.fz-juelich.de/slts/4DHydro/data_tsmp_europe//tsmp_erai_et_europe_0p11deg_daily_20050101_20051231.nc"
+    }
+  }
+}

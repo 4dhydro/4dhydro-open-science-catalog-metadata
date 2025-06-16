@@ -1,0 +1,70 @@
+{
+  "type": "Catalog",
+  "id": "eo-missions",
+  "stac_version": "1.0.0",
+  "description": "Earth Observation Satellite Missions",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./aqua/catalog.json",
+      "type": "application/json",
+      "title": "AQUA"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm/catalog.json",
+      "type": "application/json",
+      "title": "GPM"
+    },
+    {
+      "rel": "child",
+      "href": "./grace/catalog.json",
+      "type": "application/json",
+      "title": "GRACE"
+    },
+    {
+      "rel": "child",
+      "href": "./metop/catalog.json",
+      "type": "application/json",
+      "title": "METOP"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "Sentinel-1"
+    },
+    {
+      "rel": "child",
+      "href": "./smap/catalog.json",
+      "type": "application/json",
+      "title": "SMAP"
+    },
+    {
+      "rel": "child",
+      "href": "./smos/catalog.json",
+      "type": "application/json",
+      "title": "SMOS"
+    },
+    {
+      "rel": "child",
+      "href": "./terra/catalog.json",
+      "type": "application/json",
+      "title": "TERRA"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.970196Z",
+  "title": "EO Missions"
+}

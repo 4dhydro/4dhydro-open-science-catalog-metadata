@@ -1,0 +1,53 @@
+{
+  "type": "Catalog",
+  "id": "gpm",
+  "stac_version": "1.0.0",
+  "description": "The Global Precipitation Measurement (GPM) mission is an international network of satellites that provide next-generation global observations of rain and snow. The GPM concept centers on the deployment of a \ufffdCore Observatory\ufffd satellite carrying an advanced radar / radiometer system to measure precipitation from space and serve as a reference standard to unify precipitation measurements from a constellation of research and operational satellites.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://gpm.nasa.gov/missions/GPM",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./4d-med-precipitation-product/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product"
+    },
+    {
+      "rel": "child",
+      "href": "./4dhydro-precipitation-product-era5-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "./4dhydro-precipitation-product-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "./global-satellite-mapping-of-precipitation/collection.json",
+      "type": "application/json",
+      "title": "Global Satellite Mapping of precipitation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.503190Z",
+  "keywords": [],
+  "title": "GPM"
+}

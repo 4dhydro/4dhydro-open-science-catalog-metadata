@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp31-20090701-20090731",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 30 arc-seconds discharge output (forced using ERA5+IMERG+SM2A) for the Tugela region in experiment 31 between 20090701 and 20090731)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data[1739790742]/original/exp31/pcrglobwb_mergedera5gpmsm2a_tugela_30sec/pcrglobwb_mergedera5gpmsm2a_q_tugela_30sec_daily_exp31_20090701_20090731.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/UU-Hydro/PCR-GLOBWB_model",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.24416/UU01-Y82U66"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/discharge/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 31"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:region": "tugela",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2025-02-01T00:00:00Z",
+  "start_datetime": "2009-07-01T00:00:00Z",
+  "end_datetime": "2009-07-31T00:00:00Z",
+  "sci:doi": "10.24416/UU01-Y82U66",
+  "updated": "2025-06-16T08:31:55.898567Z",
+  "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 31 (2009-07-01 - 2009-07-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -29.0,
+          31.0,
+          -27.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-07-01T00:00:00Z",
+          "2009-07-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Utrecht University",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "pcrglobwb_mergedera5gpmsm2a_q_tugela_30sec_daily_exp31_20090701_20090731": {
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data[1739790742]/original/exp31/pcrglobwb_mergedera5gpmsm2a_tugela_30sec/pcrglobwb_mergedera5gpmsm2a_q_tugela_30sec_daily_exp31_20090701_20090731.nc"
+    }
+  }
+}

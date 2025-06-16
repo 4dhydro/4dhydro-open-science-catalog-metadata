@@ -1,0 +1,1888 @@
+{
+  "type": "Catalog",
+  "id": "land",
+  "stac_version": "1.0.0",
+  "description": "A specified geographical tract of the Earth's surface including all its attributes, comprising its geology, superficial deposits, topography, hydrology, soils, flora and fauna, together with the results of past and present human activity, to the extent that these attributes exert a significant influence on the present and future land utilization. ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "preview",
+      "href": "./EO_Land.webp",
+      "type": "image/webp",
+      "title": "Image",
+      "proj:epsg": null,
+      "proj:shape": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "type": "text/html",
+      "title": "Website"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/smos/barcelona-expert-center-smos-soil-moisture/collection.json",
+      "type": "application/json",
+      "title": "Barcelona Expert Center SMOS Soil Moisture"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/sentinel-1/cgls-soil-water-index-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Soil Water Index 1km"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/sentinel-1/cgls-surface-soil-moisture-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Surface Soil Moisture 1km"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/grace/global-gravity-based-groundwater-product-g3p-groundwater-storage-anomalies/collection.json",
+      "type": "application/json",
+      "title": "Global Gravity-based Groundwater Product (G3P) Groundwater Storage Anomalies"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/grace/global-gravity-based-groundwater-product-g3p-terrestrial-water-storage/collection.json",
+      "type": "application/json",
+      "title": "Global Gravity-based Groundwater Product (G3P) Terrestrial Water Storage"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/holaps-et/collection.json",
+      "type": "application/json",
+      "title": "HOLAPS ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/aqua/modis-aqua-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-AQUA ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/terra/modis-terra-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-TERRA ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/smap/smap-derived-1-km-downscaled-surface-soil-moisture-product/collection.json",
+      "type": "application/json",
+      "title": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/clm-0-0275-degree-discharge-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree discharge (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/clm-0-0275-degree-evapotranspiration-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree evapotranspiration (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/clm-0-0275-degree-mask-rea6-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree mask (REA6) for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/clm-0-0275-degree-mask-rea6-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree mask (REA6) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/clm-0-0275-degree-soil-moisture-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree soil moisture (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/clm-0-0275-degree-total-water-storage-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree total water storage (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/clm-0-0275-degree-upstream-area-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree upstream area (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/clm-0-0275-degree-upstream-area-rea6-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree upstream area (REA6) for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/clm-0-0275-degree-upstream-area-rea6-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree upstream area (REA6) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/geoframe-discharge-flux-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe discharge flux for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/geoframe-total-water-storage-content-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe total water storage content for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/geoframe-upstream-catchment-area-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe upstream catchment area for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/parflowclm-0-0055-degree-evapotranspiration-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/parflowclm-0-0055-degree-mask-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree mask (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/parflowclm-0-0055-degree-soil-moisture-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree soil moisture (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/parflowclm-0-0055-degree-total-water-storage-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree total water storage (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/parflowclm-0-0055-degree-upstream-area-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree upstream area (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/pcr-globwb-5-arc-minutes-discharge-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes discharge (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/pcr-globwb-5-arc-minutes-discharge-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes discharge (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/pcr-globwb-5-arc-minutes-evapotranspiration-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes evapotranspiration (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/pcr-globwb-5-arc-minutes-evapotranspiration-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes evapotranspiration (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/pcr-globwb-5-arc-minutes-mask-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/pcr-globwb-5-arc-minutes-mask-era-interim-for-po/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/pcr-globwb-5-arc-minutes-mask-era-interim-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/pcr-globwb-5-arc-minutes-mask-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/pcr-globwb-5-arc-minutes-soil-moisture-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes soil moisture (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/pcr-globwb-5-arc-minutes-soil-moisture-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes soil moisture (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/pcr-globwb-5-arc-minutes-total-water-storage-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes total water storage (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/pcr-globwb-5-arc-minutes-total-water-storage-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes total water storage (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/pcr-globwb-5-arc-minutes-upstream-area-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes upstream area (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/pcr-globwb-5-arc-minutes-upstream-area-era-interim-for-po/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes upstream area (ERA-Interim) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/pcr-globwb-5-arc-minutes-upstream-area-era-interim-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes upstream area (ERA-Interim) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/pcr-globwb-5-arc-minutes-upstream-area-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes upstream area (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-015625-degree-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-015625-degree-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-015625-degree-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree soil moisture (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-015625-degree-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree soil moisture (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-015625-degree-total-water-storage-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree total water storage (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-015625-degree-total-water-storage-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree total water storage (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-015625-degree-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-015625-degree-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-125-degree-total-water-storage-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree total water storage (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-125-degree-total-water-storage-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree total water storage (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-125-degree-total-water-storage-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree total water storage (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-125-degree-total-water-storage-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree total water storage (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-125-degree-total-water-storage-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree total water storage (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/tsmp-0-11-degree-discharge-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree discharge (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tsmp-0-11-degree-evapotranspiration-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree evapotranspiration (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/tsmp-0-11-degree-mask-erai-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree mask (ERAI) for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/tsmp-0-11-degree-mask-erai-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree mask (ERAI) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/tsmp-0-11-degree-soil-moisture-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree soil moisture (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tsmp-0-11-degree-total-water-storage-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree total water storage (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tsmp-0-11-degree-upstream-area-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree upstream area (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tsmp-0-11-degree-upstream-area-erai-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree upstream area (ERAI) for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tsmp-0-11-degree-upstream-area-erai-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree upstream area (ERAI) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-30-arc-seconds-discharge-era-5-for-europe/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-30-arc-seconds-discharge-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-30-arc-seconds-discharge-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-30-arc-seconds-discharge-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-30-arc-seconds-evapotranspiration-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds evapotranspiration (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-30-arc-seconds-evapotranspiration-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds evapotranspiration (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-30-arc-seconds-evapotranspiration-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds evapotranspiration (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-30-arc-seconds-mask-era-5-for-europe/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-30-arc-seconds-mask-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-30-arc-seconds-mask-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-30-arc-seconds-mask-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-30-arc-seconds-soil-moisture-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-30-arc-seconds-soil-moisture-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-30-arc-seconds-soil-moisture-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-30-arc-seconds-upstream-area-era-5-for-europe/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (ERA-5) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-30-arc-seconds-upstream-area-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-30-arc-seconds-upstream-area-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-30-arc-seconds-upstream-area-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/clm3-5-exp10-0-0166-degree-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree discharge (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/clm3-5-exp10-0-0166-degree-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree discharge (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/clm3-5-exp10-0-0166-degree-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree evapotranspiration (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/clm3-5-exp10-0-0166-degree-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree evapotranspiration (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/clm3-5-exp10-0-0166-degree-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree mask (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/clm3-5-exp10-0-0166-degree-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree mask (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/clm3-5-exp10-0-0166-degree-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree soil moisture (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/clm3-5-exp10-0-0166-degree-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree soil moisture (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/clm3-5-exp10-0-0166-degree-total-water-storage-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree total water storage (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/clm3-5-exp10-0-0166-degree-total-water-storage-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree total water storage (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/clm3-5-exp10-0-0166-degree-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree upstream area (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/clm3-5-exp10-0-0166-degree-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree upstream area (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/clm3-5-exp10-0-0275-degree-discharge-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree discharge (EMO) for europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/clm3-5-exp10-0-0275-degree-evapotranspiration-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree evapotranspiration (EMO) for europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/clm3-5-exp10-0-0275-degree-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree mask (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/clm3-5-exp10-0-0275-degree-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree mask (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/clm3-5-exp10-0-0275-degree-soil-moisture-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree soil moisture (EMO) for europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/clm3-5-exp10-0-0275-degree-total-water-storage-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree total water storage (EMO) for europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/clm3-5-exp10-0-0275-degree-upstream-area-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree upstream area (EMO) for europe"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/clm3-5-exp10-0-0275-degree-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree upstream area (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/clm3-5-exp10-0-0275-degree-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree upstream area (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-chirps-tugela-0p0667deg/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-0p0667deg-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-chirps-tugela-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-15sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-chirps-tugela-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-30sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-chirps-tugela-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-7p5sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-emo-po-0p0667deg/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-0p0667deg-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-emo-po-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-15sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-emo-po-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-30sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-emo-po-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-7p5sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-01562/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.01562"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-015625-d/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 d"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-015625-degree/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-015625-degree-soil-moisture-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree soil moisture (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-015625-degree-soil-moisture-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree soil moisture (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-015625-degree-total-water-storage-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree total water storage (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-015625-degree-total-water-storage-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree total water storage (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-015625-degree-ups/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree ups"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-12/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.12"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/the-mesoscale-hydrologic-model-mhm-0-125-d/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 d"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-125-degree/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-125-degree-discharge-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree discharge (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-125-degree-total-water-storage-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree total water storage (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/the-mesoscale-hydrologic-model-mhm-0-125-degree-total-water-storage-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree total water storage (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/the-mesoscale-hydrologic-model-mhm-0-125-degree-ups/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree ups"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-2-arc-minutes-mask-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-2-arc-minutes-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-2-arc-minutes-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-2-arc-minutes-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-2-arc-minutes-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-2-arc-minutes-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-30-arc-seconds-mask-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-30-arc-seconds-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-30-arc-seconds-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-30-arc-seconds-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-30-arc-seconds-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-30-arc-seconds-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-4-arc-minutes-mask-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-4-arc-minutes-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/wflow-sbm-4-arc-minutes-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-4-arc-minutes-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-4-arc-minutes-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/wflow-sbm-4-arc-minutes-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-2-arc-minutes-discharge-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes discharge (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-2-arc-minutes-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes discharge (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-2-arc-minutes-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes discharge (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-2-arc-minutes-evapotranspiration-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes evapotranspiration (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-2-arc-minutes-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes evapotranspiration (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-2-arc-minutes-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes evapotranspiration (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-2-arc-minutes-soil-moisture-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes soil moisture (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-2-arc-minutes-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes soil moisture (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-2-arc-minutes-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes soil moisture (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-2-arc-minutes-total-water-storage-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes total water storage (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-2-arc-minutes-total-water-storage-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes total water storage (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-2-arc-minutes-total-water-storage-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes total water storage (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-30-arc-seconds-discharge-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds discharge (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-30-arc-seconds-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds discharge (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-30-arc-seconds-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds discharge (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-30-arc-seconds-evapotranspiration-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds evapotranspiration (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-30-arc-seconds-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds evapotranspiration (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-30-arc-seconds-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds evapotranspiration (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-30-arc-seconds-soil-moisture-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds soil moisture (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-30-arc-seconds-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds soil moisture (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-30-arc-seconds-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds soil moisture (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-30-arc-seconds-total-water-storage-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds total water storage (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-30-arc-seconds-total-water-storage-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds total water storage (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-30-arc-seconds-total-water-storage-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds total water storage (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-4-arc-minutes-discharge-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes discharge (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-4-arc-minutes-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes discharge (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp10-4-arc-minutes-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes discharge (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-4-arc-minutes-evapotranspiration-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes evapotranspiration (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-4-arc-minutes-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes evapotranspiration (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp10-4-arc-minutes-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes evapotranspiration (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-4-arc-minutes-soil-moisture-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes soil moisture (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-4-arc-minutes-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes soil moisture (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp10-4-arc-minutes-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes soil moisture (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-4-arc-minutes-total-water-storage-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes total water storage (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-4-arc-minutes-total-water-storage-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes total water storage (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp10-4-arc-minutes-total-water-storage-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes total water storage (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp21-30-arc-seconds-discharge-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds discharge (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp21-30-arc-seconds-discharge-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds discharge (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/discharge/wflow-sbm-exp21-30-arc-seconds-discharge-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds discharge (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp21-30-arc-seconds-evapotranspiration-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds evapotranspiration (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp21-30-arc-seconds-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds evapotranspiration (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/wflow-sbm-exp21-30-arc-seconds-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds evapotranspiration (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp21-30-arc-seconds-soil-moisture-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds soil moisture (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp21-30-arc-seconds-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds soil moisture (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/wflow-sbm-exp21-30-arc-seconds-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds soil moisture (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp21-30-arc-seconds-total-water-storage-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds total water storage (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp21-30-arc-seconds-total-water-storage-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds total water storage (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/wflow-sbm-exp21-30-arc-seconds-total-water-storage-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds total water storage (EMO) for Rhine"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    }
+  ],
+  "updated": "2025-06-16T07:43:34.550178Z",
+  "keywords": [],
+  "title": "land"
+}

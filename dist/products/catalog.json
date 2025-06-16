@@ -1,0 +1,40 @@
+{
+  "type": "Catalog",
+  "id": "products",
+  "stac_version": "1.0.0",
+  "description": "This catalog contains a collection of high-resolution Earth observation datasets and model outputs \ngenerated and utilized by the 4DHydro project. The datasets include soil moisture, precipitation, \n evapotranspiration, surface water dynamics, snow cover, dynamic water masks, irrigation mapping, groundwater \nstorage variations, total water storage, and land surface temperature. These datasets are crucial for\nimproving the understanding and management of the hydrological cycle, validating and enhancing land surface\nand hydrological models, and supporting various scientific and operational applications.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./products-wp1/catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    },
+    {
+      "rel": "child",
+      "href": "./products-wp2/catalog.json",
+      "type": "application/json",
+      "title": "WP2 Products"
+    },
+    {
+      "rel": "child",
+      "href": "./products-wp5/catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    }
+  ],
+  "updated": "2025-06-16T10:47:48.652613Z",
+  "title": "Products"
+}

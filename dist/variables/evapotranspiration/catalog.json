@@ -1,0 +1,924 @@
+{
+  "type": "Catalog",
+  "id": "evapotranspiration",
+  "stac_version": "1.0.0",
+  "description": "UFZ will collect the MODIS global evapotranspiration product and other datasets gen-\nerated for this project using the HOLAPS, ALEXI and DisALEXI models. Lower resolution products\nwidely used in the literature, like the Global Land Evaporation Amsterdam Model (GLEAM) product, will\nbe collected for comparison purposes. Additionally, evapotranspiration measurements from eddy covariance\nsites will be collected from different databases [48] for the validation and evaluation of EO products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://4dhydro.eu/wp-content/uploads/2023/08/proposal_4dhydro.pdf",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./holaps-et/collection.json",
+      "type": "application/json",
+      "title": "HOLAPS ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/aqua/modis-aqua-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-AQUA ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/terra/modis-terra-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-TERRA ET"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-0-0275-degree-evapotranspiration-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree evapotranspiration (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./geoframe-total-evapotranspiration-flux-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe total evapotranspiration flux for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-0-0055-degree-evapotranspiration-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree evapotranspiration (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-evapotranspiration-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes evapotranspiration (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-evapotranspiration-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes evapotranspiration (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./tsmp-0-11-degree-evapotranspiration-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree evapotranspiration (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-evapotranspiration-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds evapotranspiration (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-evapotranspiration-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds evapotranspiration (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-evapotranspiration-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds evapotranspiration (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0166-degree-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree evapotranspiration (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0166-degree-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree evapotranspiration (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0275-degree-evapotranspiration-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree evapotranspiration (EMO) for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-chirps-for-tugela-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (CHIRPS) for Tugela in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-chirps-for-tugela-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (CHIRPS) for Tugela in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-emo-1k-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (EMO-1k) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-emo-1k-for-po-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (EMO-1k) for Po in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-emo-1k-for-po-in-experiment-sc31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (EMO-1k) for Po in experiment sc31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-emo-1k-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (EMO-1k) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-emo-1k-for-rhine-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (EMO-1k) for Rhine in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-emo-1k-irrigation-for-po-in-experiment-sc41/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (EMO-1k+Irrigation) for Po in experiment sc41"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-po-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Po in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-po-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Po in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-po-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Po in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-rhine-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Rhine in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-rhine-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Rhine in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-rhine-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Rhine in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-tugela-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Tugela in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-tugela-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Tugela in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-evapotranspiration-era5-imerg-sm2a-for-tugela-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes evapotranspiration (ERA5+IMERG+SM2A) for Tugela in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-chirps-for-tugela-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (CHIRPS) for Tugela in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-chirps-for-tugela-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (CHIRPS) for Tugela in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-emo-1k-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (EMO-1k) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-emo-1k-for-po-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (EMO-1k) for Po in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-emo-1k-for-po-in-experiment-sc31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (EMO-1k) for Po in experiment sc31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-emo-1k-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (EMO-1k) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-emo-1k-for-rhine-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (EMO-1k) for Rhine in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-emo-1k-irrigation-for-po-in-experiment-sc41/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (EMO-1k+Irrigation) for Po in experiment sc41"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-po-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Po in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-po-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Po in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-po-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Po in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-rhine-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Rhine in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-rhine-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Rhine in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-rhine-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Rhine in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-tugela-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Tugela in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-tugela-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Tugela in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-evapotranspiration-era5-imerg-sm2a-for-tugela-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds evapotranspiration (ERA5+IMERG+SM2A) for Tugela in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-0p0667deg-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-15sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-30sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-7p5sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-0p0667deg-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-15sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-30sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-7p5sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-evapotranspiration-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree evapotranspiration (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-2-arc-minutes-evapotranspiration-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes evapotranspiration (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-2-arc-minutes-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes evapotranspiration (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-2-arc-minutes-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes evapotranspiration (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-30-arc-seconds-evapotranspiration-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds evapotranspiration (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-30-arc-seconds-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds evapotranspiration (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-30-arc-seconds-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds evapotranspiration (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-4-arc-minutes-evapotranspiration-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes evapotranspiration (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-4-arc-minutes-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes evapotranspiration (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-4-arc-minutes-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes evapotranspiration (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp21-30-arc-seconds-evapotranspiration-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds evapotranspiration (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp21-30-arc-seconds-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds evapotranspiration (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp21-30-arc-seconds-evapotranspiration-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds evapotranspiration (EMO) for Rhine"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-06-16T07:43:34.711180Z",
+  "keywords": [],
+  "title": "evapotranspiration "
+}

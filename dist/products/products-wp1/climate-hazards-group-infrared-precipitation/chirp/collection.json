@@ -1,0 +1,89 @@
+{
+  "type": "Collection",
+  "id": "chirp",
+  "stac_version": "1.0.0",
+  "description": "The Climate Hazards Group InfraRed precipitation (CHIRP) is a quasi-global rainfall data set. The product uses infrared data to retrieve precipitation at high resolution. The data set runs from 1981 to the near 2024.The CHIRP satellite was developed by the US Geological Survey (USGS) in collaboration with the Climate Hazards Group at the University of California. CHIRP uses TIR satellite rainfall estimates combined with the globally gridded satellite from National Oceanic and Atmospheric Administration (NOAA) to produce the rainfall dataset.The CHIRP product provides satellite estimate at high spatiotemporal resolution covering regions between 50 S to 50 N of latitudes. The CHIRP rainfall datasets are available for the period 1981 to near-2024.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.chc.ucsb.edu/products/CHIRP/daily/",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/https%3A//doi.org/doi%3A10.1038/sdata.2015.66"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/precipitation/climate-hazards-group-infrared-precipitation/collection.json",
+      "type": "application/json",
+      "title": "Climate Hazards Group InfraRed precipitation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:region": "Europe; tugela",
+  "osc:category": "Ancillary",
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "0.05 degree",
+  "osc:temporal_resolution": "d",
+  "created": "2013-06-16T00:00:00Z",
+  "start_datetime": "1981-01-01T00:00:00Z",
+  "end_datetime": "2024-06-16T00:00:00Z",
+  "sci:doi": "https://doi.org/doi:10.1038/sdata.2015.66",
+  "updated": "2025-06-16T07:44:43.027044Z",
+  "title": "Climate Hazards Group InfraRed precipitation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -50.0,
+          180.0,
+          50.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1981-01-01T00:00:00Z",
+          "2024-06-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "CNR-IRPI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "CHIRP": {
+      "href": "https://data.chc.ucsb.edu/products/CHIRP/daily/"
+    }
+  }
+}

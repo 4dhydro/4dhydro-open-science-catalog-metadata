@@ -1,0 +1,69 @@
+{
+  "type": "Collection",
+  "id": "wp2-benchmark",
+  "stac_version": "1.0.0",
+  "description": "4dHydro Working Package 2 Benchmark",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://codebase.helmholtz.cloud/4dhydro/wp2/benchmark",
+      "title": "Repository link"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/4dhydro/collection.json",
+      "type": "application/json",
+      "title": "Project: 4dHydro"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Processes"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:name": "wp2 benchmark",
+  "osc:project": "4dHydro",
+  "osc:type": "Processes",
+  "osc:languages": [
+    {
+      "name": "Python"
+    }
+  ],
+  "created": "2024-04-03T00:00:00Z",
+  "updated": "2025-06-16T10:47:48.728614Z",
+  "title": "wp2 benchmark",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "project:4dHydro"
+  ]
+}

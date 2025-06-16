@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "h-saf-h120-2015",
+  "stac_version": "1.0.0",
+  "description": "A rainfall product based only on the application of SM2RAIN algorithm to ASCAT soil moisture observations is under development in the framework of H SAF project. The rainfall dataset covers the period 2007-2022 taking advantages of the long record of ASCAT retrieval. The product is available on a global scale at daily temporal resolution over a regular grid of 10 km. The product has been release up to December 2022.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/10376109/files/SM2RAIN_ASCAT_01_v2-1-2n_year_2015.nc?download=1",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/doi%3A10.5281/zenodo.2591214"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../eo-missions/metop/h-safprecipitation-from-ascat/collection.json",
+      "type": "application/json",
+      "title": "H SAFPrecipitation from ASCAT"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:missions": [
+    "METOP"
+  ],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:region": "Europe; tugela",
+  "osc:category": "Ancillary",
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "0.1 degree",
+  "osc:temporal_resolution": "d",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2015-01-01T00:00:00Z",
+  "end_datetime": "2015-12-31T00:00:00Z",
+  "sci:doi": "doi:10.5281/zenodo.2591214",
+  "updated": "2025-06-16T07:44:47.831105Z",
+  "title": "H SAFPrecipitation from ASCAT -2015",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2015-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "CNR-IRPI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "H SAF h120 -2015": {
+      "href": "https://zenodo.org/records/10376109/files/SM2RAIN_ASCAT_01_v2-1-2n_year_2015.nc?download=1"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "type": "Catalog",
+  "id": "projects",
+  "stac_version": "1.0.0",
+  "description": "Activities funded by ESA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./4dhydro/collection.json",
+      "type": "application/json",
+      "title": "4dHydro"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed/collection.json",
+      "type": "application/json",
+      "title": "4DMED"
+    },
+    {
+      "rel": "child",
+      "href": "./bec/collection.json",
+      "type": "application/json",
+      "title": "BEC"
+    },
+    {
+      "rel": "child",
+      "href": "./cgls/collection.json",
+      "type": "application/json",
+      "title": "CGLS"
+    },
+    {
+      "rel": "child",
+      "href": "./g3p/collection.json",
+      "type": "application/json",
+      "title": "G3P"
+    },
+    {
+      "rel": "child",
+      "href": "./holaps/collection.json",
+      "type": "application/json",
+      "title": "HOLAPS"
+    },
+    {
+      "rel": "child",
+      "href": "./nsidc/collection.json",
+      "type": "application/json",
+      "title": "NSIDC"
+    },
+    {
+      "rel": "child",
+      "href": "./4dhydro/collection.json",
+      "type": "application/json",
+      "title": "4dHydro"
+    },
+    {
+      "rel": "child",
+      "href": "./4dmed/collection.json",
+      "type": "application/json",
+      "title": "4DMED"
+    },
+    {
+      "rel": "child",
+      "href": "./bec/collection.json",
+      "type": "application/json",
+      "title": "BEC"
+    },
+    {
+      "rel": "child",
+      "href": "./cgls/collection.json",
+      "type": "application/json",
+      "title": "CGLS"
+    },
+    {
+      "rel": "child",
+      "href": "./g3p/collection.json",
+      "type": "application/json",
+      "title": "G3P"
+    },
+    {
+      "rel": "child",
+      "href": "./holaps/collection.json",
+      "type": "application/json",
+      "title": "HOLAPS"
+    },
+    {
+      "rel": "child",
+      "href": "./nsidc/collection.json",
+      "type": "application/json",
+      "title": "NSIDC"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    }
+  ],
+  "updated": "2025-06-16T07:43:34.549178Z",
+  "title": "Projects"
+}

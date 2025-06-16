@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "tetis-mergedera5gpmsm2a-q-po-7p5sec-daily-exp31-20070101-20081231",
+  "stac_version": "1.0.0",
+  "description": "TETIS model v9.1 - Discharge flux in kg m3 s-1 (forced using MERGEDERA5GPMSM2A) for the Po region with a spatial resolution of 7.5 arc-seconds in experiment 31 between 2007-01-01 and 2008-12-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/14921732/files/tetis_mergedera5gpmsm2a_q_po_7p5sec_daily_exp31_20070101_20081231.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://lluvia.dihma.upv.es/ES/software/software.html",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.14921732"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp31"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:region": "po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "7.5 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2025-02-25T00:00:00Z",
+  "start_datetime": "2007-01-01T00:00:00Z",
+  "end_datetime": "2008-12-31T00:00:00Z",
+  "sci:doi": "10.5281/zenodo.14921732",
+  "updated": "2025-06-16T09:32:04.363376Z",
+  "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (MERGEDERA5GPMSM2A) for Po river (2007-01-01 - 2008-12-31) in experiment 31",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-01T00:00:00Z",
+          "2008-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "UPV",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "tetis_mergedera5gpmsm2a_q_po_7p5sec_daily_exp31_20070101_20081231": {
+      "href": "https://zenodo.org/records/14921732/files/tetis_mergedera5gpmsm2a_q_po_7p5sec_daily_exp31_20070101_20081231.nc"
+    }
+  }
+}

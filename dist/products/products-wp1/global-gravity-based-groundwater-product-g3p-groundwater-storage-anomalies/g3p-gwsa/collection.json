@@ -1,0 +1,96 @@
+{
+  "type": "Collection",
+  "id": "g3p-gwsa",
+  "stac_version": "1.0.0",
+  "description": "The Global Gravity-based Groundwater Product (G3P) provides groundwater storage anomalies (GWSA) extracted from the GRACE(-FO) terrestrial water storage (TWS) through a subtraction of independently evaluated water cycle storage comparments.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.g3p.eu/what-we-have-for-you",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://dataservices.gfz-potsdam.de/panmetaworks/showshort.php?id=2cd347ef-be20-11ed-95b8-f851ad6d1e4b",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5880/G3P.2023.001"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../eo-missions/grace/global-gravity-based-groundwater-product-g3p-groundwater-storage-anomalies/collection.json",
+      "type": "application/json",
+      "title": "Global Gravity-based Groundwater Product (G3P) Groundwater Storage Anomalies"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [
+    "GRACE"
+  ],
+  "osc:project": "G3P",
+  "osc:variables": [
+    "groundwater storage anomalies"
+  ],
+  "osc:region": "global",
+  "osc:category": "ancillary",
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "0.5 degree",
+  "osc:temporal_resolution": "m",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2002-01-04T00:00:00Z",
+  "end_datetime": "2022-01-12T00:00:00Z",
+  "sci:doi": "10.5880/G3P.2023.001",
+  "updated": "2025-06-16T07:44:46.047082Z",
+  "title": "Global Gravity-based Groundwater Product (G3P) Groundwater Storage Anomalies v1.11",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-01-04T00:00:00Z",
+          "2022-01-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Tuwien",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "G3P_GWSA": {
+      "href": "https://dataservices.gfz-potsdam.de/panmetaworks/showshort.php?id=2cd347ef-be20-11ed-95b8-f851ad6d1e4b"
+    }
+  }
+}

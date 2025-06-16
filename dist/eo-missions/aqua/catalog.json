@@ -1,0 +1,35 @@
+{
+  "type": "Catalog",
+  "id": "aqua",
+  "stac_version": "1.0.0",
+  "description": "Aqua is a major international Earth Science satellite mission centered at NASA. Launched on May 4, 2002, the satellite has six differrent Earth-observing instruments on board and is named for the large amount of information it collects about water in the Earth system.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://eospso.nasa.gov/missions/aqua",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./modis-aqua-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-AQUA ET"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.424189Z",
+  "keywords": [],
+  "title": "AQUA"
+}

@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "spanish-automatic-system-of-hydrologic-information",
+  "stac_version": "1.0.0",
+  "description": "Spanish Automatic System of Hydrologic Information",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./saih/collection.json",
+      "type": "application/json",
+      "title": "Spanish Automatic System of Hydrologic Information"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "Spanish Automatic System of Hydrologic Information",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:region": "Europe",
+  "created": "2021-06-16T00:00:00Z",
+  "start_datetime": "2008-01-01T00:00:00Z",
+  "end_datetime": "2020-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -4.48,
+        -4.46,
+        -4.45,
+        -4.44
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2008-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

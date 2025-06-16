@@ -1,0 +1,35 @@
+{
+  "type": "Catalog",
+  "id": "smos",
+  "stac_version": "1.0.0",
+  "description": "Soil Moisture and Ocean Salinity (SMOS) is one of the European Space Agency's Earth Explorer missions, providing microwave L-band measurements linked to global variability in soil moisture.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://earth.esa.int/eogateway/missions/smos",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./barcelona-expert-center-smos-soil-moisture/collection.json",
+      "type": "application/json",
+      "title": "Barcelona Expert Center SMOS Soil Moisture"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.892195Z",
+  "keywords": [],
+  "title": "SMOS"
+}

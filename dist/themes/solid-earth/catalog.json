@@ -1,0 +1,490 @@
+{
+  "type": "Catalog",
+  "id": "solid-earth",
+  "stac_version": "1.0.0",
+  "description": "Solid Earth refers to the crust, mantle and core. Because these parts of our world are completely hidden from view, understanding what is going on deep below our feet can only be done by using indirect measurements.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "preview",
+      "href": "./EO_Solid_Earth.webp",
+      "type": "image/webp",
+      "title": "Image",
+      "proj:epsg": null,
+      "proj:shape": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "type": "text/html",
+      "title": "Website"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/soil-moisture/geoframe-soil-moisture-content-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe soil moisture content for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-0p0667deg-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-15sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-30sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-7p5sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-chirps-tugela-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-0p0667deg-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-15sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-30sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-7p5sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-emo-po-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp44"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    }
+  ],
+  "updated": "2025-06-16T07:43:34.554178Z",
+  "keywords": [],
+  "title": "Solid Earth"
+}

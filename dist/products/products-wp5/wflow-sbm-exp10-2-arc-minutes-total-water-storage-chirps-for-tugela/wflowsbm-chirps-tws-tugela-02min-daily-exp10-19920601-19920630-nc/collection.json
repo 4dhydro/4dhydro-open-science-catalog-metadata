@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-chirps-tws-tugela-02min-daily-exp10-19920601-19920630-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm (exp10): 2 arc-minutes total water storage output (forced using CHIRPS) for the Tugela region between 1992-06-01 and 1992-06-30",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/7305a608-bb1e-4318-8f86-24a3582361ad/1/wflowsbm_chirps_tws_tugela_02min_daily_exp10_19920601_19920630.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/7305a608-bb1e-4318-8f86-24a3582361ad.v1"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/total-water-storage/wflow-sbm-exp10-2-arc-minutes-total-water-storage-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes total water storage (CHIRPS) for Tugela"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "total water storage"
+  ],
+  "osc:region": "tugela",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "2 arc-minutes",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-06-17T00:00:00Z",
+  "start_datetime": "1992-06-01T00:00:00Z",
+  "end_datetime": "1992-06-30T00:00:00Z",
+  "sci:doi": "10.4121/7305a608-bb1e-4318-8f86-24a3582361ad.v1",
+  "updated": "2025-06-16T09:49:36.463587Z",
+  "title": "wflow_sbm (exp10) 2 arc-minutes total water storage (CHIRPS) for Tugela (1992-06-01 - 1992-06-30)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -29.0,
+          32.0,
+          -26.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1992-06-01T00:00:00Z",
+          "1992-06-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_chirps_tws_tugela_02min_daily_exp10_19920601_19920630.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/7305a608-bb1e-4318-8f86-24a3582361ad/1/wflowsbm_chirps_tws_tugela_02min_daily_exp10_19920601_19920630.nc"
+    }
+  }
+}

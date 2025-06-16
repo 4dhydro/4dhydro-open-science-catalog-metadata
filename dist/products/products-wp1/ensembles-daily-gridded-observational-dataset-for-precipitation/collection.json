@@ -1,0 +1,68 @@
+{
+  "type": "Collection",
+  "id": "ensembles-daily-gridded-observational-dataset-for-precipitation",
+  "stac_version": "1.0.0",
+  "description": "ENSEMBLES daily gridded observational dataset for precipitation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./e-obs/collection.json",
+      "type": "application/json",
+      "title": "ENSEMBLES daily gridded observational dataset for precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "./e-obs/collection.json",
+      "type": "application/json",
+      "title": "ENSEMBLES daily gridded observational dataset for precipitation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "ENSEMBLES daily gridded observational dataset for precipitation",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:region": "Europe",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "1950-01-01T00:00:00Z",
+  "end_datetime": "2024-06-16T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -24.95,
+        25.05,
+        45.45,
+        71.45
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1950-01-01T00:00:00Z",
+          "2024-06-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

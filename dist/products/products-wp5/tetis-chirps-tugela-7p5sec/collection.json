@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "id": "tetis-chirps-tugela-7p5sec",
+  "stac_version": "1.0.0",
+  "description": "TETIS_CHIRPS_Tugela_7p5sec",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-mask-tugela-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Catchement mask (CHIRPS) for Tugela river (1988-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-uparea-tugela-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Upstream catchment area (CHIRPS) for Tugela river (1988-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "TETIS_CHIRPS_Tugela_7p5sec",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask",
+    "upstream area"
+  ],
+  "osc:themes": [
+    "Oceans",
+    "land"
+  ],
+  "osc:region": "tugela",
+  "created": "2024-06-07T00:00:00Z",
+  "start_datetime": "1988-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        28.0,
+        -30.0,
+        32.0,
+        -27.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1988-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

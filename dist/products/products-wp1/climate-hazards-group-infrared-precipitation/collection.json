@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "climate-hazards-group-infrared-precipitation",
+  "stac_version": "1.0.0",
+  "description": "Climate Hazards Group InfraRed precipitation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./chirp/collection.json",
+      "type": "application/json",
+      "title": "Climate Hazards Group InfraRed precipitation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "Climate Hazards Group InfraRed precipitation",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:region": "Europe; tugela",
+  "created": "2013-06-16T00:00:00Z",
+  "start_datetime": "1981-01-01T00:00:00Z",
+  "end_datetime": "2024-06-16T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180.0,
+        -50.0,
+        180.0,
+        50.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1981-01-01T00:00:00Z",
+          "2024-06-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

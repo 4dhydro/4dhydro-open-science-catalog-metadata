@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-emo-tws-po-30sec-daily-exp21-19950801-19950831-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm (exp21): 30 arc-seconds total water storage output (forced using EMO) for the Po region between 1995-08-01 and 1995-08-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/6e14e25b-cb2b-434e-a852-1340ed8f0eda/1/wflowsbm_emo_tws_po_30sec_daily_exp21_19950801_19950831.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/6e14e25b-cb2b-434e-a852-1340ed8f0eda.v2"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/total-water-storage/wflow-sbm-exp21-30-arc-seconds-total-water-storage-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds total water storage (EMO) for Po"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "total water storage"
+  ],
+  "osc:region": "po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-09-23T00:00:00Z",
+  "start_datetime": "1995-08-01T00:00:00Z",
+  "end_datetime": "1995-08-31T00:00:00Z",
+  "sci:doi": "10.4121/6e14e25b-cb2b-434e-a852-1340ed8f0eda.v2",
+  "updated": "2025-06-16T10:45:02.738648Z",
+  "title": "wflow_sbm (exp21) 30 arc-seconds total water storage (EMO) for Po (1995-08-01 - 1995-08-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1995-08-01T00:00:00Z",
+          "1995-08-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_emo_tws_po_30sec_daily_exp21_19950801_19950831.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/6e14e25b-cb2b-434e-a852-1340ed8f0eda/1/wflowsbm_emo_tws_po_30sec_daily_exp21_19950801_19950831.nc"
+    }
+  }
+}

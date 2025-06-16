@@ -1,0 +1,384 @@
+{
+  "type": "Catalog",
+  "id": "upstream-area",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://4dhydro.eu/wp-content/uploads/2023/08/proposal_4dhydro.pdf",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-0-0275-degree-upstream-area-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree upstream area (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-0-0275-degree-upstream-area-rea6-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree upstream area (REA6) for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-0-0275-degree-upstream-area-rea6-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree upstream area (REA6) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "./geoframe-upstream-catchment-area-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe upstream catchment area for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-0-0055-degree-upstream-area-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree upstream area (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-upstream-area-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes upstream area (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-upstream-area-era-interim-for-po/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes upstream area (ERA-Interim) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-upstream-area-era-interim-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes upstream area (ERA-Interim) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-upstream-area-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes upstream area (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../evapotranspiration/tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-upstream-area-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree upstream area (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./tsmp-0-11-degree-upstream-area-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree upstream area (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./tsmp-0-11-degree-upstream-area-erai-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree upstream area (ERAI) for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./tsmp-0-11-degree-upstream-area-erai-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree upstream area (ERAI) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-upstream-area-era-5-for-europe/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (ERA-5) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-upstream-area-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-upstream-area-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-upstream-area-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0166-degree-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree upstream area (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0166-degree-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree upstream area (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0275-degree-upstream-area-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree upstream area (EMO) for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0275-degree-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree upstream area (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0275-degree-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree upstream area (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-upstream-area-emo-1k-for-po/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes upstream area (EMO-1k) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-upstream-area-emo-1k-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes upstream area (EMO-1k) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-upstream-area-emo-1k-for-po/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds upstream area (EMO-1k) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-upstream-area-emo-1k-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds upstream area (EMO-1k) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-tugela-0p0667deg/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-tugela-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-tugela-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-tugela-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-po-0p0667deg/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-po-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-po-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-po-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-ups/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree ups"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-ups/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree ups"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-2-arc-minutes-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-2-arc-minutes-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-2-arc-minutes-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-4-arc-minutes-upstream-area-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes upstream area (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-4-arc-minutes-upstream-area-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes upstream area (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-4-arc-minutes-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes upstream area (EMO) for Rhine"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.346188Z",
+  "keywords": [],
+  "title": "upstream area "
+}

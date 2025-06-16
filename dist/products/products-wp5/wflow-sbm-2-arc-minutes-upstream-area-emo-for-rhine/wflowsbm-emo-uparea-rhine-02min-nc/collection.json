@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-emo-uparea-rhine-02min-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm: 2 arc-minutes upstream area output (forced using EMO) for the Rhine region",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/c4e053ad-0d80-43d2-9d10-e61a55b91246/1/wflowsbm_emo_uparea_rhine_02min.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/c4e053ad-0d80-43d2-9d10-e61a55b91246"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/upstream-area/wflow-sbm-2-arc-minutes-upstream-area-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes upstream area (EMO) for Rhine"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "upstream area"
+  ],
+  "osc:region": "Rhine",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "2 arc-minutes",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-03-29T00:00:00Z",
+  "sci:doi": "10.4121/c4e053ad-0d80-43d2-9d10-e61a55b91246",
+  "updated": "2025-06-16T09:35:51.700167Z",
+  "title": "wflow_sbm 2 arc-minutes upstream area (EMO) for Rhine",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.0,
+          46.0,
+          12.0,
+          53.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_emo_uparea_rhine_02min.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/c4e053ad-0d80-43d2-9d10-e61a55b91246/1/wflowsbm_emo_uparea_rhine_02min.nc"
+    }
+  }
+}

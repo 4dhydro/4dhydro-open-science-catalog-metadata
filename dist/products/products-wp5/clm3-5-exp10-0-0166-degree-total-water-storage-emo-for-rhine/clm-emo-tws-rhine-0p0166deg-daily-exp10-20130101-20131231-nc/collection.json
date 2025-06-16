@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "clm-emo-tws-rhine-0p0166deg-daily-exp10-20130101-20131231-nc",
+  "stac_version": "1.0.0",
+  "description": "CLM3.5 (exp10): 0.0166 degree total water storage (EMO) for rhine (2013-01-01 - 2013-12-31)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://datapub.fz-juelich.de/slts/4DHydro/data_clm_EMO_0p0166deg/clm_emo_tws_rhine_0p0166deg_daily_exp10_20130101_20131231.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/HPSCTerrSys/CLM3.5",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/slts/4DHydro/"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/total-water-storage/clm3-5-exp10-0-0166-degree-total-water-storage-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree total water storage (EMO) for rhine"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "total water storage"
+  ],
+  "osc:region": "rhine",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "0.0166 degree",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-05-13T00:00:00Z",
+  "start_datetime": "2013-01-01T00:00:00Z",
+  "end_datetime": "2013-12-31T00:00:00Z",
+  "sci:doi": "slts/4DHydro/",
+  "updated": "2025-06-16T08:07:28.579313Z",
+  "title": "CLM3.5 (exp10): 0.0166 degree total water storage (EMO) for rhine (2013-01-01 - 2013-12-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.0,
+          46.0,
+          13.0,
+          52.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-01-01T00:00:00Z",
+          "2013-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "FZJ",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "clm_emo_tws_rhine_0p0166deg_daily_exp10_20130101_20131231.nc": {
+      "href": "https://datapub.fz-juelich.de/slts/4DHydro/data_clm_EMO_0p0166deg/clm_emo_tws_rhine_0p0166deg_daily_exp10_20130101_20131231.nc"
+    }
+  }
+}

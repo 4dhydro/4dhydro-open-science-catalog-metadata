@@ -1,0 +1,28 @@
+{
+  "type": "Catalog",
+  "id": "processes",
+  "stac_version": "1.0.0",
+  "description": "Find all the scripts and tools you need to make the most of this catalog ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./wp2-benchmark/collection.json",
+      "type": "application/json",
+      "title": "wp2 benchmark"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    }
+  ],
+  "updated": "2025-06-16T10:47:48.728614Z",
+  "title": "Processes"
+}

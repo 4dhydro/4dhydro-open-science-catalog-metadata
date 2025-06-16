@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "mhm-emo-q-rhine-0p015625deg-daily-exp10-20140101-20141231",
+  "stac_version": "1.0.0",
+  "description": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge output (forced using EMO) for the Rhine region in experiment 10 between 2014-01-01 and 2014-12-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://minio.ufz.de/4dhydro/mHM/tier2/mhm_emo_q_rhine_0p015625deg_daily_exp10_20140101_20141231.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.1069202",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.48758/ufz.14386"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/discharge/the-mesoscale-hydrologic-model-mhm-0-015625-degree-discharge-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Rhine in experiment 10"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:region": "Rhine",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "0.015625 degree",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-03-21T00:00:00Z",
+  "start_datetime": "2014-01-01T00:00:00Z",
+  "end_datetime": "2014-12-31T00:00:00Z",
+  "sci:doi": "10.48758/ufz.14386",
+  "updated": "2025-06-16T09:34:01.862877Z",
+  "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree discharge (EMO) for Rhine (2014-01-01 - 2014-12-31) in experiement 10",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.0,
+          46.0,
+          12.0,
+          52.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-01-01T00:00:00Z",
+          "2014-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "UFZ",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "mhm_emo_q_rhine_0p015625deg_daily_exp10_20140101_20141231": {
+      "href": "https://minio.ufz.de/4dhydro/mHM/tier2/mhm_emo_q_rhine_0p015625deg_daily_exp10_20140101_20141231.nc"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "pcrglobwb-mergedera5gpmsm2a-q-po-03min-daily-exp30-20210101-20211231",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 3 arc-minutes discharge output (forced using ERA5+IMERG+SM2A) for the Po region in experiment 30 between 2021-01-01 and 2021-12-31)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data[1739790742]/original/exp30/pcrglobwb_mergedera5gpmsm2a_po_03min/pcrglobwb_mergedera5gpmsm2a_q_po_03min_daily_exp30_20210101_20211231.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/UU-Hydro/PCR-GLOBWB_model",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.24416/UU01-Y82U66"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/discharge/pcr-globwb-3-arc-minutes-discharge-era5-imerg-sm2a-for-po-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes discharge (ERA5+IMERG+SM2A) for Po in experiment 30"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:region": "Po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "3 arc-minutes",
+  "osc:temporal_resolution": "daily",
+  "created": "2025-02-01T00:00:00Z",
+  "start_datetime": "2021-01-01T00:00:00Z",
+  "end_datetime": "2021-12-31T00:00:00Z",
+  "sci:doi": "10.24416/UU01-Y82U66",
+  "updated": "2025-06-16T08:08:58.879466Z",
+  "title": "PCR-GLOBWB 3 arc-minutes discharge (ERA5+IMERG+SM2A) for Po in experiment 30 (2021-01-01 - 2021-12-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          46.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Utrecht University",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "pcrglobwb_mergedera5gpmsm2a_q_po_03min_daily_exp30_20210101_20211231": {
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data[1739790742]/original/exp30/pcrglobwb_mergedera5gpmsm2a_po_03min/pcrglobwb_mergedera5gpmsm2a_q_po_03min_daily_exp30_20210101_20211231.nc"
+    }
+  }
+}

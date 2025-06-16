@@ -1,0 +1,136 @@
+{
+  "type": "Catalog",
+  "id": "products-wp1",
+  "stac_version": "1.0.0",
+  "description": "This catalog contains the Earth Observation (EO) datasets collected and consolidated under Work Package 1 (WP1) of the 4DHydro project. WP1 is dedicated to generating a comprehensive reference EO dataset, which includes high-resolution data on key variables related to the water cycle such as soil moisture, precipitation, evapotranspiration, surface water dynamics, snow cover, lake and river water levels, groundwater storage, and irrigation areas.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/4d-med-precipitation-product/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/4dhydro-precipitation-product-era5-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/4dhydro-precipitation-product-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/smos/barcelona-expert-center-smos-soil-moisture/collection.json",
+      "type": "application/json",
+      "title": "Barcelona Expert Center SMOS Soil Moisture"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/sentinel-1/cgls-soil-water-index-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Soil Water Index 1km"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/sentinel-1/cgls-surface-soil-moisture-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Surface Soil Moisture 1km"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/climate-hazards-group-infrared-precipitation/collection.json",
+      "type": "application/json",
+      "title": "Climate Hazards Group InfraRed precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/ensembles-daily-gridded-observational-dataset-for-precipitation/collection.json",
+      "type": "application/json",
+      "title": "ENSEMBLES daily gridded observational dataset for precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/european-meteorological-observations-1-arcmin/collection.json",
+      "type": "application/json",
+      "title": "European Meteorological Observations -1 arcmin"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/grace/global-gravity-based-groundwater-product-g3p-groundwater-storage-anomalies/collection.json",
+      "type": "application/json",
+      "title": "Global Gravity-based Groundwater Product (G3P) Groundwater Storage Anomalies"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/grace/global-gravity-based-groundwater-product-g3p-terrestrial-water-storage/collection.json",
+      "type": "application/json",
+      "title": "Global Gravity-based Groundwater Product (G3P) Terrestrial Water Storage"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/global-satellite-mapping-of-precipitation/collection.json",
+      "type": "application/json",
+      "title": "Global Satellite Mapping of precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/metop/h-safprecipitation-from-ascat/collection.json",
+      "type": "application/json",
+      "title": "H SAFPrecipitation from ASCAT"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/holaps-et/collection.json",
+      "type": "application/json",
+      "title": "HOLAPS ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/aqua/modis-aqua-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-AQUA ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/terra/modis-terra-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-TERRA ET"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/precipitation-estimation-from-remotely-sensed-information-using-artificial-neural-networks-cloud-classification-system/collection.json",
+      "type": "application/json",
+      "title": "precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks  Cloud Classification System"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/smap/smap-derived-1-km-downscaled-surface-soil-moisture-product/collection.json",
+      "type": "application/json",
+      "title": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/precipitation/spanish-automatic-system-of-hydrologic-information/collection.json",
+      "type": "application/json",
+      "title": "Spanish Automatic System of Hydrologic Information"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    }
+  ],
+  "updated": "2025-06-16T07:44:52.104159Z",
+  "title": "WP1 Products"
+}

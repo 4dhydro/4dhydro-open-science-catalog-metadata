@@ -1,0 +1,41 @@
+{
+  "type": "Catalog",
+  "id": "sentinel-1",
+  "stac_version": "1.0.0",
+  "description": "ESA\u2019s Copernicus Sentinel-1 mission carries out continuous radar measurements of the Earth\u2019s surface, from which variables of importance to the hydrological cycle like surface soil moisture can be quantified.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./cgls-soil-water-index-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Soil Water Index 1km"
+    },
+    {
+      "rel": "child",
+      "href": "./cgls-surface-soil-moisture-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Surface Soil Moisture 1km"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.736193Z",
+  "keywords": [],
+  "title": "Sentinel-1"
+}

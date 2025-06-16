@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "pcrglobwb-chirps-sm-tugela-30sec-daily-exp21-19880301-19880331",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 30 arc-seconds soil moisture output (forced using CHIRPS) for the Tugela region in experiment 21 between 19880301 and 19880331)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data[1739790742]/original/exp21/pcrglobwb_chirps_tugela_30sec/pcrglobwb_chirps_sm_tugela_30sec_daily_exp21_19880301_19880331.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/UU-Hydro/PCR-GLOBWB_model",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.24416/UU01-Y82U66"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/soil-moisture/pcr-globwb-30-arc-seconds-soil-moisture-chirps-for-tugela-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (CHIRPS) for Tugela in experiment 21"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "soil moisture"
+  ],
+  "osc:region": "tugela",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2025-02-01T00:00:00Z",
+  "start_datetime": "1988-03-01T00:00:00Z",
+  "end_datetime": "1988-03-31T00:00:00Z",
+  "sci:doi": "10.24416/UU01-Y82U66",
+  "updated": "2025-06-16T08:53:55.454383Z",
+  "title": "PCR-GLOBWB 30 arc-seconds soil moisture (CHIRPS) for Tugela in experiment 21 (1988-03-01 - 1988-03-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -30.0,
+          32.0,
+          -27.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1988-03-01T00:00:00Z",
+          "1988-03-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Utrecht University",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "pcrglobwb_chirps_sm_tugela_30sec_daily_exp21_19880301_19880331": {
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data[1739790742]/original/exp21/pcrglobwb_chirps_tugela_30sec/pcrglobwb_chirps_sm_tugela_30sec_daily_exp21_19880301_19880331.nc"
+    }
+  }
+}

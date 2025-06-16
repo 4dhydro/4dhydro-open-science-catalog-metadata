@@ -1,0 +1,58 @@
+{
+  "type": "Catalog",
+  "id": "themes",
+  "stac_version": "1.0.0",
+  "description": "Earth Science topics related to this project",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "./cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "./land/catalog.json",
+      "type": "application/json",
+      "title": "land"
+    },
+    {
+      "rel": "child",
+      "href": "./magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Magnetosphere_Ionosphere"
+    },
+    {
+      "rel": "child",
+      "href": "./oceans/catalog.json",
+      "type": "application/json",
+      "title": "Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "./solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Solid Earth"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    }
+  ],
+  "updated": "2025-06-16T07:43:34.554178Z",
+  "title": "Themes"
+}

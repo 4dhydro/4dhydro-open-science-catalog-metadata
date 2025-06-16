@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-era5-sm-tugela-30sec-daily-20170701-20170731-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm 30 arc-seconds soil moisture output (forced using ERA-5) for the Tugela region between 2017-07-01 and 2017-07-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/b621e626-6f6f-4e16-9747-b1c1393e2d17/1/wflowsbm_era5_sm_tugela_30sec_daily_20170701_20170731.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/b621e626-6f6f-4e16-9747-b1c1393e2d17"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/soil-moisture/wflow-sbm-30-arc-seconds-soil-moisture-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Tugela"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "soil moisture"
+  ],
+  "osc:region": "tugela",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2023-10-23T00:00:00Z",
+  "start_datetime": "2017-01-07T00:00:00Z",
+  "end_datetime": "2017-07-31T00:00:00Z",
+  "sci:doi": "10.4121/b621e626-6f6f-4e16-9747-b1c1393e2d17",
+  "updated": "2025-06-16T08:06:34.783627Z",
+  "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Tugela (2017-07-01 - 2017-07-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -30.0,
+          31.0,
+          -26.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-07T00:00:00Z",
+          "2017-07-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_era5_sm_tugela_30sec_daily_20170701_20170731.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/b621e626-6f6f-4e16-9747-b1c1393e2d17/1/wflowsbm_era5_sm_tugela_30sec_daily_20170701_20170731.nc"
+    }
+  }
+}

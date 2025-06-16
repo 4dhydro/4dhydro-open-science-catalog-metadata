@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "saih",
+  "stac_version": "1.0.0",
+  "description": "The Spanish Automatic System of Hydrologic Information (SAHI) includes precipitation data gathered from 333 stations over the Ebro basin every 15 minutes. All the data has been gathered for the 2015-2021 time period. The data have been resampled over 1km grid.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/precipitation/spanish-automatic-system-of-hydrologic-information/collection.json",
+      "type": "application/json",
+      "title": "Spanish Automatic System of Hydrologic Information"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:region": "Europe",
+  "osc:category": "hr reference",
+  "osc:format": null,
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "1 km",
+  "osc:temporal_resolution": "d",
+  "created": "2021-06-16T00:00:00Z",
+  "start_datetime": "2008-01-01T00:00:00Z",
+  "end_datetime": "2020-12-31T00:00:00Z",
+  "updated": "2025-06-16T07:44:52.103159Z",
+  "title": "Spanish Automatic System of Hydrologic Information",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -4.48,
+          -4.46,
+          -4.45,
+          -4.44
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2008-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "CNR-IRPI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ]
+}

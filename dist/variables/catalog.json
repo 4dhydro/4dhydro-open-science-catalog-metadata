@@ -1,0 +1,82 @@
+{
+  "type": "Catalog",
+  "id": "variables",
+  "stac_version": "1.0.0",
+  "description": "Geoscience, climate and environmental variables",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./discharge/catalog.json",
+      "type": "application/json",
+      "title": "discharge"
+    },
+    {
+      "rel": "child",
+      "href": "./evapotranspiration/catalog.json",
+      "type": "application/json",
+      "title": "evapotranspiration "
+    },
+    {
+      "rel": "child",
+      "href": "./groundwater-storage-anomalies/catalog.json",
+      "type": "application/json",
+      "title": "groundwater storage anomalies"
+    },
+    {
+      "rel": "child",
+      "href": "./irrigation/catalog.json",
+      "type": "application/json",
+      "title": "irrigation"
+    },
+    {
+      "rel": "child",
+      "href": "./mask/catalog.json",
+      "type": "application/json",
+      "title": "mask"
+    },
+    {
+      "rel": "child",
+      "href": "./precipitation/catalog.json",
+      "type": "application/json",
+      "title": "precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "./snow/catalog.json",
+      "type": "application/json",
+      "title": "snow"
+    },
+    {
+      "rel": "child",
+      "href": "./soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "soil moisture"
+    },
+    {
+      "rel": "child",
+      "href": "./total-water-storage/catalog.json",
+      "type": "application/json",
+      "title": "total water storage "
+    },
+    {
+      "rel": "child",
+      "href": "./upstream-area/catalog.json",
+      "type": "application/json",
+      "title": "upstream area "
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.346188Z",
+  "title": "Variables"
+}

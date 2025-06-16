@@ -1,0 +1,96 @@
+{
+  "type": "Collection",
+  "id": "smap-1km",
+  "stac_version": "1.0.0",
+  "description": "Surface Soil Moisture estimates from the L-band radiometer Soil Moisture Active Passive (SMAP) mission downscaled using a physical model that relates the same-day overpass SMAP SSM difference to the surface temperature.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://nsidc.org/data/nsidc-0779/versions/1",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://urs.earthdata.nasa.gov/oauth/authorize?client_id=_JLuwMHxb2xX6NwYTb4dRA&response_type=code&redirect_uri=https%3A%2F%2Fn5eil01u.ecs.nsidc.org%2FOPS%2Fredirect&state=aHR0cHM6Ly9uNWVpbDAxdS5lY3MubnNpZGMub3JnL1NNQVAvTlNJREMtMDc3OS4wMDEv",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5067/U8QZ2AXE5V7B"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../eo-missions/smap/smap-derived-1-km-downscaled-surface-soil-moisture-product/collection.json",
+      "type": "application/json",
+      "title": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [
+    "SMAP"
+  ],
+  "osc:project": "NSIDC",
+  "osc:variables": [
+    "soil moisture"
+  ],
+  "osc:region": "global",
+  "osc:category": "hr",
+  "osc:format": "GeoTIFF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "1km",
+  "osc:temporal_resolution": "d",
+  "created": "2022-06-16T00:00:00Z",
+  "start_datetime": "2015-01-04T00:00:00Z",
+  "end_datetime": "2022-11-29T00:00:00Z",
+  "sci:doi": "10.5067/U8QZ2AXE5V7B",
+  "updated": "2025-06-16T07:44:52.102159Z",
+  "title": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product, Version 1",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-04T00:00:00Z",
+          "2022-11-29T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Tuwien",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "SMAP_1km": {
+      "href": "https://urs.earthdata.nasa.gov/oauth/authorize?client_id=_JLuwMHxb2xX6NwYTb4dRA&response_type=code&redirect_uri=https%3A%2F%2Fn5eil01u.ecs.nsidc.org%2FOPS%2Fredirect&state=aHR0cHM6Ly9uNWVpbDAxdS5lY3MubnNpZGMub3JnL1NNQVAvTlNJREMtMDc3OS4wMDEv"
+    }
+  }
+}

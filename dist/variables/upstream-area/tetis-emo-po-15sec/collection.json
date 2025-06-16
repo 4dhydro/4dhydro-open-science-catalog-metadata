@@ -1,0 +1,103 @@
+{
+  "type": "Collection",
+  "id": "tetis-emo-po-15sec",
+  "stac_version": "1.0.0",
+  "description": "TETIS_EMO_Po_15sec",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/tetis-emo-po-15sec/tetis-emo-mask-po-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Catchement mask (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/tetis-emo-po-15sec/tetis-emo-uparea-po-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Upstream catchment area (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "related",
+      "href": "../../../projects/4dhydro/collection.json",
+      "type": "application/json",
+      "title": "Project: 4dHydro"
+    },
+    {
+      "rel": "related",
+      "href": "../../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: land"
+    },
+    {
+      "rel": "related",
+      "href": "../../mask/catalog.json",
+      "type": "application/json",
+      "title": "Variable: mask"
+    },
+    {
+      "rel": "related",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variable: upstream area "
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "upstream area "
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask",
+    "upstream area"
+  ],
+  "osc:themes": [
+    "Oceans",
+    "land"
+  ],
+  "osc:region": "po",
+  "created": "2024-04-11T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "updated": "2025-06-16T09:30:35.104239Z",
+  "title": "TETIS_EMO_Po_15sec",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

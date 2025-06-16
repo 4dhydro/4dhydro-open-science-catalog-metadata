@@ -1,0 +1,35 @@
+{
+  "type": "Catalog",
+  "id": "terra",
+  "stac_version": "1.0.0",
+  "description": " The Terra (formerly called EOS AM-1) satellite is the flagship of NASA's Earth Science Missions. Terra is the first EOS (Earth Observing System) platform and provides global data on the state of the atmosphere, land, and oceans,  as well as their interactions with solar radiation and with one another.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": " https://eospso.nasa.gov/missions/terra",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./modis-terra-et/collection.json",
+      "type": "application/json",
+      "title": "MODIS-TERRA ET"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.969196Z",
+  "keywords": [],
+  "title": "TERRA"
+}

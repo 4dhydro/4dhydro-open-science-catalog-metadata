@@ -1,0 +1,254 @@
+{
+  "type": "Collection",
+  "id": "the-mesoscale-hydrologic-model-mhm-0-125-degree-evapotranspiration-emo-for-po-in-experiment-10",
+  "stac_version": "1.0.0",
+  "description": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po in experiment 10",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19900101-19901231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1990-01-01 - 1990-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19910101-19911231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1991-01-01 - 1991-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19920101-19921231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1992-01-01 - 1992-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19930101-19931231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1993-01-01 - 1993-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19940101-19941231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1994-01-01 - 1994-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19950101-19951231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1995-01-01 - 1995-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19960101-19961231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1996-01-01 - 1996-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19970101-19971231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1997-01-01 - 1997-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19980101-19981231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1998-01-01 - 1998-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-19990101-19991231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (1999-01-01 - 1999-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20000101-20001231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2000-01-01 - 2000-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20010101-20011231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2001-01-01 - 2001-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20020101-20021231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2002-01-01 - 2002-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20030101-20031231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2003-01-01 - 2003-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20040101-20041231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2004-01-01 - 2004-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20050101-20051231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2005-01-01 - 2005-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20060101-20061231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2006-01-01 - 2006-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20070101-20071231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2007-01-01 - 2007-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20080101-20081231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2008-01-01 - 2008-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20090101-20091231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2009-01-01 - 2009-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20100101-20101231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2010-01-01 - 2010-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20110101-20111231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2011-01-01 - 2011-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20120101-20121231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2012-01-01 - 2012-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20130101-20131231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2013-01-01 - 2013-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20140101-20141231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2014-01-01 - 2014-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20150101-20151231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2015-01-01 - 2015-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20160101-20161231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2016-01-01 - 2016-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20170101-20171231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2017-01-01 - 2017-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20180101-20181231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2018-01-01 - 2018-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20190101-20191231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2019-01-01 - 2019-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20200101-20201231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2020-01-01 - 2020-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20210101-20211231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2021-01-01 - 2021-12-31) in experiement 10"
+    },
+    {
+      "rel": "child",
+      "href": "./mhm-emo-et-po-0p125deg-daily-exp10-20220101-20221231/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po (2022-01-01 - 2022-12-31) in experiement 10"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "The mesoscale Hydrologic Model - mHM 0.125 degree evapotranspiration (EMO) for Po in experiment 10",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "Po",
+  "created": "2024-03-21T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

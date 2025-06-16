@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "pcrglobwb-emo-q-po-30sec-daily-exp21-19910401-19910430",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 30 arc-seconds discharge output (forced using EMO-1k) for the Po region in experiment 21 between 19910401 and 19910430)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data[1739790742]/original/exp21/pcrglobwb_emo_po_30sec/pcrglobwb_emo_q_po_30sec_daily_exp21_19910401_19910430.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/UU-Hydro/PCR-GLOBWB_model",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.24416/UU01-Y82U66"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/discharge/pcr-globwb-30-arc-seconds-discharge-emo-1k-for-po-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (EMO-1k) for Po in experiment 21"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:region": "po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2025-02-01T00:00:00Z",
+  "start_datetime": "1991-04-01T00:00:00Z",
+  "end_datetime": "1991-04-30T00:00:00Z",
+  "sci:doi": "10.24416/UU01-Y82U66",
+  "updated": "2025-06-16T08:19:02.557965Z",
+  "title": "PCR-GLOBWB 30 arc-seconds discharge (EMO-1k) for Po in experiment 21 (1991-04-01 - 1991-04-30)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1991-04-01T00:00:00Z",
+          "1991-04-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Utrecht University",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "pcrglobwb_emo_q_po_30sec_daily_exp21_19910401_19910430": {
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data[1739790742]/original/exp21/pcrglobwb_emo_po_30sec/pcrglobwb_emo_q_po_30sec_daily_exp21_19910401_19910430.nc"
+    }
+  }
+}

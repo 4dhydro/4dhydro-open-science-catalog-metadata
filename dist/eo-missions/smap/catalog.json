@@ -1,0 +1,35 @@
+{
+  "type": "Catalog",
+  "id": "smap",
+  "stac_version": "1.0.0",
+  "description": "Soil Moisture Active Passive (SMAP) is a NASA mission with the primary aim of quantifying the amount of water in the surface soil using using microwave frequency radiometric measurements.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://smap.jpl.nasa.gov/",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./smap-derived-1-km-downscaled-surface-soil-moisture-product/collection.json",
+      "type": "application/json",
+      "title": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.814194Z",
+  "keywords": [],
+  "title": "SMAP"
+}

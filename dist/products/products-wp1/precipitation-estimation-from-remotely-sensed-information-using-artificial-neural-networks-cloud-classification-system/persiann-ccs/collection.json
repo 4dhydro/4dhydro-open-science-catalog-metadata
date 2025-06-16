@@ -1,0 +1,89 @@
+{
+  "type": "Collection",
+  "id": "persiann-ccs",
+  "stac_version": "1.0.0",
+  "description": "PERSIANN-CCS (precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks  Cloud Classification System) is developed by the Center for Hydrometeorology and Remote Sensing (CHRS) at the University of California Irvine (UCI). The product is based on the use of neural network function  procedures to compute rainfall rate at each 0.25 x 0.25 pixel through infrared images provided by geostationary satellites. Rainfall product covers 60S to 60N globally.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://persiann.eng.uci.edu/CHRSdata/PERSIANN-CCS/daily/",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/doi%3A10.1038/sdata.2018.296"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/precipitation/precipitation-estimation-from-remotely-sensed-information-using-artificial-neural-networks-cloud-classification-system/collection.json",
+      "type": "application/json",
+      "title": "precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks  Cloud Classification System"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:region": "europe; tugela",
+  "osc:category": "Ancillary",
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "0.04 degree",
+  "osc:temporal_resolution": "h",
+  "created": "2014-06-16T00:00:00Z",
+  "start_datetime": "2003-01-01T00:00:00Z",
+  "end_datetime": "2024-06-16T00:00:00Z",
+  "sci:doi": "doi:10.1038/sdata.2018.296",
+  "updated": "2025-06-16T07:44:51.873156Z",
+  "title": "precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks  Cloud Classification System",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -60.0,
+          180.0,
+          60.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2003-01-01T00:00:00Z",
+          "2024-06-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "CNR-IRPI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "PERSIANN -CCS": {
+      "href": "https://persiann.eng.uci.edu/CHRSdata/PERSIANN-CCS/daily/"
+    }
+  }
+}

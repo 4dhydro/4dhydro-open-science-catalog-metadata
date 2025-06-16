@@ -1,0 +1,1211 @@
+{
+  "type": "Collection",
+  "id": "4dhydro-precipitation-product-sm2rain-gpm",
+  "stac_version": "1.0.0",
+  "description": "4DHYDRO precipitation product: SM2RAIN+GPM",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200701-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200701 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200702-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200702 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200703-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200703 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200704-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200704 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200705-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200705 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200706-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200706 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200707-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200707 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200708-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200708 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200709-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200709 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200710-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200710 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200711-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200711 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200712-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200712 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200801-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200801 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200802-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200802 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200803-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200803 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200804-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200804 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200805-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200805 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200806-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200806 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200807-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200807 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200808-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200808 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200809-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200809 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200810-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200810 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200811-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200811 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200812-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200812 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200901-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200901 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200902-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200902 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200903-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200903 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200904-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200904 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200905-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200905 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200906-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200906 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200907-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200907 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200908-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200908 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200909-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200909 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200910-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200910 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200911-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200911 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-200912-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200912 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201001-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201001 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201002-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201002 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201003-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201003 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201004-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201004 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201005-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201005 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201006-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201006 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201007-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201007 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201008-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201008 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201009-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201009 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201010-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201010 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201011-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201011 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201012-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201012 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201101-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201101 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201102-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201102 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201103-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201103 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201104-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201104 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201105-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201105 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201106-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201106 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201107-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201107 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201108-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201108 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201109-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201109 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201110-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201110 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201111-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201111 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201112-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201112 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201201-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201201 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201202-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201202 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201203-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201203 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201204-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201204 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201205-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201205 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201206-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201206 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201207-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201207 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201208-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201208 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201209-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201209 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201210-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201210 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201211-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201211 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201212-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201212 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201301-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201301 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201302-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201302 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201303-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201303 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201304-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201304 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201305-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201305 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201306-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201306 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201307-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201307 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201308-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201308 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201309-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201309 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201310-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201310 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201311-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201311 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201312-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201312 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201401-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201401 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201402-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201402 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201403-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201403 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201404-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201404 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201405-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201405 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201406-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201406 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201407-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201407 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201408-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201408 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201409-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201409 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201410-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201410 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201411-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201411 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201412-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201412 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201501-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201501 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201502-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201502 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201503-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201503 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201504-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201504 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201505-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201505 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201506-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201506 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201507-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201507 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201508-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201508 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201509-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201509 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201510-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201510 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201511-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201511 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201512-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201512 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201601-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201601 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201602-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201602 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201603-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201603 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201604-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201604 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201605-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201605 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201606-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201606 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201607-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201607 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201608-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201608 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201609-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201609 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201610-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201610 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201611-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201611 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201612-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201612 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201701-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201701 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201702-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201702 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201703-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201703 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201704-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201704 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201705-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201705 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201706-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201706 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201707-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201707 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201708-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201708 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201709-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201709 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201710-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201710 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201711-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201711 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201712-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201712 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201801-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201801 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201802-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201802 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201803-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201803 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201804-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201804 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201805-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201805 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201806-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201806 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201807-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201807 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201808-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201808 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201809-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201809 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201810-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201810 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201811-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201811 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201812-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201812 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201901-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201901 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201902-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201902 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201903-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201903 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201904-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201904 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201905-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201905 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201906-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201906 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201907-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201907 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201908-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201908 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201909-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201909 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201910-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201910 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201911-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201911 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-201912-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201912 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202001-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202001 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202002-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202002 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202003-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202003 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202004-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202004 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202005-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202005 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202006-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202006 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202007-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202007 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202008-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202008 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202009-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202009 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202010-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202010 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202011-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202011 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202012-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202012 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202101-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202101 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202102-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202102 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202103-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202103 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202104-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202104 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202105-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202105 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202106-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202106 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202107-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202107 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202108-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202108 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202109-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202109 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202110-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202110 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202111-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202111 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202112-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202112 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202201-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202201 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202202-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202202 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202203-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202203 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202204-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202204 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202205-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202205 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202206-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202206 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202207-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202207 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202208-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202208 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202209-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202209 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202210-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202210 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202211-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202211 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./sm2a-gpm-202212-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202212 for europe"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "4DHYDRO precipitation product: SM2RAIN+GPM",
+  "osc:type": "collection",
+  "osc:missions": [
+    "METOP",
+    "GPM"
+  ],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:region": "europe",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2007-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -11.0,
+        33.0,
+        42.0,
+        73.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

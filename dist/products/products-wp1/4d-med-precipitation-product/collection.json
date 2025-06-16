@@ -1,0 +1,227 @@
+{
+  "type": "Collection",
+  "id": "4d-med-precipitation-product",
+  "stac_version": "1.0.0",
+  "description": "4D-MED precipitation product",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d01/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 01"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d02/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 02"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d03/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 03"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d04/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 04"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d05/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 05"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d06/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 06"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d07/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 07"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d08/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 08"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d09/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 09"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d10/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 10"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d11/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 11"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d12/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 12"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d13/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 13"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d14/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 14"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d15/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 15"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d16/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 16"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d17/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 17"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d18/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 18"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d19/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 19"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d20/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 20"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d21/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 21"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d22/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 22"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d23/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 23"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d24/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 24"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d25/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 25"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d26/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 26"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d27/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 27"
+    },
+    {
+      "rel": "child",
+      "href": "./p-4dmed-d28/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product-domain 28"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "4D-MED precipitation product",
+  "osc:type": "collection",
+  "osc:missions": [
+    "METOP",
+    "GPM"
+  ],
+  "osc:project": "4DMED",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:region": "europe",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2015-08-01T00:00:00Z",
+  "end_datetime": "2021-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -5.65,
+        36.1,
+        -1.82,
+        37.32
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-08-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

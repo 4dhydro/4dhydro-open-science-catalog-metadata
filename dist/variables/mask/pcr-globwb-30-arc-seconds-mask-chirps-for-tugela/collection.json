@@ -1,0 +1,75 @@
+{
+  "type": "Collection",
+  "id": "pcr-globwb-30-arc-seconds-mask-chirps-for-tugela",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 30 arc-seconds mask (CHIRPS) for Tugela",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-mask-chirps-for-tugela/pcrglobwb-chirps-mask-tugela-30sec/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "related",
+      "href": "../../../projects/4dhydro/collection.json",
+      "type": "application/json",
+      "title": "Project: 4dHydro"
+    },
+    {
+      "rel": "related",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variable: mask"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "mask"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask"
+  ],
+  "osc:themes": [],
+  "osc:region": "tugela",
+  "created": "2025-02-01T00:00:00Z",
+  "start_datetime": "2022-12-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "updated": "2025-06-16T08:52:18.919156Z",
+  "title": "PCR-GLOBWB 30 arc-seconds mask (CHIRPS) for Tugela",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -30.0,
+          32.0,
+          -27.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-12-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

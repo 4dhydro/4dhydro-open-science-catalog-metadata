@@ -1,0 +1,97 @@
+{
+  "type": "Collection",
+  "id": "p-4dmed-d13",
+  "stac_version": "1.0.0",
+  "description": "The high resolution satellite precipitation product is based on the integration of multiple precipitation and rainfall datasets to generate a high spatial (1 km) and temporal (daily) resolution precipitation product over the Mediterranean area. The following precipitation and rainfall datasets are downscaled and merged together: GPM-Late run; CPC; H SAF h120. All these products are originally at coarse spatial resolution (>10 km) and have been downscaled to 1 km spatial resolution using CHELSA (1 km) climatology. The three products are then merged with a triple collocation technique. In the areas covered by snow only GPM-Late run and CPC are merged together using the triple collocation to obtain the relative weights (third product: ERA5 Land precipitation). The product has been developed in the framework of the 4D-MED Hydrology project. The product is available in the period 2015-2022.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.4dmed-hydrology.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/10402392/files/med_13precip+rain_product_new.nc?download=1",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/doi%3A10.5281/zenodo.10402392"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../eo-missions/gpm/4d-med-precipitation-product/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:missions": [
+    "METOP",
+    "GPM"
+  ],
+  "osc:project": "4DMED",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:region": "europe",
+  "osc:category": "HR",
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "1 km",
+  "osc:temporal_resolution": "d",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2015-08-01T00:00:00Z",
+  "end_datetime": "2021-12-31T00:00:00Z",
+  "sci:doi": "doi:10.5281/zenodo.10402392",
+  "updated": "2025-06-16T07:43:38.970234Z",
+  "title": "4D-MED precipitation product-domain 13",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          14.23,
+          42.36,
+          18.84,
+          45.43
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-08-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "CNR-IRPI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "P_4DMED_d13": {
+      "href": "https://zenodo.org/records/10402392/files/med_13precip+rain_product_new.nc?download=1"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-era5-sm-po-30sec-daily-20120501-20120531-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm 30 arc-seconds soil moisture output (forced using ERA-5) for the Po region between 2012-05-01 and 2012-05-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/571fb9c3-3674-414c-8d03-f5ebbd027a64/1/wflowsbm_era5_sm_po_30sec_daily_20120501_20120531.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/571fb9c3-3674-414c-8d03-f5ebbd027a64"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/soil-moisture/wflow-sbm-30-arc-seconds-soil-moisture-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Po"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "soil moisture"
+  ],
+  "osc:region": "po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2023-10-23T00:00:00Z",
+  "start_datetime": "2012-01-05T00:00:00Z",
+  "end_datetime": "2012-05-31T00:00:00Z",
+  "sci:doi": "10.4121/571fb9c3-3674-414c-8d03-f5ebbd027a64",
+  "updated": "2025-06-16T08:03:17.337107Z",
+  "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Po (2012-05-01 - 2012-05-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2012-01-05T00:00:00Z",
+          "2012-05-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_era5_sm_po_30sec_daily_20120501_20120531.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/571fb9c3-3674-414c-8d03-f5ebbd027a64/1/wflowsbm_era5_sm_po_30sec_daily_20120501_20120531.nc"
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "type": "Collection",
+  "id": "tetis-era5-tugela-0p0625deg",
+  "stac_version": "1.0.0",
+  "description": "tetis_era5_tugela_0p0625deg",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp2/tetis-era5-tugela-0p0625deg/tetis-era5-mask-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "Catchement mask for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp2/tetis-era5-tugela-0p0625deg/tetis-era5-uparea-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "Upstream catchment area for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp2/tetis-era5-tugela-0p0625deg/tetis-era5-q-tugela-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Discharge flux for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp2/tetis-era5-tugela-0p0625deg/tetis-era5-sm-tugela-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Volumetric soil moisture content for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp2/tetis-era5-tugela-0p0625deg/tetis-era5-tws-tugela-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Total water storage content for Tugela River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp2/tetis-era5-tugela-0p0625deg/tetis-era5-et-tugela-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Total evapotranspiration flux for Tugela River from Tetis model"
+    },
+    {
+      "rel": "related",
+      "href": "../../../projects/4dhydro/collection.json",
+      "type": "application/json",
+      "title": "Project: 4dHydro"
+    },
+    {
+      "rel": "related",
+      "href": "../../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "related",
+      "href": "../../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: land"
+    },
+    {
+      "rel": "related",
+      "href": "../../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "related",
+      "href": "../../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../mask/catalog.json",
+      "type": "application/json",
+      "title": "Variable: mask"
+    },
+    {
+      "rel": "related",
+      "href": "../../upstream-area/catalog.json",
+      "type": "application/json",
+      "title": "Variable: upstream area "
+    },
+    {
+      "rel": "related",
+      "href": "../../discharge/catalog.json",
+      "type": "application/json",
+      "title": "Variable: discharge"
+    },
+    {
+      "rel": "related",
+      "href": "../../soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: soil moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../../total-water-storage/catalog.json",
+      "type": "application/json",
+      "title": "Variable: total water storage "
+    },
+    {
+      "rel": "related",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variable: evapotranspiration "
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "evapotranspiration "
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask",
+    "upstream area",
+    "discharge",
+    "soil moisture",
+    "total water storage",
+    "evapotranspiration"
+  ],
+  "osc:themes": [
+    "Oceans",
+    "land",
+    "Solid Earth",
+    "Atmosphere"
+  ],
+  "osc:region": "Tugela",
+  "created": "2023-04-09T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2020-12-31T00:00:00Z",
+  "updated": "2025-06-16T07:47:36.192236Z",
+  "title": "tetis_era5_tugela_0p0625deg",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -30.0,
+          32.0,
+          -27.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

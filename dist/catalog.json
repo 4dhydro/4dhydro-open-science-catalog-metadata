@@ -1,0 +1,55 @@
+{
+  "type": "Catalog",
+  "id": "osc_hydro",
+  "stac_version": "1.0.0",
+  "description": "4DHydro is a response to the Invitation to Tender (ITT) of the European Space Agency with reference number ESA AO/1-11298/22/I-EFin July 2022.\n        It aims at: \n          To  perform a thorough assessment of the uncertainty of existing EO and LSM/HM data sets (Tier 1) related to key tECVs. \n          To generate improved tECVS datasets at 1 km spatial resolution in the selected study areas (Tier 2).  \n          To perform targeted science cases to demonstrate the synchronization of EO products and LSM/HMs models for improved predictability of hydrology system at higher spatial and temporal resolutions.\n          To develop tools to enhance the ability of end-users and decision-makers to extract and manipulate existing and future reanalysis and climate data sets. \n          To derive a solid scientific basis of the state-of-the-art EO retrieval systems, as well as land surface modelling capabilities that are needed to assist the EU Destination Earth initiative.\n        ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./projects/catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "child",
+      "href": "./themes/catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    },
+    {
+      "rel": "child",
+      "href": "./variables/catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "child",
+      "href": "./eo-missions/catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    },
+    {
+      "rel": "child",
+      "href": "./products/catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "child",
+      "href": "./processes/catalog.json",
+      "type": "application/json",
+      "title": "Processes"
+    }
+  ],
+  "conformsTo": [
+    "https://api.stacspec.org/v1.0.0/core"
+  ],
+  "updated": "2025-06-16T10:47:48.728614Z",
+  "title": "4dHydro's Open Science Catalog"
+}

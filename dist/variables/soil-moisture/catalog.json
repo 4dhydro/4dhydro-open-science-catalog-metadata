@@ -1,0 +1,930 @@
+{
+  "type": "Catalog",
+  "id": "soil-moisture",
+  "stac_version": "1.0.0",
+  "description": "Surface Soil Moisture (SSM) is the relative water content of the top few centimetres soil, describing how wet or dry the soil is in its topmost layer, expressed in percent saturation. It is measured by satellite radar sensors and allows insights in local precipitation impacts and soil conditions.\nSSM is a key driver of water and heat fluxes between the ground and the atmosphere, regulating air temperature and humidity. Moreover, in its role as water supply, it is vital to vegetation health. Vice versa, SSM is very sensitive to external forcing in the form of precipitation, temperature, solar irradiation, humidity, and wind. SSM is thus both an integrator of climatic conditions and a driver of local weather and climate, and plays a major role in global water-, energy- and carbon- cycles.\nKnowledge on the dynamics of soil moisture is important in the understanding of processes in many environmental and socio-economic fields, e.g., its impact on vegetation vitality, crop yield, droughts or exposure to flood threats. Soil Moisture is recognized as an Essential Climate Variable (ECV) by the Global Climate Observing System (GCOS).\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://land.copernicus.eu/global/products/ssm",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/smos/barcelona-expert-center-smos-soil-moisture/collection.json",
+      "type": "application/json",
+      "title": "Barcelona Expert Center SMOS Soil Moisture"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/sentinel-1/cgls-soil-water-index-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Soil Water Index 1km"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/sentinel-1/cgls-surface-soil-moisture-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Surface Soil Moisture 1km"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/smap/smap-derived-1-km-downscaled-surface-soil-moisture-product/collection.json",
+      "type": "application/json",
+      "title": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-0-0275-degree-soil-moisture-rea6-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree soil moisture (REA6) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./geoframe-soil-moisture-content-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe soil moisture content for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-0-0055-degree-soil-moisture-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree soil moisture (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-soil-moisture-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes soil moisture (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-soil-moisture-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes soil moisture (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../evapotranspiration/tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree soil moisture (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree soil moisture (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./tsmp-0-11-degree-soil-moisture-erai-for-europe/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree soil moisture (ERAI) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-soil-moisture-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-soil-moisture-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-soil-moisture-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds soil moisture (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0166-degree-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree soil moisture (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0166-degree-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree soil moisture (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0275-degree-soil-moisture-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree soil moisture (EMO) for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-chirps-for-tugela-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (CHIRPS) for Tugela in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-chirps-for-tugela-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (CHIRPS) for Tugela in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-emo-1k-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (EMO-1k) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-emo-1k-for-po-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (EMO-1k) for Po in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-emo-1k-for-po-in-experiment-sc31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (EMO-1k) for Po in experiment sc31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-emo-1k-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (EMO-1k) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-emo-1k-for-rhine-in-experiment-20/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (EMO-1k) for Rhine in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-emo-1k-irrigation-for-po-in-experiment-sc41/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (EMO-1k+Irrigation) for Po in experiment sc41"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-po-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Po in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-po-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Po in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-po-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Po in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-rhine-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Rhine in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-rhine-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Rhine in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-rhine-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Rhine in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-tugela-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Tugela in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-tugela-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Tugela in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-soil-moisture-era5-imerg-sm2a-for-tugela-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes soil moisture (ERA5+IMERG+SM2A) for Tugela in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-chirps-for-tugela-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (CHIRPS) for Tugela in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-chirps-for-tugela-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (CHIRPS) for Tugela in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-emo-1k-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (EMO-1k) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-emo-1k-for-po-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (EMO-1k) for Po in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-emo-1k-for-po-in-experiment-sc31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (EMO-1k) for Po in experiment sc31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-emo-1k-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (EMO-1k) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-emo-1k-for-rhine-in-experiment-21/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (EMO-1k) for Rhine in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-emo-1k-irrigation-for-po-in-experiment-sc41/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (EMO-1k+Irrigation) for Po in experiment sc41"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-po-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Po in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-po-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Po in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-po-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Po in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-rhine-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Rhine in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-rhine-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Rhine in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-rhine-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Rhine in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-tugela-in-experiment-30/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Tugela in experiment 30"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-tugela-in-experiment-31/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Tugela in experiment 31"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-soil-moisture-era5-imerg-sm2a-for-tugela-in-experiment-32/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds soil moisture (ERA5+IMERG+SM2A) for Tugela in experiment 32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-0p0667deg-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-15sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-30sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-7p5sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-chirps-tugela-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-0p0667deg-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-0p0667deg-exp20/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg_exp20"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-15sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-15sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-30sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-30sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-7p5sec-exp10/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp10"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-emo-po-7p5sec-exp21/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec_exp21"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-0p0667deg-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_0p0667deg_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-15sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_15sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-30sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_30sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-0p0667deg-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_0p0667deg_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-15sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_15sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-30sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_30sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp30"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp31/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp31"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp32/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp32"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp34/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp34"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp41/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp41"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp42/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp42"
+    },
+    {
+      "rel": "child",
+      "href": "../total-water-storage/tetis-mergedera5gpmsm2a-tugela-7p5sec-exp44/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Tugela_7p5sec_exp44"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-soil-moisture-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree soil moisture (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-soil-moisture-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree soil moisture (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-emo-for-po-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (EMO) for Po in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-soil-moisture-emo-for-rhine-in-experiment-10/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree soil moisture (EMO) for Rhine in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-2-arc-minutes-soil-moisture-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes soil moisture (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-2-arc-minutes-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes soil moisture (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-2-arc-minutes-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 2 arc-minutes soil moisture (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-30-arc-seconds-soil-moisture-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds soil moisture (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-30-arc-seconds-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds soil moisture (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-30-arc-seconds-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds soil moisture (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-4-arc-minutes-soil-moisture-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes soil moisture (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-4-arc-minutes-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes soil moisture (EMO) for Po "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp10-4-arc-minutes-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 4 arc-minutes soil moisture (EMO) for Rhine "
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp21-30-arc-seconds-soil-moisture-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds soil moisture (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp21-30-arc-seconds-soil-moisture-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds soil moisture (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-exp21-30-arc-seconds-soil-moisture-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp21) 30 arc-seconds soil moisture (EMO) for Rhine"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.188186Z",
+  "keywords": [],
+  "title": "soil moisture"
+}

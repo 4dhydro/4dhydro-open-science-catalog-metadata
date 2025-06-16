@@ -1,0 +1,372 @@
+{
+  "type": "Catalog",
+  "id": "mask",
+  "stac_version": "1.0.0",
+  "description": "CSGROUP has been in charge producing surface water masks at 10m resolution using either Sentinel 1 radar images, Sentinel 2 optical images or a combination of both. On Sentinel\n2 images clouds can be masked or removed using the MAJA algorithm [52, 53]. Single masks (at observation\ntime) or monthly mean water masks (to reduced uncertainty) can be produced by this chain. In 4DHydro ,\nCSGROUP \u2013 France proposes to produce dynamic water masks for the four study regions. These masks will\nbe computed using the Surfwater toolchain and eventually using other dedicated tools used by the French scientific community. In that case, CSGROUP \u2013 France will merge the products and whenever it is possible\nproduce the corresponding uncertainty maps. Moreover, CSGROUP \u2013 France will also gather existing open\ndatasets of dynamic surface water masks, such as The Landsat Collection 2 (C2) Level-3 Dynamic Surface Water\nExtent (DSWE) or dynamic water masks produced by our partners.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://4dhydro.eu/wp-content/uploads/2023/08/proposal_4dhydro.pdf",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-0-0275-degree-mask-rea6-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree mask (REA6) for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-0-0275-degree-mask-rea6-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "CLM 0.0275 degree mask (REA6) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "./geoframe-catchement-mask-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe catchement mask for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./parflowclm-0-0055-degree-mask-hres-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "PARFLOWCLM 0.0055 degree mask (HRES) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-mask-era-interim-for-europe/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-mask-era-interim-for-po/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-mask-era-interim-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-5-arc-minutes-mask-era-interim-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "../evapotranspiration/tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-degree-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 degree mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-e-obs-for-europe/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (E-OBS) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-degree-mask-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 degree mask (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./tsmp-0-11-degree-mask-erai-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree mask (ERAI) for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "./tsmp-0-11-degree-mask-erai-for-rhine-river/collection.json",
+      "type": "application/json",
+      "title": "TSMP 0.11 degree mask (ERAI) for Rhine River"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-mask-era-5-for-europe/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Europe"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-mask-era-5-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-mask-era-5-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-mask-era-5-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0166-degree-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree mask (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0166-degree-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0166 degree mask (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0275-degree-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree mask (EMO) for po"
+    },
+    {
+      "rel": "child",
+      "href": "./clm3-5-exp10-0-0275-degree-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree mask (EMO) for rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-mask-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-mask-emo-1k-for-po/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes mask (EMO-1k) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-3-arc-minutes-mask-emo-1k-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes mask (EMO-1k) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-mask-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-mask-emo-1k-for-po/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds mask (EMO-1k) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./pcr-globwb-30-arc-seconds-mask-emo-1k-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds mask (EMO-1k) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "../upstream-area/tetis-chirps-tugela-0p0667deg/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg"
+    },
+    {
+      "rel": "child",
+      "href": "../upstream-area/tetis-chirps-tugela-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec"
+    },
+    {
+      "rel": "child",
+      "href": "../upstream-area/tetis-chirps-tugela-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec"
+    },
+    {
+      "rel": "child",
+      "href": "../upstream-area/tetis-chirps-tugela-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec"
+    },
+    {
+      "rel": "child",
+      "href": "../upstream-area/tetis-emo-po-0p0667deg/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg"
+    },
+    {
+      "rel": "child",
+      "href": "../upstream-area/tetis-emo-po-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec"
+    },
+    {
+      "rel": "child",
+      "href": "../upstream-area/tetis-emo-po-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec"
+    },
+    {
+      "rel": "child",
+      "href": "../upstream-area/tetis-emo-po-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-01562/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.01562"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-015625-d/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.015625 d"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-12/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.12"
+    },
+    {
+      "rel": "child",
+      "href": "./the-mesoscale-hydrologic-model-mhm-0-125-d/collection.json",
+      "type": "application/json",
+      "title": "The mesoscale Hydrologic Model - mHM 0.125 d"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-2-arc-minutes-mask-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-2-arc-minutes-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-2-arc-minutes-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 2 arc-minutes mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-mask-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-30-arc-seconds-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (EMO) for Rhine"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-4-arc-minutes-mask-chirps-for-tugela/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes mask (CHIRPS) for Tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-4-arc-minutes-mask-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes mask (EMO) for Po"
+    },
+    {
+      "rel": "child",
+      "href": "./wflow-sbm-4-arc-minutes-mask-emo-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 4 arc-minutes mask (EMO) for Rhine"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Oceans"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-06-16T07:43:34.952183Z",
+  "keywords": [],
+  "title": "mask"
+}

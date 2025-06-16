@@ -1,0 +1,1221 @@
+{
+  "type": "Collection",
+  "id": "pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070101-20070131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-01-01 - 2007-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070201-20070228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-02-01 - 2007-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070301-20070331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-03-01 - 2007-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070401-20070430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-04-01 - 2007-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070501-20070531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-05-01 - 2007-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070601-20070630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-06-01 - 2007-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070701-20070731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-07-01 - 2007-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070801-20070831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-08-01 - 2007-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20070901-20070930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-09-01 - 2007-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20071001-20071031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-10-01 - 2007-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20071101-20071130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-11-01 - 2007-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20071201-20071231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2007-12-01 - 2007-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080101-20080131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-01-01 - 2008-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080201-20080229/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-02-01 - 2008-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080301-20080331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-03-01 - 2008-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080401-20080430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-04-01 - 2008-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080501-20080531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-05-01 - 2008-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080601-20080630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-06-01 - 2008-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080701-20080731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-07-01 - 2008-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080801-20080831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-08-01 - 2008-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20080901-20080930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-09-01 - 2008-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20081001-20081031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-10-01 - 2008-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20081101-20081130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-11-01 - 2008-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20081201-20081231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2008-12-01 - 2008-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090101-20090131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-01-01 - 2009-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090201-20090228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-02-01 - 2009-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090301-20090331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-03-01 - 2009-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090401-20090430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-04-01 - 2009-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090501-20090531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-05-01 - 2009-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090601-20090630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-06-01 - 2009-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090701-20090731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-07-01 - 2009-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090801-20090831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-08-01 - 2009-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20090901-20090930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-09-01 - 2009-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20091001-20091031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-10-01 - 2009-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20091101-20091130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-11-01 - 2009-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20091201-20091231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2009-12-01 - 2009-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100101-20100131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-01-01 - 2010-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100201-20100228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-02-01 - 2010-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100301-20100331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-03-01 - 2010-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100401-20100430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-04-01 - 2010-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100501-20100531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-05-01 - 2010-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100601-20100630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-06-01 - 2010-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100701-20100731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-07-01 - 2010-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100801-20100831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-08-01 - 2010-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20100901-20100930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-09-01 - 2010-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20101001-20101031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-10-01 - 2010-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20101101-20101130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-11-01 - 2010-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20101201-20101231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2010-12-01 - 2010-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110101-20110131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-01-01 - 2011-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110201-20110228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-02-01 - 2011-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110301-20110331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-03-01 - 2011-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110401-20110430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-04-01 - 2011-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110501-20110531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-05-01 - 2011-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110601-20110630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-06-01 - 2011-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110701-20110731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-07-01 - 2011-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110801-20110831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-08-01 - 2011-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20110901-20110930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-09-01 - 2011-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20111001-20111031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-10-01 - 2011-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20111101-20111130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-11-01 - 2011-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20111201-20111231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2011-12-01 - 2011-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120101-20120131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-01-01 - 2012-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120201-20120229/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-02-01 - 2012-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120301-20120331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-03-01 - 2012-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120401-20120430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-04-01 - 2012-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120501-20120531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-05-01 - 2012-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120601-20120630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-06-01 - 2012-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120701-20120731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-07-01 - 2012-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120801-20120831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-08-01 - 2012-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20120901-20120930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-09-01 - 2012-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20121001-20121031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-10-01 - 2012-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20121101-20121130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-11-01 - 2012-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20121201-20121231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2012-12-01 - 2012-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130101-20130131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-01-01 - 2013-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130201-20130228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-02-01 - 2013-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130301-20130331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-03-01 - 2013-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130401-20130430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-04-01 - 2013-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130501-20130531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-05-01 - 2013-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130601-20130630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-06-01 - 2013-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130701-20130731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-07-01 - 2013-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130801-20130831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-08-01 - 2013-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20130901-20130930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-09-01 - 2013-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20131001-20131031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-10-01 - 2013-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20131101-20131130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-11-01 - 2013-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20131201-20131231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2013-12-01 - 2013-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140101-20140131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-01-01 - 2014-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140201-20140228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-02-01 - 2014-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140301-20140331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-03-01 - 2014-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140401-20140430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-04-01 - 2014-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140501-20140531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-05-01 - 2014-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140601-20140630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-06-01 - 2014-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140701-20140731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-07-01 - 2014-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140801-20140831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-08-01 - 2014-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20140901-20140930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-09-01 - 2014-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20141001-20141031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-10-01 - 2014-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20141101-20141130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-11-01 - 2014-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20141201-20141231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2014-12-01 - 2014-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150101-20150131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-01-01 - 2015-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150201-20150228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-02-01 - 2015-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150301-20150331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-03-01 - 2015-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150401-20150430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-04-01 - 2015-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150501-20150531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-05-01 - 2015-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150601-20150630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-06-01 - 2015-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150701-20150731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-07-01 - 2015-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150801-20150831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-08-01 - 2015-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20150901-20150930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-09-01 - 2015-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20151001-20151031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-10-01 - 2015-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20151101-20151130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-11-01 - 2015-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20151201-20151231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2015-12-01 - 2015-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160101-20160131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-01-01 - 2016-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160201-20160229/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-02-01 - 2016-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160301-20160331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-03-01 - 2016-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160401-20160430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-04-01 - 2016-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160501-20160531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-05-01 - 2016-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160601-20160630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-06-01 - 2016-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160701-20160731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-07-01 - 2016-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160801-20160831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-08-01 - 2016-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20160901-20160930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-09-01 - 2016-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20161001-20161031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-10-01 - 2016-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20161101-20161130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-11-01 - 2016-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20161201-20161231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2016-12-01 - 2016-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170101-20170131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-01-01 - 2017-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170201-20170228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-02-01 - 2017-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170301-20170331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-03-01 - 2017-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170401-20170430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-04-01 - 2017-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170501-20170531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-05-01 - 2017-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170601-20170630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-06-01 - 2017-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170701-20170731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-07-01 - 2017-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170801-20170831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-08-01 - 2017-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20170901-20170930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-09-01 - 2017-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20171001-20171031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-10-01 - 2017-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20171101-20171130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-11-01 - 2017-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20171201-20171231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2017-12-01 - 2017-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180101-20180131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-01-01 - 2018-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180201-20180228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-02-01 - 2018-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180301-20180331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-03-01 - 2018-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180401-20180430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-04-01 - 2018-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180501-20180531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-05-01 - 2018-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180601-20180630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-06-01 - 2018-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180701-20180731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-07-01 - 2018-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180801-20180831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-08-01 - 2018-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20180901-20180930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-09-01 - 2018-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20181001-20181031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-10-01 - 2018-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20181101-20181130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-11-01 - 2018-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20181201-20181231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2018-12-01 - 2018-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190101-20190131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-01-01 - 2019-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190201-20190228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-02-01 - 2019-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190301-20190331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-03-01 - 2019-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190401-20190430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-04-01 - 2019-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190501-20190531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-05-01 - 2019-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190601-20190630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-06-01 - 2019-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190701-20190731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-07-01 - 2019-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190801-20190831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-08-01 - 2019-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20190901-20190930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-09-01 - 2019-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20191001-20191031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-10-01 - 2019-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20191101-20191130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-11-01 - 2019-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20191201-20191231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2019-12-01 - 2019-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200101-20200131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-01-01 - 2020-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200201-20200229/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-02-01 - 2020-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200301-20200331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-03-01 - 2020-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200401-20200430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-04-01 - 2020-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200501-20200531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-05-01 - 2020-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200601-20200630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-06-01 - 2020-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200701-20200731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-07-01 - 2020-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200801-20200831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-08-01 - 2020-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20200901-20200930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-09-01 - 2020-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20201001-20201031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-10-01 - 2020-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20201101-20201130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-11-01 - 2020-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20201201-20201231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2020-12-01 - 2020-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210101-20210131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-01-01 - 2021-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210201-20210228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-02-01 - 2021-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210301-20210331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-03-01 - 2021-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210401-20210430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-04-01 - 2021-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210501-20210531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-05-01 - 2021-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210601-20210630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-06-01 - 2021-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210701-20210731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-07-01 - 2021-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210801-20210831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-08-01 - 2021-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20210901-20210930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-09-01 - 2021-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20211001-20211031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-10-01 - 2021-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20211101-20211130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-11-01 - 2021-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20211201-20211231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2021-12-01 - 2021-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220101-20220131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-01-01 - 2022-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220201-20220228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-02-01 - 2022-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220301-20220331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-03-01 - 2022-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220401-20220430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-04-01 - 2022-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220501-20220531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-05-01 - 2022-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220601-20220630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-06-01 - 2022-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220701-20220731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-07-01 - 2022-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220801-20220831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-08-01 - 2022-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20220901-20220930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-09-01 - 2022-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20221001-20221031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-10-01 - 2022-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20221101-20221130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-11-01 - 2022-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-30-arc-seconds-discharge-era5-imerg-sm2a-for-tugela-in-experiment-30/pcrglobwb-mergedera5gpmsm2a-q-tugela-30sec-daily-exp30-20221201-20221231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30 (2022-12-01 - 2022-12-31)"
+    },
+    {
+      "rel": "related",
+      "href": "../../../projects/4dhydro/collection.json",
+      "type": "application/json",
+      "title": "Project: 4dHydro"
+    },
+    {
+      "rel": "related",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variable: discharge"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "discharge"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:themes": [],
+  "osc:region": "Tugela",
+  "created": "2025-02-01T00:00:00Z",
+  "start_datetime": "2007-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "updated": "2025-06-16T08:31:48.724481Z",
+  "title": "PCR-GLOBWB 30 arc-seconds discharge (ERA5+IMERG+SM2A) for Tugela in experiment 30",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -29.0,
+          31.0,
+          -27.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

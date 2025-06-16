@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "smap-derived-1-km-downscaled-surface-soil-moisture-product",
+  "stac_version": "1.0.0",
+  "description": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp1/smap-derived-1-km-downscaled-surface-soil-moisture-product/smap-1km/collection.json",
+      "type": "application/json",
+      "title": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product, Version 1"
+    },
+    {
+      "rel": "related",
+      "href": "../../../projects/nsidc/collection.json",
+      "type": "application/json",
+      "title": "Project: NSIDC"
+    },
+    {
+      "rel": "related",
+      "href": "../../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: land"
+    },
+    {
+      "rel": "related",
+      "href": "../../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: soil moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: SMAP"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "SMAP"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "collection",
+  "osc:missions": [
+    "SMAP"
+  ],
+  "osc:project": "NSIDC",
+  "osc:variables": [
+    "soil moisture"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "global",
+  "created": "2022-06-16T00:00:00Z",
+  "start_datetime": "2015-01-04T00:00:00Z",
+  "end_datetime": "2022-11-29T00:00:00Z",
+  "updated": "2025-06-16T07:44:52.102159Z",
+  "title": "SMAP-Derived 1-km Downscaled Surface Soil Moisture Product",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-04T00:00:00Z",
+          "2022-11-29T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

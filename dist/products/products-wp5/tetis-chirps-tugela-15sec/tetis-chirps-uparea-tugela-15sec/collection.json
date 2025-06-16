@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "tetis-chirps-uparea-tugela-15sec",
+  "stac_version": "1.0.0",
+  "description": "TETIS model v9.1 - Upstream catchment area in square meters for the Tugela region with a spatial resolution of 15 arc-seconds in experiment 10 between 1988-01-01 and 2022-12-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/11518687/files/tetis_chirps_uparea_tugela_15sec.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://lluvia.dihma.upv.es/ES/software/software.html",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.11518687"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/upstream-area/tetis-chirps-tugela-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "upstream area"
+  ],
+  "osc:region": "tugela",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "15 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-06-07T00:00:00Z",
+  "start_datetime": "1988-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "sci:doi": "10.5281/zenodo.11518687",
+  "updated": "2025-06-16T09:30:05.605864Z",
+  "title": "TETIS model v9.1 - 15 arc-seconds Upstream catchment area (CHIRPS) for Tugela river (1988-01-01 - 2022-12-31) in experiment 10",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -30.0,
+          32.0,
+          -27.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1988-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "UPV",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "tetis_chirps_uparea_tugela_15sec": {
+      "href": "https://zenodo.org/records/11518687/files/tetis_chirps_uparea_tugela_15sec.nc"
+    }
+  }
+}

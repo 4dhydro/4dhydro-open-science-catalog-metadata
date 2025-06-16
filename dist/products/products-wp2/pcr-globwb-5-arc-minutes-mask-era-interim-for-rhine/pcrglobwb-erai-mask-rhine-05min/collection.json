@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "pcrglobwb-erai-mask-rhine-05min",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 5 arc-minutes mask output (forced using ERA-Interim) for the Rhine region",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data%5B1701782482%5D/original/pcrglobwb_erai_rhine_05min/pcrglobwb_erai_mask_rhine_05min.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/UU-Hydro/PCR-GLOBWB_model",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.24416/UU01-VBTKQ0"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/mask/pcr-globwb-5-arc-minutes-mask-era-interim-for-rhine/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Rhine"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask"
+  ],
+  "osc:region": "rhine",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "5 arc-minutes",
+  "osc:temporal_resolution": "daily",
+  "created": "2023-12-10T00:00:00Z",
+  "sci:doi": "10.24416/UU01-VBTKQ0",
+  "updated": "2025-06-16T07:47:08.509884Z",
+  "title": "PCR-GLOBWB 5 arc-minutes mask (ERA-Interim) for Rhine",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.0,
+          46.0,
+          13.0,
+          53.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Utrecht university  ",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "pcrglobwb_erai_mask_rhine_05min": {
+      "href": "https://geo.public.data.uu.nl/vault-4dhydro/data%5B1701782482%5D/original/pcrglobwb_erai_rhine_05min/pcrglobwb_erai_mask_rhine_05min.nc"
+    }
+  }
+}

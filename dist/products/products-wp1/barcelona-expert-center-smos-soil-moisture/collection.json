@@ -1,0 +1,64 @@
+{
+  "type": "Collection",
+  "id": "barcelona-expert-center-smos-soil-moisture",
+  "stac_version": "1.0.0",
+  "description": "Barcelona Expert Center SMOS Soil Moisture",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./smos-bec-1km/collection.json",
+      "type": "application/json",
+      "title": "Barcelona Expert Center SMOS Soil Moisture L4 1km v06.0"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "Barcelona Expert Center SMOS Soil Moisture",
+  "osc:type": "collection",
+  "osc:missions": [
+    "SMOS"
+  ],
+  "osc:project": "BEC",
+  "osc:variables": [
+    "soil moisture"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "global",
+  "created": "2022-06-16T00:00:00Z",
+  "start_datetime": "2010-01-06T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-01-06T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

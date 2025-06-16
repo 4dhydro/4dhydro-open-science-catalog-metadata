@@ -1,0 +1,89 @@
+{
+  "type": "Collection",
+  "id": "holaps-2005",
+  "stac_version": "1.0.0",
+  "description": "2005 HOLAPS Evapotranspiration Daily over Europe at 5km grid",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://minio.ufz.de/4dhydro/RS/HOLAPS/ET-holaps-2005.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/o%20be%20added"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/evapotranspiration/holaps-et/collection.json",
+      "type": "application/json",
+      "title": "HOLAPS ET"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration"
+  ],
+  "osc:region": "Europe",
+  "osc:category": "ancillary",
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "wgs84",
+  "osc:spatial_resolution": "5km",
+  "osc:temporal_resolution": "d",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2005-01-01T00:00:00Z",
+  "end_datetime": "2005-12-31T00:00:00Z",
+  "sci:doi": "o be added",
+  "updated": "2025-06-16T07:44:49.713129Z",
+  "title": "HOLAPS ET 2005",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20.0,
+          30.0,
+          50.0,
+          60.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2005-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "UFZRS",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "HOLAPS 2005": {
+      "href": "https://minio.ufz.de/4dhydro/RS/HOLAPS/ET-holaps-2005.nc"
+    }
+  }
+}

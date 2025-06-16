@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "tetis-mergedera5gpmsm2a-tws-po-7p5sec-daily-exp30-20130101-20141231",
+  "stac_version": "1.0.0",
+  "description": "TETIS model v9.1 - Total water storage content in kg m-2 (forced using MERGEDERA5GPMSM2A) for the Po region with a spatial resolution of 7.5 arc-seconds in experiment 30 between 2013-01-01 and 2014-12-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/14500907/files/tetis_mergedera5gpmsm2a_tws_po_7p5sec_daily_exp30_20130101_20141231.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://lluvia.dihma.upv.es/ES/software/software.html",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.14500907"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/total-water-storage/tetis-mergedera5gpmsm2a-po-7p5sec-exp30/collection.json",
+      "type": "application/json",
+      "title": "TETIS_MERGEDERA5GPMSM2A_Po_7p5sec_exp30"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "total water storage"
+  ],
+  "osc:region": "po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "7.5 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-12-16T00:00:00Z",
+  "start_datetime": "2013-01-01T00:00:00Z",
+  "end_datetime": "2014-12-31T00:00:00Z",
+  "sci:doi": "10.5281/zenodo.14500907",
+  "updated": "2025-06-16T09:32:01.434339Z",
+  "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (MERGEDERA5GPMSM2A) for Po river (2013-01-01 - 2014-12-31) in experiment 30",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-01-01T00:00:00Z",
+          "2014-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "UPV",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "tetis_mergedera5gpmsm2a_tws_po_7p5sec_daily_exp30_20130101_20141231": {
+      "href": "https://zenodo.org/records/14500907/files/tetis_mergedera5gpmsm2a_tws_po_7p5sec_daily_exp30_20130101_20141231.nc"
+    }
+  }
+}

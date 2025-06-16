@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "id": "cgls-surface-soil-moisture-1km",
+  "stac_version": "1.0.0",
+  "description": "CGLS Surface Soil Moisture 1km",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./cgls-ssm-1km/collection.json",
+      "type": "application/json",
+      "title": "CGLS Surface Soil Moisture 1km"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "CGLS Surface Soil Moisture 1km",
+  "osc:type": "collection",
+  "osc:missions": [
+    "Sentinel-1"
+  ],
+  "osc:project": "CGLS",
+  "osc:variables": [
+    "soil moisture"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "Europe",
+  "created": "2018-06-16T00:00:00Z",
+  "start_datetime": "2014-03-10T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -20.0,
+        30.0,
+        50.0,
+        60.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-03-10T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

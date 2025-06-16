@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-era5-q-europe-30sec-daily-20131201-20131231-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm 30 arc-seconds discharge output (forced using ERA-5) for the Europe region between 2013-12-01 and 2013-12-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/bc8f15d5-5009-407d-9542-1d132c84c18c/1/wflowsbm_era5_q_europe_30sec_daily_20131201_20131231.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/bc8f15d5-5009-407d-9542-1d132c84c18c"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/discharge/wflow-sbm-30-arc-seconds-discharge-era-5-for-europe/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Europe"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "discharge"
+  ],
+  "osc:region": "europe",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2023-10-23T00:00:00Z",
+  "start_datetime": "2013-01-12T00:00:00Z",
+  "end_datetime": "2013-12-31T00:00:00Z",
+  "sci:doi": "10.4121/bc8f15d5-5009-407d-9542-1d132c84c18c",
+  "updated": "2025-06-16T07:52:51.470211Z",
+  "title": "wflow_sbm 30 arc-seconds discharge (ERA-5) for Europe (2013-12-01 - 2013-12-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.0,
+          33.0,
+          29.0,
+          86.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-01-12T00:00:00Z",
+          "2013-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_era5_q_europe_30sec_daily_20131201_20131231.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/bc8f15d5-5009-407d-9542-1d132c84c18c/1/wflowsbm_era5_q_europe_30sec_daily_20131201_20131231.nc"
+    }
+  }
+}

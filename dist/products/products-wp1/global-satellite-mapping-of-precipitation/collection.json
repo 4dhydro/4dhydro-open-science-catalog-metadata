@@ -1,0 +1,64 @@
+{
+  "type": "Collection",
+  "id": "global-satellite-mapping-of-precipitation",
+  "stac_version": "1.0.0",
+  "description": "Global Satellite Mapping of precipitation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./gsmap/collection.json",
+      "type": "application/json",
+      "title": "Global Satellite Mapping of precipitation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "Global Satellite Mapping of precipitation",
+  "osc:type": "collection",
+  "osc:missions": [
+    "GPM"
+  ],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:region": "europe; tugela",
+  "created": "2014-06-16T00:00:00Z",
+  "start_datetime": "2000-01-01T00:00:00Z",
+  "end_datetime": "2024-06-16T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180.0,
+        60.0,
+        180.0,
+        60.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2024-06-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "clm-emo-tws-europe-0p0275deg-daily-20050101-20051231-nc",
+  "stac_version": "1.0.0",
+  "description": "CLM3.5 (exp10): 0.0275 degree total water storage (EMO) for europe (2005-01-01 - 2005-12-31)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://datapub.fz-juelich.de/slts/4DHydro/data_clm35_europe_3km_remap_EMO-pr-forcing//clm_emo_tws_europe_0p0275deg_daily_20050101_20051231.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/HPSCTerrSys/CLM3.5",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/slts/4DHydro/"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/total-water-storage/clm3-5-exp10-0-0275-degree-total-water-storage-emo-for-europe/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10) 0.0275 degree total water storage (EMO) for europe"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "total water storage"
+  ],
+  "osc:region": "europe",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "0.0275 degree",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-05-13T00:00:00Z",
+  "start_datetime": "2005-01-01T00:00:00Z",
+  "end_datetime": "2005-12-31T00:00:00Z",
+  "sci:doi": "slts/4DHydro/",
+  "updated": "2025-06-16T08:07:49.679583Z",
+  "title": "CLM3.5 (exp10): 0.0275 degree total water storage (EMO) for europe (2005-01-01 - 2005-12-31)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.0,
+          33.0,
+          41.0,
+          72.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2005-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "FZJ",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "clm_emo_tws_europe_0p0275deg_daily_20050101_20051231.nc": {
+      "href": "https://datapub.fz-juelich.de/slts/4DHydro/data_clm35_europe_3km_remap_EMO-pr-forcing//clm_emo_tws_europe_0p0275deg_daily_20050101_20051231.nc"
+    }
+  }
+}

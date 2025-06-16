@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "tetis-era5-mask-tugela-0p0625deg",
+  "stac_version": "1.0.0",
+  "description": "Catchement mask for Tugela River from Tetis model with a spatial resolution of 0.0625 degrees",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.5281/zenodo.10246521",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://lluvia.dihma.upv.es/ES/software/software.html",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.10246521"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Oceans"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask"
+  ],
+  "osc:region": "Tugela",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "0.0625 degree",
+  "osc:temporal_resolution": "daily",
+  "created": "2023-04-09T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2020-12-31T00:00:00Z",
+  "sci:doi": "10.5281/zenodo.10246521",
+  "updated": "2025-06-16T07:47:35.035221Z",
+  "title": "Catchement mask for Tugela River from Tetis model",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0,
+          -30.0,
+          32.0,
+          -27.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "UPV",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "tetis_era5_mask_tugela_0p0625deg": {
+      "href": "https://doi.org/10.5281/zenodo.10246521"
+    }
+  }
+}

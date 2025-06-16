@@ -1,0 +1,53 @@
+{
+  "type": "Catalog",
+  "id": "metop",
+  "stac_version": "1.0.0",
+  "description": "The MetOp series of three satellites is the European contribution to a co-operative venture with the United States dedicated to improving weather forecasts and monitoring Earth's climate. The objective of the MetOp series is to provide a closer view of the atmosphere from low Earth orbit- delivering data that will improve global weather prediction and enhance our understanding of climate change",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://earth.esa.int/eogateway/missions/metop",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../gpm/4d-med-precipitation-product/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product"
+    },
+    {
+      "rel": "child",
+      "href": "../gpm/4dhydro-precipitation-product-era5-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "../gpm/4dhydro-precipitation-product-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "./h-safprecipitation-from-ascat/collection.json",
+      "type": "application/json",
+      "title": "H SAFPrecipitation from ASCAT"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "EO Missions"
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.657192Z",
+  "keywords": [],
+  "title": "METOP"
+}

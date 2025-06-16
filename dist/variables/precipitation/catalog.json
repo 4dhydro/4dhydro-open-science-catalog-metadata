@@ -1,0 +1,102 @@
+{
+  "type": "Catalog",
+  "id": "precipitation",
+  "stac_version": "1.0.0",
+  "description": "CNR-IRPI will capitalize on activities carried out in previous and current ESA projects (SMOS\n+ Rainfall, DTE Hydrology, 4DMED-Hydrology) to develop a high-resolution (1 km , daily) precipitation product\nthroughout Europe. The product will integrate two SM2RAIN-based (Soil Moisture to RAIN,) products\napplied to Sentinel-1 and ASCAT soil moisture products with GPM late Run satellite products, bearing\nin mind the limitations of satellite soil moisture products over mountain areas and over snow/frozen soils.\nTherefore, the high-resolution (1 km , 1 day) rainfall product, based on EO data, will be developed and tested\nin the hydrological applications.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://4dhydro.eu/wp-content/uploads/2023/08/proposal_4dhydro.pdf",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/4d-med-precipitation-product/collection.json",
+      "type": "application/json",
+      "title": "4D-MED precipitation product"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/4dhydro-precipitation-product-era5-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/4dhydro-precipitation-product-sm2rain-gpm/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: SM2RAIN+GPM"
+    },
+    {
+      "rel": "child",
+      "href": "./climate-hazards-group-infrared-precipitation/collection.json",
+      "type": "application/json",
+      "title": "Climate Hazards Group InfraRed precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "./ensembles-daily-gridded-observational-dataset-for-precipitation/collection.json",
+      "type": "application/json",
+      "title": "ENSEMBLES daily gridded observational dataset for precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "./european-meteorological-observations-1-arcmin/collection.json",
+      "type": "application/json",
+      "title": "European Meteorological Observations -1 arcmin"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/gpm/global-satellite-mapping-of-precipitation/collection.json",
+      "type": "application/json",
+      "title": "Global Satellite Mapping of precipitation"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/metop/h-safprecipitation-from-ascat/collection.json",
+      "type": "application/json",
+      "title": "H SAFPrecipitation from ASCAT"
+    },
+    {
+      "rel": "child",
+      "href": "./precipitation-estimation-from-remotely-sensed-information-using-artificial-neural-networks-cloud-classification-system/collection.json",
+      "type": "application/json",
+      "title": "precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks  Cloud Classification System"
+    },
+    {
+      "rel": "child",
+      "href": "./spanish-automatic-system-of-hydrologic-information/collection.json",
+      "type": "application/json",
+      "title": "Spanish Automatic System of Hydrologic Information"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "Atmosphere"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-06-16T07:43:35.031184Z",
+  "keywords": [],
+  "title": "precipitation"
+}

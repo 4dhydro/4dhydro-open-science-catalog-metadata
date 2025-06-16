@@ -1,0 +1,48 @@
+{
+  "type": "Catalog",
+  "id": "groundwater-storage-anomalies",
+  "stac_version": "1.0.0",
+  "description": "The Global Gravity-based Groundwater Product (G3P) provides groundwater storage anomalies (GWSA) from a cross-cutting combination of GRACE/GRACE-FO-based terrestrial water storage (TWS) and storage compartments of the water cycle (WSCs) that are part of the Copernicus portfolio (https://www.g3p.eu/what-we-do)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.g3p.eu/what-we-do",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../eo-missions/grace/global-gravity-based-groundwater-product-g3p-groundwater-storage-anomalies/collection.json",
+      "type": "application/json",
+      "title": "Global Gravity-based Groundwater Product (G3P) Groundwater Storage Anomalies"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "updated": "2025-06-16T07:43:34.792181Z",
+  "keywords": [],
+  "title": "groundwater storage anomalies"
+}

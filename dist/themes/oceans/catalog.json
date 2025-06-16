@@ -1,0 +1,106 @@
+{
+  "type": "Catalog",
+  "id": "oceans",
+  "stac_version": "1.0.0",
+  "description": "Ocean is defined as the mass of water occupying all of the Earth's surface not occupied by land, but excluding all lakes and inland seas. Covering some 70% of the Earthss surface, the ocean is a major driver of the world's weather and climate. It also plays a central role in climate change. The ocean is also a major driver of the global economy, carrying more than 90% of world trade and sustaining the 40% of humanity that lives within 100 km of the coast. Today, the growing impacts of climate change are making ocean observations, research and services more critical than ever before (source: https://www.eionet.europa.eu/gemet/en/concept/5789; https://public.wmo.int/en/our-mandate/focus-areas/oceans).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "preview",
+      "href": "./EO_Oceans.webp",
+      "type": "image/webp",
+      "title": "Image",
+      "proj:epsg": null,
+      "proj:shape": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "rel": "via",
+      "href": "",
+      "type": "text/html",
+      "title": "Website"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/mask/geoframe-catchement-mask-for-po-river/collection.json",
+      "type": "application/json",
+      "title": "Geoframe catchement mask for Po River"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tetis-era5-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_po_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/evapotranspiration/tetis-era5-tugela-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "tetis_era5_tugela_0p0625deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-chirps-tugela-0p0667deg/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_0p0667deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-chirps-tugela-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_15sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-chirps-tugela-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_30sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-chirps-tugela-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_CHIRPS_Tugela_7p5sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-emo-po-0p0667deg/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_0p0667deg"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-emo-po-15sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_15sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-emo-po-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_30sec"
+    },
+    {
+      "rel": "child",
+      "href": "../../variables/upstream-area/tetis-emo-po-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Themes"
+    }
+  ],
+  "updated": "2025-06-16T07:43:34.553178Z",
+  "keywords": [],
+  "title": "Oceans"
+}

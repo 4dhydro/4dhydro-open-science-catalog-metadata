@@ -1,0 +1,3515 @@
+{
+  "type": "Collection",
+  "id": "4dhydro-precipitation-product-era5-sm2rain-gpm",
+  "stac_version": "1.0.0",
+  "description": "4DHYDRO precipitation product: ERA5+SM2RAIN+GPM",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200701-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200701 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200702-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200702 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200703-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200703 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200704-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200704 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200705-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200705 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200706-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200706 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200707-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200707 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200708-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200708 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200709-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200709 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200710-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200710 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200711-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200711 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200712-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200712 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200801-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200801 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200802-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200802 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200803-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200803 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200804-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200804 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200805-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200805 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200806-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200806 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200807-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200807 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200808-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200808 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200809-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200809 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200810-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200810 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200811-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200811 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200812-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200812 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200901-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200901 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200902-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200902 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200903-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200903 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200904-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200904 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200905-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200905 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200906-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200906 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200907-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200907 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200908-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200908 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200909-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200909 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200910-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200910 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200911-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200911 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200912-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200912 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201001-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201001 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201002-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201002 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201003-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201003 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201004-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201004 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201005-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201005 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201006-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201006 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201007-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201007 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201008-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201008 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201009-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201009 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201010-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201010 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201011-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201011 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201012-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201012 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201101-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201101 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201102-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201102 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201103-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201103 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201104-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201104 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201105-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201105 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201106-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201106 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201107-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201107 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201108-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201108 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201109-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201109 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201110-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201110 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201111-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201111 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201112-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201112 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201201-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201201 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201202-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201202 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201203-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201203 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201204-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201204 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201205-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201205 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201206-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201206 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201207-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201207 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201208-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201208 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201209-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201209 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201210-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201210 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201211-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201211 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201212-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201212 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201301-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201301 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201302-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201302 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201303-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201303 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201304-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201304 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201305-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201305 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201306-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201306 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201307-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201307 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201308-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201308 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201309-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201309 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201310-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201310 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201311-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201311 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201312-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201312 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201401-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201401 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201402-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201402 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201403-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201403 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201404-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201404 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201405-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201405 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201406-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201406 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201407-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201407 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201408-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201408 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201409-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201409 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201410-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201410 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201411-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201411 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201412-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201412 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201501-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201501 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201502-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201502 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201503-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201503 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201504-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201504 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201505-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201505 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201506-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201506 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201507-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201507 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201508-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201508 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201509-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201509 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201510-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201510 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201511-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201511 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201512-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201512 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201601-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201601 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201602-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201602 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201603-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201603 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201604-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201604 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201605-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201605 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201606-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201606 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201607-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201607 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201608-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201608 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201609-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201609 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201610-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201610 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201611-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201611 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201612-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201612 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201701-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201701 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201702-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201702 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201703-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201703 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201704-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201704 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201705-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201705 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201706-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201706 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201707-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201707 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201708-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201708 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201709-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201709 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201710-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201710 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201711-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201711 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201712-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201712 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201801-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201801 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201802-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201802 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201803-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201803 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201804-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201804 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201805-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201805 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201806-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201806 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201807-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201807 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201808-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201808 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201809-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201809 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201810-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201810 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201811-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201811 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201812-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201812 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201901-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201901 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201902-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201902 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201903-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201903 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201904-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201904 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201905-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201905 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201906-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201906 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201907-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201907 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201908-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201908 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201909-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201909 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201910-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201910 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201911-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201911 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201912-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201912 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202001-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202001 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202002-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202002 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202003-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202003 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202004-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202004 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202005-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202005 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202006-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202006 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202007-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202007 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202008-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202008 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202009-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202009 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202010-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202010 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202011-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202011 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202012-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202012 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202101-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202101 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202102-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202102 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202103-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202103 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202104-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202104 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202105-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202105 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202106-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202106 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202107-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202107 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202108-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202108 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202109-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202109 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202110-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202110 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202111-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202111 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202112-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202112 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202201-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202201 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202202-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202202 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202203-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202203 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202204-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202204 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202205-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202205 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202206-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202206 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202207-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202207 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202208-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202208 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202209-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202209 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202210-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202210 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202211-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202211 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202212-eu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202212 for europe"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200701-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200701 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200702-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200702 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200703-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200703 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200704-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200704 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200705-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200705 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200706-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200706 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200707-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200707 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200708-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200708 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200709-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200709 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200710-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200710 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200711-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200711 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200712-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200712 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200801-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200801 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200802-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200802 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200803-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200803 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200804-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200804 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200805-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200805 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200806-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200806 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200807-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200807 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200808-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200808 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200809-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200809 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200810-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200810 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200811-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200811 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200812-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200812 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200901-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200901 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200902-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200902 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200903-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200903 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200904-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200904 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200905-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200905 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200906-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200906 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200907-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200907 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200908-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200908 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200909-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200909 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200910-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200910 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200911-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200911 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-200912-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-200912 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201001-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201001 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201002-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201002 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201003-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201003 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201004-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201004 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201005-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201005 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201006-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201006 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201007-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201007 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201008-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201008 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201009-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201009 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201010-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201010 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201011-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201011 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201012-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201012 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201101-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201101 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201102-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201102 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201103-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201103 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201104-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201104 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201105-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201105 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201106-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201106 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201107-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201107 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201108-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201108 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201109-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201109 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201110-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201110 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201111-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201111 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201112-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201112 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201201-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201201 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201202-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201202 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201203-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201203 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201204-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201204 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201205-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201205 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201206-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201206 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201207-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201207 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201208-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201208 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201209-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201209 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201210-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201210 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201211-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201211 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201212-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201212 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201301-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201301 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201302-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201302 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201303-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201303 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201304-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201304 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201305-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201305 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201306-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201306 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201307-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201307 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201308-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201308 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201309-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201309 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201310-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201310 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201311-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201311 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201312-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201312 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201401-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201401 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201402-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201402 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201403-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201403 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201404-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201404 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201405-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201405 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201406-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201406 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201407-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201407 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201408-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201408 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201409-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201409 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201410-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201410 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201411-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201411 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201412-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201412 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201501-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201501 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201502-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201502 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201503-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201503 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201504-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201504 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201505-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201505 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201506-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201506 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201507-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201507 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201508-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201508 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201509-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201509 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201510-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201510 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201511-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201511 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201512-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201512 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201601-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201601 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201602-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201602 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201603-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201603 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201604-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201604 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201605-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201605 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201606-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201606 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201607-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201607 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201608-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201608 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201609-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201609 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201610-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201610 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201611-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201611 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201612-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201612 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201701-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201701 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201702-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201702 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201703-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201703 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201704-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201704 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201705-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201705 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201706-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201706 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201707-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201707 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201708-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201708 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201709-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201709 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201710-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201710 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201711-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201711 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201712-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201712 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201801-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201801 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201802-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201802 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201803-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201803 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201804-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201804 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201805-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201805 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201806-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201806 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201807-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201807 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201808-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201808 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201809-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201809 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201810-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201810 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201811-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201811 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201812-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201812 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201901-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201901 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201902-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201902 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201903-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201903 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201904-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201904 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201905-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201905 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201906-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201906 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201907-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201907 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201908-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201908 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201909-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201909 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201910-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201910 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201911-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201911 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-201912-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-201912 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202001-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202001 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202002-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202002 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202003-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202003 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202004-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202004 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202005-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202005 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202006-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202006 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202007-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202007 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202008-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202008 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202009-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202009 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202010-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202010 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202011-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202011 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202012-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202012 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202101-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202101 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202102-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202102 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202103-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202103 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202104-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202104 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202105-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202105 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202106-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202106 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202107-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202107 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202108-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202108 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202109-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202109 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202110-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202110 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202111-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202111 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202112-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202112 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202201-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202201 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202202-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202202 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202203-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202203 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202204-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202204 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202205-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202205 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202206-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202206 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202207-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202207 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202208-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202208 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202209-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202209 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202210-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202210 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202211-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202211 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./gpm-sm2a-202212-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: GPM+SMRAIN-ASCAT-202212 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200701-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200701 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200702-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200702 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200703-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200703 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200704-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200704 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200705-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200705 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200706-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200706 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200707-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200707 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200708-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200708 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200709-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200709 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200710-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200710 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200711-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200711 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200712-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200712 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200801-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200801 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200802-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200802 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200803-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200803 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200804-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200804 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200805-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200805 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200806-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200806 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200807-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200807 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200808-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200808 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200809-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200809 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200810-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200810 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200811-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200811 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200812-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200812 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200901-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200901 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200902-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200902 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200903-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200903 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200904-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200904 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200905-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200905 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200906-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200906 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200907-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200907 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200908-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200908 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200909-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200909 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200910-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200910 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200911-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200911 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-200912-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-200912 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201001-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201001 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201002-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201002 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201003-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201003 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201004-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201004 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201005-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201005 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201006-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201006 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201007-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201007 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201008-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201008 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201009-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201009 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201010-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201010 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201011-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201011 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201012-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201012 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201101-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201101 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201102-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201102 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201103-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201103 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201104-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201104 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201105-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201105 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201106-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201106 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201107-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201107 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201108-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201108 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201109-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201109 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201110-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201110 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201111-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201111 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201112-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201112 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201201-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201201 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201202-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201202 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201203-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201203 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201204-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201204 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201205-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201205 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201206-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201206 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201207-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201207 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201208-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201208 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201209-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201209 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201210-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201210 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201211-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201211 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201212-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201212 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201301-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201301 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201302-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201302 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201303-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201303 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201304-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201304 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201305-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201305 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201306-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201306 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201307-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201307 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201308-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201308 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201309-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201309 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201310-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201310 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201311-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201311 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201312-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201312 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201401-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201401 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201402-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201402 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201403-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201403 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201404-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201404 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201405-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201405 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201406-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201406 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201407-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201407 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201408-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201408 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201409-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201409 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201410-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201410 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201411-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201411 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201412-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201412 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201501-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201501 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201502-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201502 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201503-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201503 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201504-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201504 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201505-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201505 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201506-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201506 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201507-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201507 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201508-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201508 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201509-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201509 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201510-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201510 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201511-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201511 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201512-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201512 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201601-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201601 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201602-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201602 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201603-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201603 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201604-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201604 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201605-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201605 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201606-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201606 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201607-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201607 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201608-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201608 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201609-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201609 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201610-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201610 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201611-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201611 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201612-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201612 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201701-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201701 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201702-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201702 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201703-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201703 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201704-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201704 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201705-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201705 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201706-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201706 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201707-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201707 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201708-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201708 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201709-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201709 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201710-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201710 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201711-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201711 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201712-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201712 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201801-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201801 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201802-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201802 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201803-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201803 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201804-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201804 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201805-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201805 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201806-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201806 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201807-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201807 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201808-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201808 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201809-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201809 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201810-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201810 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201811-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201811 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201812-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201812 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201901-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201901 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201902-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201902 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201903-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201903 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201904-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201904 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201905-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201905 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201906-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201906 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201907-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201907 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201908-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201908 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201909-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201909 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201910-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201910 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201911-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201911 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-201912-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-201912 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202001-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202001 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202002-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202002 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202003-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202003 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202004-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202004 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202005-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202005 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202006-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202006 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202007-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202007 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202008-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202008 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202009-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202009 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202010-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202010 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202011-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202011 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202012-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202012 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202101-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202101 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202102-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202102 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202103-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202103 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202104-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202104 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202105-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202105 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202106-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202106 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202107-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202107 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202108-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202108 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202109-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202109 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202110-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202110 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202111-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202111 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202112-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202112 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202201-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202201 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202202-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202202 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202203-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202203 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202204-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202204 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202205-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202205 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202206-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202206 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202207-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202207 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202208-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202208 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202209-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202209 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202210-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202210 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202211-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202211 for tugela"
+    },
+    {
+      "rel": "child",
+      "href": "./era5-gpm-sm2a-202212-tu/collection.json",
+      "type": "application/json",
+      "title": "4DHYDRO precipitation product: ERA5+GPM+SMRAIN-ASCAT-202212 for tugela"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "4DHYDRO precipitation product: ERA5+SM2RAIN+GPM",
+  "osc:type": "collection",
+  "osc:missions": [
+    "METOP",
+    "GPM"
+  ],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "precipitation"
+  ],
+  "osc:themes": [
+    "Atmosphere"
+  ],
+  "osc:region": "europe, tugela",
+  "created": "2023-06-16T00:00:00Z",
+  "start_datetime": "2007-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -11.0,
+        33.0,
+        42.0,
+        73.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

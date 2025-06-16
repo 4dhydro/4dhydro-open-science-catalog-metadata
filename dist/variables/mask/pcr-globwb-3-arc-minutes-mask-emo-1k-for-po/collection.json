@@ -1,0 +1,75 @@
+{
+  "type": "Collection",
+  "id": "pcr-globwb-3-arc-minutes-mask-emo-1k-for-po",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 3 arc-minutes mask (EMO-1k) for Po",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../../products/products-wp5/pcr-globwb-3-arc-minutes-mask-emo-1k-for-po/pcrglobwb-emo-mask-po-03min/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 3 arc-minutes mask (EMO-1k) for Po"
+    },
+    {
+      "rel": "related",
+      "href": "../../../projects/4dhydro/collection.json",
+      "type": "application/json",
+      "title": "Project: 4dHydro"
+    },
+    {
+      "rel": "related",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variable: mask"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "mask"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask"
+  ],
+  "osc:themes": [],
+  "osc:region": "po",
+  "created": "2025-02-01T00:00:00Z",
+  "start_datetime": "2022-12-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "updated": "2025-06-16T08:11:04.511965Z",
+  "title": "PCR-GLOBWB 3 arc-minutes mask (EMO-1k) for Po",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-12-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

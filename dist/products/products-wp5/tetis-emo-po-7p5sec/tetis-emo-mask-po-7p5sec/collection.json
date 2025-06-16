@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "tetis-emo-mask-po-7p5sec",
+  "stac_version": "1.0.0",
+  "description": "TETIS model v9.1 - Catchement mask for the Po region with a spatial resolution of 7.5 arc-seconds in experiment 10 between 1990-01-01 and 2022-12-31",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://zenodo.org/records/10974783/files/tetis_emo_mask_po_7p5sec.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "http://lluvia.dihma.upv.es/ES/software/software.html",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5281/zenodo.10974783"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/upstream-area/tetis-emo-po-7p5sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS_EMO_Po_7p5sec"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "Oceans"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask"
+  ],
+  "osc:region": "po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "7.5 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-04-15T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "sci:doi": "10.5281/zenodo.10974783",
+  "updated": "2025-06-16T09:30:46.005378Z",
+  "title": "TETIS model v9.1 - 7.5 arc-seconds Catchement mask (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 10",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "UPV",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "tetis_emo_mask_po_7p5sec": {
+      "href": "https://zenodo.org/records/10974783/files/tetis_emo_mask_po_7p5sec.nc"
+    }
+  }
+}

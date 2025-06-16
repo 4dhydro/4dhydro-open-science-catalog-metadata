@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "wflowsbm-emo-et-po-30sec-daily-exp10-19980401-19980430-nc",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm (exp10): 30 arc-seconds evapotranspiration output (forced using EMO) for the Po region between 1998-04-01 and 1998-04-30",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/1abe4de8-ecef-48c0-bbde-c599357c4102/1/wflowsbm_emo_et_po_30sec_daily_exp10_19980401_19980430.nc",
+      "title": "Access"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/Deltares/Wflow.jl",
+      "title": "Model Code"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.4121/1abe4de8-ecef-48c0-bbde-c599357c4102"
+    },
+    {
+      "rel": "parent",
+      "href": "../../../../variables/evapotranspiration/wflow-sbm-exp10-30-arc-seconds-evapotranspiration-emo-for-po/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm (exp10) 30 arc-seconds evapotranspiration (EMO) for Po "
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:themes": [
+    "land"
+  ],
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration"
+  ],
+  "osc:region": "Po",
+  "osc:category": null,
+  "osc:format": "NetCDF",
+  "osc:coordinate_system": "WGS84",
+  "osc:spatial_resolution": "30 arc-seconds",
+  "osc:temporal_resolution": "daily",
+  "created": "2024-03-29T00:00:00Z",
+  "start_datetime": "1998-01-04T00:00:00Z",
+  "end_datetime": "1998-04-30T00:00:00Z",
+  "sci:doi": "10.4121/1abe4de8-ecef-48c0-bbde-c599357c4102",
+  "updated": "2025-06-16T10:00:16.422438Z",
+  "title": "wflow_sbm (exp10) 30 arc-seconds evapotranspiration (EMO) for Po (1998-04-01 - 1998-04-30)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          6.0,
+          43.0,
+          13.0,
+          47.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1998-01-04T00:00:00Z",
+          "1998-04-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "host"
+      ],
+      "url": "https://4dhydro.eu/consortium/"
+    }
+  ],
+  "assets": {
+    "wflowsbm_emo_et_po_30sec_daily_exp10_19980401_19980430.nc": {
+      "href": "https://opendap.4tu.nl/thredds/fileServer/data2/djht/1abe4de8-ecef-48c0-bbde-c599357c4102/1/wflowsbm_emo_et_po_30sec_daily_exp10_19980401_19980430.nc"
+    }
+  }
+}

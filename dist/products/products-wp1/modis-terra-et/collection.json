@@ -1,0 +1,64 @@
+{
+  "type": "Collection",
+  "id": "modis-terra-et",
+  "stac_version": "1.0.0",
+  "description": "MODIS-TERRA ET",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./mod16a2gf-v061/collection.json",
+      "type": "application/json",
+      "title": "MODIS-TERRA ET"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP1 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "MODIS-TERRA ET",
+  "osc:type": "collection",
+  "osc:missions": [
+    "TERRA"
+  ],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "global",
+  "created": "2021-06-16T00:00:00Z",
+  "start_datetime": "2000-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180.0,
+        -90.0,
+        180.0,
+        90.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
