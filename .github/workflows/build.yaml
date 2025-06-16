@@ -65,7 +65,7 @@ jobs:
           path: 'dist'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
       - name: Store source file on gh-page branch
         run: |
           git config user.name ${GITHUB_ACTOR}
@@ -75,7 +75,6 @@ jobs:
           git rm -rf --cached client
           git rm -rf --cached csv
           git rm -rf --cached images
-          git commit -m "${GITHUB_REF}-built files"
+          git commit -m "${GITHUB_REF}-${GITHUB_RUN_ID} built files"
           git push origin gh-page -f
           echo "done !"
-
