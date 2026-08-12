@@ -1,0 +1,303 @@
+{
+  "type": "Collection",
+  "id": "tetis-emo-po-7p5sec-exp10",
+  "stac_version": "1.0.0",
+  "description": "TETIS_EMO_Po_7p5sec_exp10",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-7p5sec-daily-exp10-19900101-19931231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (EMO) for Po river (1990-01-01 - 1993-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-7p5sec-daily-exp10-19940101-19971231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (EMO) for Po river (1994-01-01 - 1997-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-7p5sec-daily-exp10-19980101-20011231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (EMO) for Po river (1998-01-01 - 2001-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-7p5sec-daily-exp10-20020101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (EMO) for Po river (2002-01-01 - 2005-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-7p5sec-daily-exp10-20060101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (EMO) for Po river (2006-01-01 - 2010-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-7p5sec-daily-exp10-20110101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (EMO) for Po river (2011-01-01 - 2014-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-7p5sec-daily-exp10-20150101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (EMO) for Po river (2015-01-01 - 2018-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-7p5sec-daily-exp10-20190101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total evapotranspiration flux (EMO) for Po river (2019-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-7p5sec-daily-exp10-19900101-19931231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (EMO) for Po river (1990-01-01 - 1993-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-7p5sec-daily-exp10-19940101-19971231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (EMO) for Po river (1994-01-01 - 1997-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-7p5sec-daily-exp10-19980101-20011231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (EMO) for Po river (1998-01-01 - 2001-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-7p5sec-daily-exp10-20020101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (EMO) for Po river (2002-01-01 - 2005-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-7p5sec-daily-exp10-20060101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (EMO) for Po river (2006-01-01 - 2010-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-7p5sec-daily-exp10-20110101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (EMO) for Po river (2011-01-01 - 2014-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-7p5sec-daily-exp10-20150101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (EMO) for Po river (2015-01-01 - 2018-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-7p5sec-daily-exp10-20190101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Discharge flux (EMO) for Po river (2019-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-7p5sec-daily-exp10-19900101-19931231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (EMO) for Po river (1990-01-01 - 1993-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-7p5sec-daily-exp10-19940101-19971231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (EMO) for Po river (1994-01-01 - 1997-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-7p5sec-daily-exp10-19980101-20011231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (EMO) for Po river (1998-01-01 - 2001-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-7p5sec-daily-exp10-20020101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (EMO) for Po river (2002-01-01 - 2005-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-7p5sec-daily-exp10-20060101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (EMO) for Po river (2006-01-01 - 2010-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-7p5sec-daily-exp10-20110101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (EMO) for Po river (2011-01-01 - 2014-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-7p5sec-daily-exp10-20150101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (EMO) for Po river (2015-01-01 - 2018-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-7p5sec-daily-exp10-20190101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Volumetric soil moisture content (EMO) for Po river (2019-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-7p5sec-daily-exp10-19900101-19931231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (EMO) for Po river (1990-01-01 - 1993-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-7p5sec-daily-exp10-19940101-19971231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (EMO) for Po river (1994-01-01 - 1997-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-7p5sec-daily-exp10-19980101-20011231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (EMO) for Po river (1998-01-01 - 2001-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-7p5sec-daily-exp10-20020101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (EMO) for Po river (2002-01-01 - 2005-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-7p5sec-daily-exp10-20060101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (EMO) for Po river (2006-01-01 - 2010-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-7p5sec-daily-exp10-20110101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (EMO) for Po river (2011-01-01 - 2014-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-7p5sec-daily-exp10-20150101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (EMO) for Po river (2015-01-01 - 2018-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-7p5sec-daily-exp10-20190101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Snow water equivalent (EMO) for Po river (2019-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-7p5sec-daily-exp10-19900101-19931231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (EMO) for Po river (1990-01-01 - 1993-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-7p5sec-daily-exp10-19940101-19971231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (EMO) for Po river (1994-01-01 - 1997-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-7p5sec-daily-exp10-19980101-20011231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (EMO) for Po river (1998-01-01 - 2001-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-7p5sec-daily-exp10-20020101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (EMO) for Po river (2002-01-01 - 2005-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-7p5sec-daily-exp10-20060101-20101231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (EMO) for Po river (2006-01-01 - 2010-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-7p5sec-daily-exp10-20110101-20141231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (EMO) for Po river (2011-01-01 - 2014-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-7p5sec-daily-exp10-20150101-20181231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (EMO) for Po river (2015-01-01 - 2018-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-7p5sec-daily-exp10-20190101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 7.5 arc-seconds Total water storage content (EMO) for Po river (2019-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "TETIS_EMO_Po_7p5sec_exp10",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration",
+    "discharge",
+    "soil moisture",
+    "snow",
+    "total water storage"
+  ],
+  "osc:themes": [
+    "Atmosphere",
+    "land",
+    "Solid Earth",
+    "Cryosphere"
+  ],
+  "osc:region": "po",
+  "created": "2024-04-15T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

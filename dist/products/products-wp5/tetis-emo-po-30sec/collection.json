@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "id": "tetis-emo-po-30sec",
+  "stac_version": "1.0.0",
+  "description": "TETIS_EMO_Po_30sec",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-mask-po-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 30 arc-seconds Catchement mask (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-uparea-po-30sec/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 30 arc-seconds Upstream catchment area (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 10"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "TETIS_EMO_Po_30sec",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask",
+    "upstream area"
+  ],
+  "osc:themes": [
+    "Oceans",
+    "land"
+  ],
+  "osc:region": "po",
+  "created": "2024-03-28T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

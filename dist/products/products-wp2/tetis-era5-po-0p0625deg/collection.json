@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "tetis-era5-po-0p0625deg",
+  "stac_version": "1.0.0",
+  "description": "tetis_era5_po_0p0625deg",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-mask-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "Catchement mask for Po River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-uparea-po-0p0625deg/collection.json",
+      "type": "application/json",
+      "title": "Upstream catchment area for Po River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-q-po-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Discharge flux for Po River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-sm-po-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Volumetric soil moisture content for Po River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-tws-po-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Total water storage content for Po River from Tetis model"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-era5-et-po-0p0625deg-daily-19900101-20201231/collection.json",
+      "type": "application/json",
+      "title": "Total evapotranspiration flux for Po River from Tetis model"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP2 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "tetis_era5_po_0p0625deg",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask",
+    "upstream area",
+    "discharge",
+    "soil moisture",
+    "total water storage",
+    "evapotranspiration"
+  ],
+  "osc:themes": [
+    "Oceans",
+    "land",
+    "Solid Earth",
+    "Atmosphere"
+  ],
+  "osc:region": "Po",
+  "created": "2023-04-09T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2020-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

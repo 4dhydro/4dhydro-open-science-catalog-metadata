@@ -1,0 +1,558 @@
+{
+  "type": "Collection",
+  "id": "pcr-globwb-30-arc-seconds-total-water-storage-emo-1k-for-po-in-experiment-sc40",
+  "stac_version": "1.0.0",
+  "description": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150101-20150131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-01-01 - 2015-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150201-20150228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-02-01 - 2015-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150301-20150331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-03-01 - 2015-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150401-20150430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-04-01 - 2015-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150501-20150531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-05-01 - 2015-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150601-20150630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-06-01 - 2015-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150701-20150731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-07-01 - 2015-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150801-20150831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-08-01 - 2015-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20150901-20150930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-09-01 - 2015-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20151001-20151031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-10-01 - 2015-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20151101-20151130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-11-01 - 2015-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20151201-20151231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2015-12-01 - 2015-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160101-20160131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-01-01 - 2016-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160201-20160229/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-02-01 - 2016-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160301-20160331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-03-01 - 2016-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160401-20160430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-04-01 - 2016-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160501-20160531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-05-01 - 2016-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160601-20160630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-06-01 - 2016-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160701-20160731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-07-01 - 2016-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160801-20160831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-08-01 - 2016-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20160901-20160930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-09-01 - 2016-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20161001-20161031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-10-01 - 2016-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20161101-20161130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-11-01 - 2016-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20161201-20161231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2016-12-01 - 2016-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170101-20170131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-01-01 - 2017-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170201-20170228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-02-01 - 2017-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170301-20170331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-03-01 - 2017-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170401-20170430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-04-01 - 2017-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170501-20170531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-05-01 - 2017-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170601-20170630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-06-01 - 2017-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170701-20170731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-07-01 - 2017-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170801-20170831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-08-01 - 2017-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20170901-20170930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-09-01 - 2017-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20171001-20171031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-10-01 - 2017-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20171101-20171130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-11-01 - 2017-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20171201-20171231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2017-12-01 - 2017-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180101-20180131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-01-01 - 2018-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180201-20180228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-02-01 - 2018-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180301-20180331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-03-01 - 2018-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180401-20180430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-04-01 - 2018-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180501-20180531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-05-01 - 2018-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180601-20180630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-06-01 - 2018-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180701-20180731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-07-01 - 2018-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180801-20180831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-08-01 - 2018-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20180901-20180930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-09-01 - 2018-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20181001-20181031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-10-01 - 2018-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20181101-20181130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-11-01 - 2018-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20181201-20181231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2018-12-01 - 2018-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190101-20190131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-01-01 - 2019-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190201-20190228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-02-01 - 2019-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190301-20190331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-03-01 - 2019-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190401-20190430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-04-01 - 2019-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190501-20190531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-05-01 - 2019-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190601-20190630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-06-01 - 2019-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190701-20190731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-07-01 - 2019-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190801-20190831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-08-01 - 2019-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20190901-20190930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-09-01 - 2019-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20191001-20191031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-10-01 - 2019-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20191101-20191130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-11-01 - 2019-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20191201-20191231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2019-12-01 - 2019-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200101-20200131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-01-01 - 2020-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200201-20200229/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-02-01 - 2020-02-29)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200301-20200331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-03-01 - 2020-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200401-20200430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-04-01 - 2020-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200501-20200531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-05-01 - 2020-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200601-20200630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-06-01 - 2020-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200701-20200731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-07-01 - 2020-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200801-20200831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-08-01 - 2020-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20200901-20200930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-09-01 - 2020-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20201001-20201031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-10-01 - 2020-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20201101-20201130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-11-01 - 2020-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20201201-20201231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2020-12-01 - 2020-12-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210101-20210131/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-01-01 - 2021-01-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210201-20210228/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-02-01 - 2021-02-28)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210301-20210331/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-03-01 - 2021-03-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210401-20210430/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-04-01 - 2021-04-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210501-20210531/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-05-01 - 2021-05-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210601-20210630/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-06-01 - 2021-06-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210701-20210731/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-07-01 - 2021-07-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210801-20210831/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-08-01 - 2021-08-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20210901-20210930/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-09-01 - 2021-09-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20211001-20211031/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-10-01 - 2021-10-31)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20211101-20211130/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-11-01 - 2021-11-30)"
+    },
+    {
+      "rel": "child",
+      "href": "./pcrglobwb-emo-tws-po-30sec-daily-expsc40-20211201-20211231/collection.json",
+      "type": "application/json",
+      "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40 (2021-12-01 - 2021-12-31)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "PCR-GLOBWB 30 arc-seconds total water storage (EMO-1k) for Po in experiment sc40",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "total water storage"
+  ],
+  "osc:themes": [],
+  "osc:region": "Po",
+  "created": "2026-08-05T00:00:00Z",
+  "start_datetime": "2015-01-01T00:00:00Z",
+  "end_datetime": "2021-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        42.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

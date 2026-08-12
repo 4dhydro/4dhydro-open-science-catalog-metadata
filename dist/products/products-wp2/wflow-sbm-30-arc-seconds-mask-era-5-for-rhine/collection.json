@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "wflow-sbm-30-arc-seconds-mask-era-5-for-rhine",
+  "stac_version": "1.0.0",
+  "description": "wflow_sbm 30 arc-seconds mask (ERA-5) for Rhine",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./wflowsbm-era5-mask-rhine-30sec-nc/collection.json",
+      "type": "application/json",
+      "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Rhine (1990-02-01 - 1990-02-28)"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP2 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "wflow_sbm 30 arc-seconds mask (ERA-5) for Rhine",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "mask"
+  ],
+  "osc:themes": [
+    "land"
+  ],
+  "osc:region": "rhine",
+  "created": "2023-10-23T00:00:00Z",
+  "start_datetime": "1990-01-02T00:00:00Z",
+  "end_datetime": "1990-02-28T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-02T00:00:00Z",
+          "1990-02-28T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

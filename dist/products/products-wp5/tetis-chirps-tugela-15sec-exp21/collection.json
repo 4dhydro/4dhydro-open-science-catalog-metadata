@@ -1,0 +1,157 @@
+{
+  "type": "Collection",
+  "id": "tetis-chirps-tugela-15sec-exp21",
+  "stac_version": "1.0.0",
+  "description": "TETIS_CHIRPS_Tugela_15sec_exp21",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-et-tugela-15sec-daily-exp21-19880101-19961231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Total evapotranspiration flux (CHIRPS) for Tugela river (1988-01-01 - 1996-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-et-tugela-15sec-daily-exp21-19970101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Total evapotranspiration flux (CHIRPS) for Tugela river (1997-01-01 - 2005-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-et-tugela-15sec-daily-exp21-20060101-20131231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Total evapotranspiration flux (CHIRPS) for Tugela river (2006-01-01 - 2013-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-et-tugela-15sec-daily-exp21-20140101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Total evapotranspiration flux (CHIRPS) for Tugela river (2014-01-01 - 2022-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-q-tugela-15sec-daily-exp21-19880101-19961231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Discharge flux (CHIRPS) for Tugela river (1988-01-01 - 1996-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-q-tugela-15sec-daily-exp21-19970101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Discharge flux (CHIRPS) for Tugela river (1997-01-01 - 2005-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-q-tugela-15sec-daily-exp21-20060101-20131231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Discharge flux (CHIRPS) for Tugela river (2006-01-01 - 2013-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-q-tugela-15sec-daily-exp21-20140101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Discharge flux (CHIRPS) for Tugela river (2014-01-01 - 2022-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-sm-tugela-15sec-daily-exp21-19880101-19961231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Volumetric soil moisture content (CHIRPS) for Tugela river (1988-01-01 - 1996-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-sm-tugela-15sec-daily-exp21-19970101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Volumetric soil moisture content (CHIRPS) for Tugela river (1997-01-01 - 2005-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-sm-tugela-15sec-daily-exp21-20060101-20131231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Volumetric soil moisture content (CHIRPS) for Tugela river (2006-01-01 - 2013-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-sm-tugela-15sec-daily-exp21-20140101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Volumetric soil moisture content (CHIRPS) for Tugela river (2014-01-01 - 2022-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-tws-tugela-15sec-daily-exp21-19880101-19961231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Total water storage content (CHIRPS) for Tugela river (1988-01-01 - 1996-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-tws-tugela-15sec-daily-exp21-19970101-20051231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Total water storage content (CHIRPS) for Tugela river (1997-01-01 - 2005-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-tws-tugela-15sec-daily-exp21-20060101-20131231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Total water storage content (CHIRPS) for Tugela river (2006-01-01 - 2013-12-31) in experiment 21"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-chirps-tws-tugela-15sec-daily-exp21-20140101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 15 arc-seconds Total water storage content (CHIRPS) for Tugela river (2014-01-01 - 2022-12-31) in experiment 21"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "TETIS_CHIRPS_Tugela_15sec_exp21",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration",
+    "discharge",
+    "soil moisture",
+    "total water storage"
+  ],
+  "osc:themes": [
+    "Atmosphere",
+    "land",
+    "Solid Earth"
+  ],
+  "osc:region": "tugela",
+  "created": "2024-09-14T00:00:00Z",
+  "start_datetime": "1988-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        28.0,
+        -30.0,
+        32.0,
+        -27.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1988-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

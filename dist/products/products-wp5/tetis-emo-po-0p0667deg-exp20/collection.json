@@ -1,0 +1,93 @@
+{
+  "type": "Collection",
+  "id": "tetis-emo-po-0p0667deg-exp20",
+  "stac_version": "1.0.0",
+  "description": "TETIS_EMO_Po_0p0667deg_exp20",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "4dHydro's Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-et-po-0p0667deg-daily-exp20-19900101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 0.0667 degree Total evapotranspiration flux (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-q-po-0p0667deg-daily-exp20-19900101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 0.0667 degree Discharge flux (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-sm-po-0p0667deg-daily-exp20-19900101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 0.0667 degree Volumetric soil moisture content (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-swe-po-0p0667deg-daily-exp20-19900101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 0.0667 degree Snow water equivalent (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 20"
+    },
+    {
+      "rel": "child",
+      "href": "./tetis-emo-tws-po-0p0667deg-daily-exp20-19900101-20221231/collection.json",
+      "type": "application/json",
+      "title": "TETIS model v9.1 - 0.0667 degree Total water storage content (EMO) for Po river (1990-01-01 - 2022-12-31) in experiment 20"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "WP5 Products"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0-rc.2/schema.json"
+  ],
+  "title": "TETIS_EMO_Po_0p0667deg_exp20",
+  "osc:type": "collection",
+  "osc:missions": [],
+  "osc:project": "4dHydro",
+  "osc:variables": [
+    "evapotranspiration",
+    "discharge",
+    "soil moisture",
+    "snow",
+    "total water storage"
+  ],
+  "osc:themes": [
+    "Atmosphere",
+    "land",
+    "Solid Earth",
+    "Cryosphere"
+  ],
+  "osc:region": "po",
+  "created": "2024-07-12T00:00:00Z",
+  "start_datetime": "1990-01-01T00:00:00Z",
+  "end_datetime": "2022-12-31T00:00:00Z",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        6.0,
+        43.0,
+        13.0,
+        47.0
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
